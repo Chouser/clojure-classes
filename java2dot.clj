@@ -21,29 +21,41 @@
 (def colorlist (cycle ["#aa0000" "#00aa00" "#0000aa" "#000000" "#888888"
                        "#008888" "#880088" "#888800"]))
 
-(def dotstr (str
-  "digraph {\n"
-  "  rankdir=LR;\n"
-  "  dpi=55;\n"
-  "  nodesep=0.10;\n"
-  "  node[ fontname=Helvetica ];\n"
-  (str-for [file (. (new java.io.File srcpath) (listFiles))]
-    (when-not (. file (isDirectory))
-      (with-open rdr (new java.io.BufferedReader (new java.io.FileReader file))
-        (str-for [line (line-seq rdr)]
-          (let [[line name subs]
-                  (re-matches #"public.* (?:class|interface) (\\w+) (.*)" line)]
-            (when name
-              (let [[color] colorlist]
-                (def colorlist (rest colorlist))
-                (str "  " name " [ color=\"" color "\" ];\n"
-                  (str-for [[subline sub] (re-seq #"(\\w+)(?:<[^>]*>)?" subs)]
-                    (when-not (#{"extends" "implements"} sub)
-                              (str "  " name " -> " sub
-                                  " [ color=\"" color "\" ];\n")))))))))))
-  "}\n"))
+(def predmap '{ISeq seq? IPersistentMap map? IPersistentVector vector?
+               Symbol symbol? Keyword keyword? Var var?
+               IPersistentCollection coll? IPersistentList list?
+               IPersistentSet set? Number number? IFn fn?
+               Associative associative? Sequential sequential?
+               Sorted sorted? Reversible reversible?})
 
-;(print dotstr)
+(def dotstr
+  (binding [colorlist colorlist]
+    (str
+      "digraph {\n"
+      "  rankdir=LR;\n"
+      "  dpi=55;\n"
+      "  nodesep=0.10;\n"
+      "  node[ fontname=Helvetica ];\n"
+      (str-for [file (.listFiles (java.io.File. srcpath))]
+        (let [[cname ext] (.split (.getName file) "\\.")]
+          (when (= ext "java")
+            (set! colorlist (rest colorlist))
+            (let [[color] colorlist
+                  cls (Class/forName (str "clojure.lang." cname))
+                  clsname (.getSimpleName cls)
+                  pred (predmap (symbol clsname))
+                  label (if pred (str \" clsname \\ \n pred \") clsname)
+                  cljbases (filter #(= (-> % .getPackage .getName)
+                                       "clojure.lang")
+                                   (bases cls))]
+              (when (or cljbases pred)
+                (str "  " clsname " [ label=" label " color=\"" color "\" ];\n"
+                     (str-for [sub cljbases]
+                        (str "  " clsname " -> " (.getSimpleName sub)
+                             " [ color=\"" color "\" ];\n"))))))))
+      "}\n")))
+
+(print dotstr)
 
 (def png (system ["dot" "-Tpng"] dotstr))
 
