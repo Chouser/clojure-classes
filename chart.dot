@@ -64,8 +64,8 @@ digraph {
   LazyCons [ label=LazyCons color="#0000aa" ];
   LazyCons -> ASeq [ color="#0000aa" ];
   AMapEntry [ label=AMapEntry color="#888888" ];
+  AMapEntry -> APersistentVector [ color="#888888" ];
   AMapEntry -> IMapEntry [ color="#888888" ];
-  AMapEntry -> IPersistentVector [ color="#888888" ];
   MultiFn [ label=MultiFn color="#008888" ];
   MultiFn -> AFn [ color="#008888" ];
   RestFn [ label=RestFn color="#aa0000" ];
@@ -82,7 +82,6 @@ digraph {
   ASeq [ label=ASeq color="#888800" ];
   ASeq -> Obj [ color="#888800" ];
   ASeq -> ISeq [ color="#888800" ];
-  ASeq -> Sequential [ color="#888800" ];
   APersistentSet [ label=APersistentSet color="#aa0000" ];
   APersistentSet -> AFn [ color="#aa0000" ];
   APersistentSet -> IPersistentSet [ color="#aa0000" ];
@@ -101,6 +100,7 @@ digraph {
   Keyword -> Named [ color="#880088" ];
   ISeq [ label="ISeq\nseq?" color="#888800" ];
   ISeq -> IPersistentCollection [ color="#888800" ];
+  ISeq -> Sequential [ color="#888800" ];
   Associative [ label="Associative\nassociative?" color="#aa0000" ];
   Associative -> IPersistentCollection [ color="#aa0000" ];
   PersistentArrayMap [ label=PersistentArrayMap color="#00aa00" ];
