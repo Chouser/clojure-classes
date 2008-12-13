@@ -1,19 +1,24 @@
+(ns net.n01se.java2dot
+  (:import (java.lang Runtime)
+           (java.io OutputStreamWriter InputStreamReader
+                    ByteArrayOutputStream)
+           (javax.swing JFrame JLabel ImageIcon)))
+
 (def srcpath "/home/chouser/build/clojure/src/jvm/clojure/lang/")
 
 (defn system [cmd writedata]
-      (let [proc (.. java.lang.Runtime (getRuntime) (exec (into-array cmd)))
-            isr  (new java.io.InputStreamReader
-                      (. proc (getInputStream)) "ISO-8859-1")
-            osr  (new java.io.OutputStreamWriter (. proc (getOutputStream)))
-            baos (new java.io.ByteArrayOutputStream)]
-        (. osr (write writedata))
-        (. osr (close))
-        (loop [c (. isr (read))]
+      (let [proc (.exec (Runtime/getRuntime) (into-array cmd))
+            isr  (InputStreamReader. (.getInputStream proc) "ISO-8859-1")
+            osr  (OutputStreamWriter. (.getOutputStream proc))
+            baos (ByteArrayOutputStream.)]
+        (.write osr writedata)
+        (.close osr)
+        (loop [c (.read isr)]
           (if (neg? c)
-            (do (. proc (waitFor))
-                (. baos (toByteArray)))
-            (do (. baos (write c))
-                (recur (. isr (read))))))))
+            (do (.waitFor proc)
+                (.toByteArray baos))
+            (do (.write baos c)
+                (recur (.read isr)))))))
 
 (defmacro str-for [& for-stuff]
   `(apply str (for ~@for-stuff)))
@@ -21,12 +26,13 @@
 (def colorlist (cycle ["#aa0000" "#00aa00" "#0000aa" "#000000" "#888888"
                        "#008888" "#880088" "#888800"]))
 
-(def predmap '{ISeq seq? IPersistentMap map? IPersistentVector vector?
-               Symbol symbol? Keyword keyword? Var var?
-               IPersistentCollection coll? IPersistentList list?
-               IPersistentSet set? Number number? IFn fn?
-               Associative associative? Sequential sequential?
-               Sorted sorted? Reversible reversible?})
+(def predmap '{ISeq seq?, IPersistentMap map?, IPersistentVector vector?,
+               Symbol symbol?, Keyword keyword?, Var var?,
+               IPersistentCollection coll?, IPersistentList list?,
+               IPersistentSet set?, Number number?, IFn ifn?, Fn fn?,
+               Associative associative?, Sequential sequential?,
+               Sorted sorted?, Reversible reversible?, Delay delay?,
+               Ratio ratio?})
 
 (def dotstr
   (binding [colorlist colorlist]
@@ -59,6 +65,6 @@
 
 (def png (system ["dot" "-Tpng"] dotstr))
 
-(doto (new javax.swing.JFrame "Clojure Classes")
-  (add (new javax.swing.JLabel (new javax.swing.ImageIcon png)))
-  (setVisible true))
+(doto (JFrame. "Clojure Classes")
+  (.add (JLabel. (ImageIcon. png)))
+  (.setVisible true))
