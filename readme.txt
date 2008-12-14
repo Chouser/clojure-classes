@@ -12,4 +12,7 @@ Inkskape is also used to add the legend and make other minor manual
 adjustments (line thickness for example) seen in "graph-w-legend.svg"
 and "graph-w-legend.png".
 
+The .png's have also been run through gimp to reduce the number of
+colors and therefore the file size.
+
 --Chouser, Dec 2008
