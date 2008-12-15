@@ -49,6 +49,12 @@
     (or (= package "clojure.lang")
         (and (.startsWith package "java") (.isInterface cls)))))
 
+(defn choose-shape [cls]
+  (cond
+    (not= (-> cls .getPackage .getName) "clojure.lang") "diamond"
+    (.isInterface cls) "octagon"
+    :else "oval"))
+
 (def graph
   (loop [found {}
          work (into
@@ -77,11 +83,9 @@
     (str-for [[cls color] (map list classes colorlist)]
       (let [clsname (.getSimpleName cls)
             pred (predmap (symbol clsname))
-            label (if pred (str clsname \\ \n pred) clsname)
-            shape (if (= (-> cls .getPackage .getName) "clojure.lang")
-                    "oval" "diamond")]
+            label (if pred (str clsname \\ \n pred) clsname)]
         (str "  " clsname " [ label=\"" label "\" color=\"" color "\" "
-             "shape=\"" shape "\"];\n"
+             "shape=\"" (choose-shape cls) "\"];\n"
              (str-for [sub (graph cls)]
                (str "  " clsname " -> " (.getSimpleName sub)
                     " [ color=\"" color "\" ];\n")))))
