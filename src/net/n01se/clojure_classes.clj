@@ -36,13 +36,32 @@
 (def colorlist (cycle ["#aa0000" "#00aa00" "#0000aa" "#000000" "#888888"
                        "#008888" "#880088" "#888800"]))
 
-(def predmap '{ISeq seq?, IPersistentMap map?, IPersistentVector vector?,
-               Symbol symbol?, Keyword keyword?, Var var?,
-               IPersistentCollection coll?, IPersistentList list?,
-               IPersistentSet set?, Number number?, IFn ifn?,
-               Associative associative?, Sequential sequential?,
-               Sorted sorted?, Reversible reversible?, Ratio ratio?
-               Fn fn?, Delay delay?})
+(def preds '{ISeq seq?, IPersistentMap map?, IPersistentVector vector?,
+             Symbol symbol?, Keyword keyword?, Var var?,
+             IPersistentCollection coll?, IPersistentList list?,
+             IPersistentSet set?, Number number?, IFn ifn?,
+             Associative associative?, Sequential sequential?,
+             Sorted sorted?, Reversible reversible?, Ratio ratio?
+             Fn fn?, Delay delay?})
+
+(def ctors '{IteratorSeq iterator-seq PersistentList list ISeq seq
+             EnumerationSeq enumeration-seq Var "intern, with-local-vars"
+             LazilyPersistentVector "vector, vec"
+             PersistentHashMap hash-map PersistentHashSet "hash-set, set"
+             PersistentArrayMap array-map
+             PersistentTreeMap "sorted-map, sorted-map-by"
+             PersistentTreeSet sorted-set
+             PersistentStructMap$Def create-struct
+             PersistentStructMap "struct-map, struct"
+             LazyCons lazy-cons Range range FnSeq fnseq
+             MultiFn defmulti Keyword keyword Symbol "symbol, gensym"
+             AtomicReference$IRef "atom"})
+
+(def aliases '{AtomicReference$IRef ""})
+
+(def extra-seed-classes [
+  ;clojure.proxy.java.util.concurrent.atomic.AtomicReference$IRef
+  ])
 
 (defn class-filter [cls]
   (let [package (-> cls .getPackage .getName)]
@@ -51,14 +70,26 @@
 
 (defn choose-shape [cls]
   (cond
-    (not= (-> cls .getPackage .getName) "clojure.lang") "diamond"
+    (not (-> cls .getPackage .getName (.startsWith "clojure"))) "diamond"
     (.isInterface cls) "octagon"
     :else "oval"))
+
+(defn class-name [cls]
+  (.getSimpleName cls))
+
+(defn class-label [cls]
+  (let [clsname (class-name cls)
+        a (aliases (symbol clsname) clsname)
+        pred (preds (symbol clsname))
+        ctor (ctors (symbol clsname))]
+    (str a
+         ;(when ctor (str (when-not (empty? a) "\\n") ctor))
+         (when pred (str \\ \n pred)))))
 
 (def graph
   (loop [found {}
          work (into
-                PersistentQueue/EMPTY
+                (into PersistentQueue/EMPTY extra-seed-classes)
                 (filter #(and % (some class-filter (bases %)))
                         (for [file (.listFiles (java.io.File. srcpath))]
                           (let [[cname ext] (.split (.getName file) "\\.")]
@@ -81,14 +112,12 @@
     "  nodesep=0.10;\n"
     "  node[ fontname=Helvetica shape=box ];\n"
     (str-for [[cls color] (map list classes colorlist)]
-      (let [clsname (.getSimpleName cls)
-            pred (predmap (symbol clsname))
-            label (if pred (str clsname \\ \n pred) clsname)]
-        (str "  " clsname " [ label=\"" label "\" color=\"" color "\" "
-             "shape=\"" (choose-shape cls) "\"];\n"
-             (str-for [sub (graph cls)]
-               (str "  " clsname " -> " (.getSimpleName sub)
-                    " [ color=\"" color "\" ];\n")))))
+      (str "  \"" cls "\" [ label=\"" (class-label cls) "\" "
+           "color=\"" color "\" "
+           "shape=\"" (choose-shape cls) "\"];\n"
+           (str-for [sub (graph cls)]
+             (str "  \"" cls "\" -> \"" sub "\""
+                  " [ color=\"" color "\" ];\n"))))
     "}\n"))
 
 (print dotstr)
