@@ -8,33 +8,22 @@
 ;   You must not remove this notice, or any other, from this software.
 
 (ns net.n01se.clojure-classes
+  (:use [clojure.contrib.shell-out :only (sh)])
   (:import (java.lang Runtime)
            (java.io OutputStreamWriter InputStreamReader
                     ByteArrayOutputStream)
-           (javax.swing JFrame JLabel ImageIcon)
+           (javax.swing JFrame JLabel JScrollPane ImageIcon)
            (clojure.lang PersistentQueue)))
 
 (def srcpath "/home/chouser/build/clojure/src/jvm/clojure/lang/")
 
-(defn system [cmd writedata]
-      (let [proc (.exec (Runtime/getRuntime) (into-array cmd))
-            isr  (InputStreamReader. (.getInputStream proc) "ISO-8859-1")
-            osr  (OutputStreamWriter. (.getOutputStream proc))
-            baos (ByteArrayOutputStream.)]
-        (.write osr writedata)
-        (.close osr)
-        (loop [c (.read isr)]
-          (if (neg? c)
-            (do (.waitFor proc)
-                (.toByteArray baos))
-            (do (.write baos c)
-                (recur (.read isr)))))))
-
 (defmacro str-for [& for-stuff]
   `(apply str (for ~@for-stuff)))
 
-(def colorlist (cycle ["#aa0000" "#00aa00" "#0000aa" "#000000" "#888888"
-                       "#008888" "#880088" "#888800"]))
+(def colors ["#d70000" "#d7009e" "#b300d7" "#5a00d7" "#0061d7" "#00d0d7"
+             "#00d764" "#76d700" "#d78100"])
+; Some lighter colors:
+; "#ff817f" "#ff7fea" "#b47fff" "#7fa5ff" "#7ffffb" "#a8ff7f" "#ffd97f"
 
 (def preds '{ISeq seq?, IPersistentMap map?, IPersistentVector vector?,
              Symbol symbol?, Keyword keyword?, Var var?,
@@ -42,7 +31,8 @@
              IPersistentSet set?, Number number?, IFn ifn?,
              Associative associative?, Sequential sequential?,
              Sorted sorted?, Reversible reversible?, Ratio ratio?
-             Fn fn?, Delay delay?})
+             Fn fn?, Delay delay?, Class class?, BigDecimal decimal?,
+             String string?})
 
 (def ctors '{IteratorSeq iterator-seq PersistentList list ISeq seq
              EnumerationSeq enumeration-seq Var "intern, with-local-vars"
@@ -54,14 +44,13 @@
              PersistentStructMap$Def create-struct
              PersistentStructMap "struct-map, struct"
              LazyCons lazy-cons Range range FnSeq fnseq
-             MultiFn defmulti Keyword keyword Symbol "symbol, gensym"
-             AtomicReference$IRef "atom"})
+             MultiFn defmulti Keyword keyword Symbol "symbol, gensym"})
 
-(def aliases '{AtomicReference$IRef ""})
+(def color-override '{Range "#d70000" ARef "#d70000"})
 
-(def extra-seed-classes [
-  ;clojure.proxy.java.util.concurrent.atomic.AtomicReference$IRef
-  ])
+(def aliases '{Object$Future$IDeref "(future)"})
+
+(def extra-seed-classes [clojure.proxy.java.lang.Object$Future$IDeref])
 
 (defn class-filter [cls]
   (let [package (-> cls .getPackage .getName)]
@@ -85,6 +74,10 @@
     (str a
          ;(when ctor (str (when-not (empty? a) "\\n") ctor))
          (when pred (str \\ \n pred)))))
+
+(defn class-color [cls]
+  (color-override (symbol (class-name cls))
+    (nth colors (rem (Math/abs (hash (str cls))) (count colors)))))
 
 (def graph
   (loop [found {}
@@ -111,19 +104,19 @@
     "  dpi=55;\n"
     "  nodesep=0.10;\n"
     "  node[ fontname=Helvetica shape=box ];\n"
-    (str-for [[cls color] (map list classes colorlist)]
-      (str "  \"" cls "\" [ label=\"" (class-label cls) "\" "
-           "color=\"" color "\" "
-           "shape=\"" (choose-shape cls) "\"];\n"
-           (str-for [sub (graph cls)]
-             (str "  \"" cls "\" -> \"" sub "\""
-                  " [ color=\"" color "\" ];\n"))))
+    (str-for [cls classes]
+      (let [color (class-color cls)]
+        (str "  \"" cls "\" [ label=\"" (class-label cls) "\" "
+             "color=\"" color "\" "
+             "shape=\"" (choose-shape cls) "\"];\n"
+             (str-for [sub (graph cls)]
+                      (str "  \"" cls "\" -> \"" sub "\""
+                           " [ color=\"" color "\" ];\n")))))
     "}\n"))
 
 (print dotstr)
 
-(def png (system ["dot" "-Tpng"] dotstr))
-
 (doto (JFrame. "Clojure Classes")
-  (.add (JLabel. (ImageIcon. png)))
+  (.add (-> (sh "dot" "-Tpng" :in dotstr :out :bytes) ImageIcon.
+          JLabel. JScrollPane.))
   (.setVisible true))
