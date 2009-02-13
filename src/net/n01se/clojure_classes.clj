@@ -15,7 +15,8 @@
            (javax.swing JFrame JLabel JScrollPane ImageIcon)
            (clojure.lang PersistentQueue)))
 
-(def srcpath "/home/chouser/build/clojure/src/jvm/clojure/lang/")
+(def srcpath "/home/chouser/build/clj/trunk/src/jvm/clojure/lang/")
+;(def srcpath "/home/chouser/build/clj/branches/lazy/src/jvm/clojure/lang/")
 
 (defmacro str-for [& for-stuff]
   `(apply str (for ~@for-stuff)))
@@ -46,11 +47,22 @@
              LazyCons lazy-cons Range range FnSeq fnseq
              MultiFn defmulti Keyword keyword Symbol "symbol, gensym"})
 
-(def color-override '{Range "#d70000" ARef "#d70000"})
+(def clusters '#{})
+
+(def badges
+  '{IMeta M Iterable T Counted 1 Streamable S
+    Reversible R Named N Comparable =})
+
+(def color-override '{PersistentList "#76d700"})
 
 (def aliases '{Object$Future$IDeref "(future)"})
 
-(def extra-seed-classes [clojure.proxy.java.lang.Object$Future$IDeref])
+(def extra-seed-classes [])
+
+(try
+  (alter-var-root extra-seed-classes conj
+                  (resolve 'clojure.proxy.java.lang.Object$Future$IDeref))
+  (catch Exception e))
 
 (defn class-filter [cls]
   (let [package (-> cls .getPackage .getName)]
@@ -64,19 +76,22 @@
     :else "oval"))
 
 (defn class-name [cls]
-  (.getSimpleName cls))
+  (symbol (.getSimpleName cls)))
 
 (defn class-label [cls]
   (let [clsname (class-name cls)
-        a (aliases (symbol clsname) clsname)
-        pred (preds (symbol clsname))
-        ctor (ctors (symbol clsname))]
+        a (aliases clsname (str clsname))
+        pred (preds clsname)
+        ctor (ctors clsname)
+        anc (set (map class-name (ancestors cls)))]
     (str a
          ;(when ctor (str (when-not (empty? a) "\\n") ctor))
-         (when pred (str \\ \n pred)))))
+         (when pred (str \\ \n pred))
+         (when-let [badge (seq (filter identity (map badges (map anc (keys badges)))))]
+           (str "\\n[" (apply str badge) "]")))))
 
 (defn class-color [cls]
-  (color-override (symbol (class-name cls))
+  (color-override (class-name cls)
     (nth colors (rem (Math/abs (hash (str cls))) (count colors)))))
 
 (def graph
@@ -103,15 +118,47 @@
     "  rankdir=LR;\n"
     "  dpi=55;\n"
     "  nodesep=0.10;\n"
+    "  ranksep=1.2;\n"
+    "  mclimit=2500.0;\n"
+    ;"  splines=true;\n"
+    ;"  overlap=scale;\n"
     "  node[ fontname=Helvetica shape=box ];\n"
+    "
+  subgraph cluster_legend {
+    label=\"Legend\"
+    fontname=\"Helvetica Bold\"
+    fontsize=19
+    bgcolor=\"#dddddd\"
+    \"Clojure Interface\" [ shape=octagon fillcolor=\"#ffffff\" style=filled ];
+    \"Java Interface\" [ shape=diamond fillcolor=\"#ffffff\" style=filled ];
+    \"Clojure class\" [ shape=oval fillcolor=\"#ffffff\" style=filled ];
+    badges [
+      shape=record
+      style=filled
+      fillcolor=\"#ffffff\"
+      label=\"{{"
+       (apply str (interpose "|" (vals badges)))
+      "}|{"
+       (apply str (interpose "|" (keys badges)))
+      "}}\"
+    ]
+  }
+"
     (str-for [cls classes]
-      (let [color (class-color cls)]
-        (str "  \"" cls "\" [ label=\"" (class-label cls) "\" "
-             "color=\"" color "\" "
-             "shape=\"" (choose-shape cls) "\"];\n"
-             (str-for [sub (graph cls)]
-                      (str "  \"" cls "\" -> \"" sub "\""
-                           " [ color=\"" color "\" ];\n")))))
+      (when-not (badges (class-name cls))
+        (let [color (class-color cls)
+              node (str "  \"" cls "\" [ label=\"" (class-label cls) "\" "
+                        "color=\"" color "\" "
+                        "shape=\"" (choose-shape cls) "\"];\n")
+              cluster (some #(clusters (class-name %))
+                            (cons cls (ancestors cls)))]
+          (str (when cluster (str "subgraph cluster_" cluster " {\n"))
+              node
+              (when cluster "}\n")
+              (str-for [sub (graph cls)]
+                (when-not (badges (class-name sub))
+                  (str "  \"" cls "\" -> \"" sub "\""
+                       " [ color=\"" color "\" ];\n")))))))
     "}\n"))
 
 (print dotstr)
