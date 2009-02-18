@@ -16,7 +16,6 @@
            (clojure.lang PersistentQueue)))
 
 (def srcpath "/home/chouser/build/clj/trunk/src/jvm/clojure/lang/")
-;(def srcpath "/home/chouser/build/clj/branches/lazy/src/jvm/clojure/lang/")
 
 (defmacro str-for [& for-stuff]
   `(apply str (for ~@for-stuff)))
@@ -53,7 +52,8 @@
   '{IMeta M Iterable T Counted 1 Streamable S
     Reversible R Named N Comparable =})
 
-(def color-override '{PersistentList "#76d700"})
+(def color-override '{PersistentList "#76d700" PersistentQueue "#0061d7"
+                      LazySeq "#d78100"})
 
 (def aliases '{Object$Future$IDeref "(future)"})
 
@@ -106,7 +106,7 @@
     (if (empty? work)
       found
       (let [cls (peek work)
-            kids (filter class-filter (bases cls))]
+            kids (seq (filter class-filter (bases cls)))]
         (recur (assoc found cls kids)
                (into (pop work) (remove found kids)))))))
 

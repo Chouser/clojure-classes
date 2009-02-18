@@ -11,15 +11,15 @@
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    width="1291pt"
-   height="1629pt"
-   viewBox="0.00 0.00 1690.00 2133.00"
+   height="1454pt"
+   viewBox="0.00 0.00 1690.00 1903.00"
    id="svg2"
    sodipodi:version="0.32"
    inkscape:version="0.46"
    sodipodi:docname="graph-w-legend.svg"
    inkscape:output_extension="org.inkscape.output.svg.inkscape">
   <metadata
-     id="metadata1521">
+     id="metadata1501">
     <rdf:RDF>
       <cc:Work
          rdf:about="">
@@ -30,19 +30,33 @@
     </rdf:RDF>
   </metadata>
   <defs
-     id="defs1519">
+     id="defs1499">
     <inkscape:perspective
        sodipodi:type="inkscape:persp3d"
-       inkscape:vp_x="0 : 1018.125 : 1"
+       inkscape:vp_x="0 : 908.75 : 1"
        inkscape:vp_y="0 : 1000 : 0"
-       inkscape:vp_z="1613.75 : 1018.125 : 1"
-       inkscape:persp3d-origin="806.875 : 678.75 : 1"
-       id="perspective1523" />
+       inkscape:vp_z="1613.75 : 908.75 : 1"
+       inkscape:persp3d-origin="806.875 : 605.83333 : 1"
+       id="perspective1503" />
+    <title
+       id="title835">class clojure.lang.Delay-&gt;interface clojure.lang.IDeref</title>
+    <title
+       id="title773">interface clojure.lang.IPersistentCollection-&gt;interface clojure.lang.Seqable</title>
+    <title
+       id="title766">interface clojure.lang.Seqable</title>
+    <title
+       id="title609">interface clojure.lang.IRef-&gt;interface clojure.lang.IDeref</title>
+    <title
+       id="title602">interface clojure.lang.IDeref</title>
+    <title
+       id="title595">class clojure.lang.AReference-&gt;interface clojure.lang.IReference</title>
+    <title
+       id="title586">interface clojure.lang.IReference</title>
   </defs>
   <sodipodi:namedview
-     inkscape:cy="1201.9146"
-     inkscape:cx="760.70405"
-     inkscape:zoom="0.52533162"
+     inkscape:cy="991.81395"
+     inkscape:cx="741.70756"
+     inkscape:zoom="0.63565125"
      inkscape:window-height="480"
      inkscape:window-width="640"
      inkscape:pageshadow="2"
@@ -55,217 +69,222 @@
      pagecolor="#ffffff"
      id="base"
      showgrid="false"
-     inkscape:current-layer="svg2" />
+     inkscape:current-layer="graph0" />
   <g
      id="graph0"
      class="graph"
-     transform="scale(0.763889 0.763889) rotate(0) translate(4 2128.51)"
-     inkscape:export-filename="/home/chouser/proj/clojure-classes/graph-with-legend.png"
-     inkscape:export-xdpi="74.760002"
-     inkscape:export-ydpi="74.760002">
+     transform="scale(0.763889 0.763889) rotate(0) translate(4 1899.42)">
     <title
        id="title5">_anonymous_0</title>
+    <polygon
+       style="fill:#ffffff;stroke:#ffffff;stroke-width:1.2055757"
+       points="-4,4 -4,-1899.42 1686.04,-1899.42 1686.04,4 -4,4 "
+       id="polygon7"
+       transform="matrix(0.7998991,0,0,0.8601533,276.55859,0.5593868)"
+       inkscape:export-filename="/home/chouser/proj/clojure-classes/graph-w-legend.png"
+       inkscape:export-xdpi="77.519997"
+       inkscape:export-ydpi="77.519997" />
     <g
        id="cluster2"
        class="cluster"
-       transform="translate(1170.8257,-892.33783)">
+       transform="translate(1286.5705,-534.98366)">
       <title
          id="title10">cluster_legend</title>
       <polygon
          style="fill:#dddddd;stroke:#000000"
-         points="8,-523 8,-879 188,-879 188,-523 8,-523 "
+         points="8,-691 8,-1047 188,-1047 188,-691 8,-691 "
          id="polygon12" />
       <text
          x="98"
-         y="-858.27502"
+         y="-1026.28"
          style="font-size:19px;text-anchor:middle;font-family:Helvetica Bold"
          id="text14">Legend</text>
     </g>
 <!-- Clojure Interface -->    <g
        id="node2"
        class="node"
-       transform="translate(1170.8257,-892.33783)">
+       transform="translate(1286.5705,-534.98366)">
       <title
          id="title17">Clojure Interface</title>
       <polygon
          style="fill:#ffffff;stroke:#000000"
-         points="168.809,-812.471 168.809,-827.529 127.33,-838.177 68.67,-838.177 27.1912,-827.529 27.1912,-812.471 68.67,-801.823 127.33,-801.823 168.809,-812.471 "
+         points="168.809,-980.471 168.809,-995.529 127.33,-1006.18 68.67,-1006.18 27.1912,-995.529 27.1912,-980.471 68.67,-969.823 127.33,-969.823 168.809,-980.471 "
          id="polygon19" />
       <text
          x="98"
-         y="-815.27502"
+         y="-983.27502"
          style="font-size:14px;text-anchor:middle;font-family:Arial"
          id="text21">Clojure Interface</text>
     </g>
 <!-- Java Interface -->    <g
        id="node3"
        class="node"
-       transform="translate(1170.8257,-892.33783)">
+       transform="translate(1286.5705,-534.98366)">
       <title
          id="title24">Java Interface</title>
       <polygon
          style="fill:#ffffff;stroke:#000000"
-         points="98,-795.75 17.1201,-772 98,-748.25 178.88,-772 98,-795.75 "
+         points="98,-963.75 17.1201,-940 98,-916.25 178.88,-940 98,-963.75 "
          id="polygon26" />
       <text
          x="98"
-         y="-767.27502"
+         y="-935.27502"
          style="font-size:14px;text-anchor:middle;font-family:Arial"
          id="text28">Java Interface</text>
     </g>
 <!-- Clojure class -->    <g
        id="node4"
        class="node"
-       transform="translate(1170.8257,-892.33783)">
+       transform="translate(1286.5705,-534.98366)">
       <title
          id="title31">Clojure class</title>
       <ellipse
          style="fill:#ffffff;stroke:#000000"
          cx="98"
-         cy="-724"
+         cy="-892"
          rx="53.7938"
          ry="18"
          id="ellipse33"
          sodipodi:cx="98"
-         sodipodi:cy="-724"
+         sodipodi:cy="-892"
          sodipodi:rx="53.7938"
          sodipodi:ry="18" />
       <text
          x="98"
-         y="-719.27502"
+         y="-887.27502"
          style="font-size:14px;text-anchor:middle;font-family:Arial"
          id="text35">Clojure class</text>
     </g>
 <!-- badges -->    <g
        id="node5"
        class="node"
-       transform="translate(1170.8257,-892.33783)">
+       transform="translate(1286.5705,-534.98366)">
       <title
          id="title38">badges</title>
       <polygon
          style="fill:#ffffff;stroke:#000000"
-         points="38,-531 38,-699 159,-699 159,-531 38,-531 "
+         points="38,-699 38,-867 159,-867 159,-699 38,-699 "
          id="polygon40" />
       <text
          x="51"
-         y="-682.27502"
+         y="-850.27502"
          style="font-size:14px;text-anchor:middle;font-family:Arial"
          id="text42">M</text>
       <polyline
          style="fill:none;stroke:#000000"
-         points="38,-675 65,-675 "
+         points="38,-843 65,-843 "
          id="polyline44" />
       <text
          x="51"
-         y="-658.27502"
+         y="-826.27502"
          style="font-size:14px;text-anchor:middle;font-family:Arial"
          id="text46">T</text>
       <polyline
          style="fill:none;stroke:#000000"
-         points="38,-651 65,-651 "
+         points="38,-819 65,-819 "
          id="polyline48" />
       <text
          x="51"
-         y="-634.27502"
+         y="-802.27502"
          style="font-size:14px;text-anchor:middle;font-family:Arial"
          id="text50">1</text>
       <polyline
          style="fill:none;stroke:#000000"
-         points="38,-627 65,-627 "
+         points="38,-795 65,-795 "
          id="polyline52" />
       <text
          x="51"
-         y="-610.27502"
+         y="-778.27502"
          style="font-size:14px;text-anchor:middle;font-family:Arial"
          id="text54">S</text>
       <polyline
          style="fill:none;stroke:#000000"
-         points="38,-603 65,-603 "
+         points="38,-771 65,-771 "
          id="polyline56" />
       <text
          x="51"
-         y="-586.27502"
+         y="-754.27502"
          style="font-size:14px;text-anchor:middle;font-family:Arial"
          id="text58">R</text>
       <polyline
          style="fill:none;stroke:#000000"
-         points="38,-579 65,-579 "
+         points="38,-747 65,-747 "
          id="polyline60" />
       <text
          x="51"
-         y="-562.27502"
+         y="-730.27502"
          style="font-size:14px;text-anchor:middle;font-family:Arial"
          id="text62">N</text>
       <polyline
          style="fill:none;stroke:#000000"
-         points="38,-555 65,-555 "
+         points="38,-723 65,-723 "
          id="polyline64" />
       <text
          x="51"
-         y="-538.27502"
+         y="-706.27502"
          style="font-size:14px;text-anchor:middle;font-family:Arial"
          id="text66">=</text>
       <polyline
          style="fill:none;stroke:#000000"
-         points="65,-531 65,-699 "
+         points="65,-699 65,-867 "
          id="polyline68" />
       <text
          x="112"
-         y="-682.27502"
+         y="-850.27502"
          style="font-size:14px;text-anchor:middle;font-family:Arial"
          id="text70">IMeta</text>
       <polyline
          style="fill:none;stroke:#000000"
-         points="65,-675 159,-675 "
+         points="65,-843 159,-843 "
          id="polyline72" />
       <text
          x="112"
-         y="-658.27502"
+         y="-826.27502"
          style="font-size:14px;text-anchor:middle;font-family:Arial"
          id="text74">Iterable</text>
       <polyline
          style="fill:none;stroke:#000000"
-         points="65,-651 159,-651 "
+         points="65,-819 159,-819 "
          id="polyline76" />
       <text
          x="112"
-         y="-634.27502"
+         y="-802.27502"
          style="font-size:14px;text-anchor:middle;font-family:Arial"
          id="text78">Counted</text>
       <polyline
          style="fill:none;stroke:#000000"
-         points="65,-627 159,-627 "
+         points="65,-795 159,-795 "
          id="polyline80" />
       <text
          x="112"
-         y="-610.27502"
+         y="-778.27502"
          style="font-size:14px;text-anchor:middle;font-family:Arial"
          id="text82">Streamable</text>
       <polyline
          style="fill:none;stroke:#000000"
-         points="65,-603 159,-603 "
+         points="65,-771 159,-771 "
          id="polyline84" />
       <text
          x="112"
-         y="-586.27502"
+         y="-754.27502"
          style="font-size:14px;text-anchor:middle;font-family:Arial"
          id="text86">Reversible</text>
       <polyline
          style="fill:none;stroke:#000000"
-         points="65,-579 159,-579 "
+         points="65,-747 159,-747 "
          id="polyline88" />
       <text
          x="112"
-         y="-562.27502"
+         y="-730.27502"
          style="font-size:14px;text-anchor:middle;font-family:Arial"
          id="text90">Named</text>
       <polyline
          style="fill:none;stroke:#000000"
-         points="65,-555 159,-555 "
+         points="65,-723 159,-723 "
          id="polyline92" />
       <text
          x="112"
-         y="-538.27502"
+         y="-706.27502"
          style="font-size:14px;text-anchor:middle;font-family:Arial"
          id="text94">Comparable</text>
     </g>
@@ -275,7 +294,7 @@
       <title
          id="title97">class clojure.lang.AFn</title>
       <ellipse
-         style="fill:none;stroke:#76d700;stroke-width:1.5;"
+         style="fill:none;stroke:#76d700;"
          cx="901"
          cy="-522"
          rx="28.809"
@@ -300,22 +319,22 @@
       <title
          id="title106">class clojure.lang.Obj</title>
       <ellipse
-         style="fill:none;stroke:#00d764;stroke-width:1.5;"
+         style="fill:none;stroke:#00d764;"
          cx="1148"
-         cy="-1279"
+         cy="-1139"
          rx="27.2236"
          ry="27.7236"
          id="ellipse108" />
       <text
          text-anchor="middle"
          x="1148"
-         y="-1282.15"
+         y="-1142.15"
          style="font-family:Arial;font-size:14.00;"
          id="text110">Obj</text>
       <text
          text-anchor="middle"
          x="1148"
-         y="-1266.4"
+         y="-1126.4"
          style="font-family:Arial;font-size:14.00;"
          id="text112">[M]</text>
     </g>
@@ -325,12 +344,12 @@
       <title
          id="title115">class clojure.lang.AFn-&gt;class clojure.lang.Obj</title>
       <path
-         style="fill:none;stroke:#76d700;stroke-width:1.5;"
-         d="M930,-524C951,-528 978,-536 992,-554 1184,-791 918,-974 1078,-1233 1087,-1246 1100,-1256 1114,-1264"
+         style="fill:none;stroke:#76d700;"
+         d="M931,-525C951,-528 977,-536 992,-554 1152,-746 927,-911 1078,-1108 1087,-1119 1099,-1126 1111,-1131"
          id="path117" />
       <polygon
-         style="fill:#76d700;stroke:#76d700;stroke-width:1.5;"
-         points="1112.56,-1267.2 1123,-1269 1115.96,-1261.08 1112.56,-1267.2"
+         style="fill:#76d700;stroke:#76d700;"
+         points="1110.42,-1134.48 1121,-1134 1112.43,-1127.77 1110.42,-1134.48"
          id="polygon119" />
     </g>
 <!-- interface clojure.lang.IFn -->    <g
@@ -339,19 +358,19 @@
       <title
          id="title122">interface clojure.lang.IFn</title>
       <polygon
-         style="fill:none;stroke:#0061d7;stroke-width:1.5;"
-         points="1178.04,-413.501 1178.04,-438.499 1160.44,-456.176 1135.56,-456.176 1117.96,-438.499 1117.96,-413.501 1135.56,-395.824 1160.44,-395.824 1178.04,-413.501"
+         style="fill:none;stroke:#0061d7;"
+         points="1178.04,-418.501 1178.04,-443.499 1160.44,-461.176 1135.56,-461.176 1117.96,-443.499 1117.96,-418.501 1135.56,-400.824 1160.44,-400.824 1178.04,-418.501"
          id="polygon124" />
       <text
          text-anchor="middle"
          x="1148"
-         y="-429.15"
+         y="-434.15"
          style="font-family:Arial;font-size:14.00;"
          id="text126">IFn</text>
       <text
          text-anchor="middle"
          x="1148"
-         y="-413.4"
+         y="-418.4"
          style="font-family:Arial;font-size:14.00;"
          id="text128">ifn?</text>
     </g>
@@ -361,12 +380,12 @@
       <title
          id="title131">class clojure.lang.AFn-&gt;interface clojure.lang.IFn</title>
       <path
-         style="fill:none;stroke:#76d700;stroke-width:1.5;"
-         d="M928,-511C972,-494 1057,-461 1108,-442"
+         style="fill:none;stroke:#76d700;"
+         d="M929,-512C972,-496 1058,-464 1108,-446"
          id="path133" />
       <polygon
-         style="fill:#76d700;stroke:#76d700;stroke-width:1.5;"
-         points="1110.02,-444.964 1118,-438 1107.42,-438.464 1110.02,-444.964"
+         style="fill:#76d700;stroke:#76d700;"
+         points="1110.02,-448.964 1118,-442 1107.42,-442.464 1110.02,-448.964"
          id="polygon135" />
     </g>
 <!-- interface java.io.Serializable -->    <g
@@ -375,13 +394,13 @@
       <title
          id="title138">interface java.io.Serializable</title>
       <polygon
-         style="fill:none;stroke:#5a00d7;stroke-width:1.5;"
-         points="1148,-527.75 1078.79,-504 1148,-480.25 1217.21,-504 1148,-527.75"
+         style="fill:none;stroke:#5a00d7;"
+         points="1148,-530.75 1078.79,-507 1148,-483.25 1217.21,-507 1148,-530.75"
          id="polygon140" />
       <text
          text-anchor="middle"
          x="1148"
-         y="-499.275"
+         y="-502.275"
          style="font-family:Arial;font-size:14.00;"
          id="text142">Serializable</text>
     </g>
@@ -391,33 +410,33 @@
       <title
          id="title145">class clojure.lang.AFn-&gt;interface java.io.Serializable</title>
       <path
-         style="fill:none;stroke:#76d700;stroke-width:1.5;"
-         d="M931,-520C967,-517 1032,-513 1081,-509"
+         style="fill:none;stroke:#76d700;"
+         d="M931,-520C967,-518 1030,-514 1079,-511"
          id="path147" />
       <polygon
-         style="fill:#76d700;stroke:#76d700;stroke-width:1.5;"
-         points="1081.4,-512.478 1091,-508 1080.7,-505.512 1081.4,-512.478"
+         style="fill:#76d700;stroke:#76d700;"
+         points="1079,-514.5 1089,-511 1079,-507.5 1079,-514.5"
          id="polygon149" />
     </g>
 <!-- interface clojure.lang.IObj -->    <g
-       id="node93"
+       id="node89"
        class="node">
       <title
          id="title152">interface clojure.lang.IObj</title>
       <polygon
-         style="fill:none;stroke:#0061d7;stroke-width:1.5;"
-         points="1425.13,-1266.48 1425.13,-1291.52 1406.31,-1309.23 1379.69,-1309.23 1360.87,-1291.52 1360.87,-1266.48 1379.69,-1248.77 1406.31,-1248.77 1425.13,-1266.48"
+         style="fill:none;stroke:#0061d7;"
+         points="1425.13,-1126.48 1425.13,-1151.52 1406.31,-1169.23 1379.69,-1169.23 1360.87,-1151.52 1360.87,-1126.48 1379.69,-1108.77 1406.31,-1108.77 1425.13,-1126.48"
          id="polygon154" />
       <text
          text-anchor="middle"
          x="1393"
-         y="-1282.15"
+         y="-1142.15"
          style="font-family:Arial;font-size:14.00;"
          id="text156">IObj</text>
       <text
          text-anchor="middle"
          x="1393"
-         y="-1266.4"
+         y="-1126.4"
          style="font-family:Arial;font-size:14.00;"
          id="text158">[M]</text>
     </g>
@@ -427,72 +446,72 @@
       <title
          id="title161">class clojure.lang.Obj-&gt;interface clojure.lang.IObj</title>
       <path
-         style="fill:none;stroke:#00d764;stroke-width:1.5;"
-         d="M1175,-1279C1218,-1279 1300,-1279 1351,-1279"
+         style="fill:none;stroke:#00d764;"
+         d="M1175,-1139C1218,-1139 1300,-1139 1351,-1139"
          id="path163" />
       <polygon
-         style="fill:#00d764;stroke:#00d764;stroke-width:1.5;"
-         points="1351,-1282.5 1361,-1279 1351,-1275.5 1351,-1282.5"
+         style="fill:#00d764;stroke:#00d764;"
+         points="1351,-1142.5 1361,-1139 1351,-1135.5 1351,-1142.5"
          id="polygon165" />
     </g>
 <!-- interface java.util.concurrent.Callable -->    <g
-       id="node75"
+       id="node73"
        class="node">
       <title
          id="title168">interface java.util.concurrent.Callable</title>
       <polygon
-         style="fill:none;stroke:#00d764;stroke-width:1.5;"
-         points="1393,-438.75 1339.17,-415 1393,-391.25 1446.83,-415 1393,-438.75"
+         style="fill:none;stroke:#00d764;"
+         points="1393,-501.75 1339.17,-478 1393,-454.25 1446.83,-478 1393,-501.75"
          id="polygon170" />
       <text
          text-anchor="middle"
          x="1393"
-         y="-410.275"
+         y="-473.275"
          style="font-family:Arial;font-size:14.00;"
          id="text172">Callable</text>
     </g>
 <!-- interface clojure.lang.IFn&#45;&gt;interface java.util.concurrent.Callable -->    <g
-       id="edge79"
+       id="edge75"
        class="edge">
       <title
          id="title175">interface clojure.lang.IFn-&gt;interface java.util.concurrent.Callable</title>
       <path
-         style="fill:none;stroke:#0061d7;stroke-width:1.5;"
-         d="M1178,-425C1216,-423 1284,-420 1334,-418"
+         style="fill:none;stroke:#0061d7;"
+         d="M1178,-437C1219,-444 1296,-459 1345,-469"
          id="path177" />
       <polygon
-         style="fill:#0061d7;stroke:#0061d7;stroke-width:1.5;"
-         points="1334.4,-421.478 1344,-417 1333.7,-414.512 1334.4,-421.478"
+         style="fill:#0061d7;stroke:#0061d7;"
+         points="1344.51,-472.471 1355,-471 1345.88,-465.607 1344.51,-472.471"
          id="polygon179" />
     </g>
 <!-- interface java.lang.Runnable -->    <g
-       id="node91"
+       id="node87"
        class="node">
       <title
          id="title182">interface java.lang.Runnable</title>
       <polygon
-         style="fill:none;stroke:#00d0d7;stroke-width:1.5;"
-         points="1393,-491.75 1332.81,-468 1393,-444.25 1453.19,-468 1393,-491.75"
+         style="fill:none;stroke:#00d0d7;"
+         points="1393,-448.75 1332.81,-425 1393,-401.25 1453.19,-425 1393,-448.75"
          id="polygon184" />
       <text
          text-anchor="middle"
          x="1393"
-         y="-463.275"
+         y="-420.275"
          style="font-family:Arial;font-size:14.00;"
          id="text186">Runnable</text>
     </g>
 <!-- interface clojure.lang.IFn&#45;&gt;interface java.lang.Runnable -->    <g
-       id="edge81"
+       id="edge77"
        class="edge">
       <title
          id="title189">interface clojure.lang.IFn-&gt;interface java.lang.Runnable</title>
       <path
-         style="fill:none;stroke:#0061d7;stroke-width:1.5;"
-         d="M1178,-431C1218,-438 1292,-450 1341,-459"
+         style="fill:none;stroke:#0061d7;"
+         d="M1178,-430C1214,-429 1278,-428 1326,-426"
          id="path191" />
       <polygon
-         style="fill:#0061d7;stroke:#0061d7;stroke-width:1.5;"
-         points="1340.51,-462.471 1351,-461 1341.88,-455.607 1340.51,-462.471"
+         style="fill:#0061d7;stroke:#0061d7;"
+         points="1326,-429.5 1336,-426 1326,-422.5 1326,-429.5"
          id="polygon193" />
     </g>
 <!-- class clojure.lang.AFunction -->    <g
@@ -501,22 +520,22 @@
       <title
          id="title196">class clojure.lang.AFunction</title>
       <ellipse
-         style="fill:none;stroke:#d70000;stroke-width:1.5;"
+         style="fill:none;stroke:#d70000;"
          cx="637"
-         cy="-96"
+         cy="-90"
          rx="48.0557"
          ry="27.9307"
          id="ellipse198" />
       <text
          text-anchor="middle"
          x="637"
-         y="-99.15"
+         y="-93.15"
          style="font-family:Arial;font-size:14.00;"
          id="text200">AFunction</text>
       <text
          text-anchor="middle"
          x="637"
-         y="-83.4"
+         y="-77.4"
          style="font-family:Arial;font-size:14.00;"
          id="text202">[M]</text>
     </g>
@@ -526,12 +545,13 @@
       <title
          id="title205">class clojure.lang.AFunction-&gt;class clojure.lang.AFn</title>
       <path
-         style="fill:none;stroke:#d70000;stroke-width:1.5;"
-         d="M643,-124C659,-192 709,-368 810,-475 824,-490 845,-501 864,-509"
-         id="path207" />
+         style="fill:none;stroke:#d70000;"
+         d="M 663.99548,-113.3008 C 795.74673,-197.22305 727.65678,-430.2459 863,-509"
+         id="path207"
+         sodipodi:nodetypes="cc" />
       <polygon
-         style="fill:#d70000;stroke:#d70000;stroke-width:1.5;"
-         points="862.44,-512.137 873,-513 865.283,-505.74 862.44,-512.137"
+         style="fill:#d70000;stroke:#d70000;"
+         points="862.415,-512.536 873,-513 865.015,-506.036 862.415,-512.536"
          id="polygon209" />
     </g>
 <!-- interface java.util.Comparator -->    <g
@@ -540,13 +560,13 @@
       <title
          id="title212">interface java.util.Comparator</title>
       <polygon
-         style="fill:none;stroke:#00d0d7;stroke-width:1.5;"
-         points="901,-119.75 830.196,-96 901,-72.25 971.804,-96 901,-119.75"
+         style="fill:none;stroke:#00d0d7;"
+         points="901,-54.75 830.196,-31 901,-7.25 971.804,-31 901,-54.75"
          id="polygon214" />
       <text
          text-anchor="middle"
          x="901"
-         y="-91.275"
+         y="-26.275"
          style="font-family:Arial;font-size:14.00;"
          id="text216">Comparator</text>
     </g>
@@ -556,12 +576,12 @@
       <title
          id="title219">class clojure.lang.AFunction-&gt;interface java.util.Comparator</title>
       <path
-         style="fill:none;stroke:#d70000;stroke-width:1.5;"
-         d="M685,-96C722,-96 775,-96 819,-96"
+         style="fill:none;stroke:#d70000;"
+         d="M682,-80C728,-70 800,-53 849,-42"
          id="path221" />
       <polygon
-         style="fill:#d70000;stroke:#d70000;stroke-width:1.5;"
-         points="819,-99.5001 829,-96 819,-92.5001 819,-99.5001"
+         style="fill:#d70000;stroke:#d70000;"
+         points="849.881,-45.3933 859,-40 848.508,-38.5292 849.881,-45.3933"
          id="polygon223" />
     </g>
 <!-- interface clojure.lang.Fn -->    <g
@@ -570,19 +590,19 @@
       <title
          id="title226">interface clojure.lang.Fn</title>
       <polygon
-         style="fill:none;stroke:#0061d7;stroke-width:1.5;"
-         points="928.24,-24.7793 928.24,-49.2207 912.283,-66.5034 889.717,-66.5034 873.76,-49.2207 873.76,-24.7793 889.717,-7.49656 912.283,-7.49656 928.24,-24.7793"
+         style="fill:none;stroke:#0061d7;"
+         points="928.24,-77.7793 928.24,-102.221 912.283,-119.503 889.717,-119.503 873.76,-102.221 873.76,-77.7793 889.717,-60.4966 912.283,-60.4966 928.24,-77.7793"
          id="polygon228" />
       <text
          text-anchor="middle"
          x="901"
-         y="-40.15"
+         y="-93.15"
          style="font-family:Arial;font-size:14.00;"
          id="text230">Fn</text>
       <text
          text-anchor="middle"
          x="901"
-         y="-24.4"
+         y="-77.4"
          style="font-family:Arial;font-size:14.00;"
          id="text232">fn?</text>
     </g>
@@ -592,39 +612,39 @@
       <title
          id="title235">class clojure.lang.AFunction-&gt;interface clojure.lang.Fn</title>
       <path
-         style="fill:none;stroke:#d70000;stroke-width:1.5;"
-         d="M682,-86C733,-75 816,-56 863,-45"
+         style="fill:none;stroke:#d70000;"
+         d="M685,-90C736,-90 816,-90 863,-90"
          id="path237" />
       <polygon
-         style="fill:#d70000;stroke:#d70000;stroke-width:1.5;"
-         points="863.881,-48.3933 873,-43 862.508,-41.5292 863.881,-48.3933"
+         style="fill:#d70000;stroke:#d70000;"
+         points="863,-93.5001 873,-90 863,-86.5001 863,-93.5001"
          id="polygon239" />
     </g>
 <!-- class clojure.lang.AMapEntry -->    <g
        id="node19"
        class="node"
-       transform="translate(129.91664,0)">
+       transform="translate(106.91878,0)">
       <title
          id="title242">class clojure.lang.AMapEntry</title>
       <ellipse
          style="fill:none;stroke:#5a00d7"
          cx="365"
-         cy="-915"
+         cy="-1083"
          rx="50.178902"
          ry="27.9307"
          id="ellipse244"
          sodipodi:cx="365"
-         sodipodi:cy="-915"
+         sodipodi:cy="-1083"
          sodipodi:rx="50.178902"
          sodipodi:ry="27.9307" />
       <text
          x="365"
-         y="-918.15002"
+         y="-1086.15"
          style="font-size:14px;text-anchor:middle;font-family:Arial"
          id="text246">AMapEntry</text>
       <text
          x="365"
-         y="-902.40002"
+         y="-1070.4"
          style="font-size:14px;text-anchor:middle;font-family:Arial"
          id="text248">[MT1SR=]</text>
     </g>
@@ -634,38 +654,38 @@
       <title
          id="title251">class clojure.lang.APersistentVector</title>
       <ellipse
-         style="fill:none;stroke:#b300d7;stroke-width:1.5;"
+         style="fill:none;stroke:#b300d7;"
          cx="637"
-         cy="-978"
+         cy="-957"
          rx="73.0553"
          ry="27.9307"
          id="ellipse253" />
       <text
          text-anchor="middle"
          x="637"
-         y="-981.15"
+         y="-960.15"
          style="font-family:Arial;font-size:14.00;"
          id="text255">APersistentVector</text>
       <text
          text-anchor="middle"
          x="637"
-         y="-965.4"
+         y="-944.4"
          style="font-family:Arial;font-size:14.00;"
          id="text257">[MT1SR=]</text>
     </g>
 <!-- class clojure.lang.AMapEntry&#45;&gt;class clojure.lang.APersistentVector -->    <g
        id="edge15"
-       class="edge"
-       transform="matrix(0.9372751,-0.3485907,0.3485907,0.9372751,367.54791,136.84402)">
+       class="edge">
       <title
          id="title260">class clojure.lang.AMapEntry-&gt;class clojure.lang.APersistentVector</title>
       <path
-         style="fill:none;stroke:#5a00d7;stroke-width:1.5;stroke-width:1"
-         d="M 522.02917,-951.72127 C 533.62668,-954.10585 550.74603,-958.08394 563.99999,-961"
-         id="path262" />
+         style="fill:none;stroke:#5a00d7;"
+         d="M 503.04241,-1061.2272 C 526.4027,-1048.6119 535.15571,-1008.4003 548.81237,-997.23521 C 562.18042,-986.30612 566,-984 574,-980"
+         id="path262"
+         sodipodi:nodetypes="czc" />
       <polygon
-         style="fill:#5a00d7;stroke:#5a00d7;stroke-width:1.5;stroke-width:1"
-         points="563.508,-964.471 574,-963 564.881,-957.607 563.508,-964.471 "
+         style="fill:#5a00d7;stroke:#5a00d7;"
+         points="575.283,-983.26 583,-976 572.44,-976.863 575.283,-983.26"
          id="polygon264" />
     </g>
 <!-- interface clojure.lang.IMapEntry -->    <g
@@ -674,29 +694,29 @@
       <title
          id="title267">interface clojure.lang.IMapEntry</title>
       <polygon
-         style="fill:none;stroke:#00d0d7;stroke-width:1.5;"
-         points="684.985,-907.471 684.985,-922.529 656.876,-933.177 617.124,-933.177 589.015,-922.529 589.015,-907.471 617.124,-896.823 656.876,-896.823 684.985,-907.471"
+         style="fill:none;stroke:#00d0d7;"
+         points="684.985,-1143.47 684.985,-1158.53 656.876,-1169.18 617.124,-1169.18 589.015,-1158.53 589.015,-1143.47 617.124,-1132.82 656.876,-1132.82 684.985,-1143.47"
          id="polygon269" />
       <text
          text-anchor="middle"
          x="637"
-         y="-910.275"
+         y="-1146.28"
          style="font-family:Arial;font-size:14.00;"
          id="text271">IMapEntry</text>
     </g>
 <!-- class clojure.lang.AMapEntry&#45;&gt;interface clojure.lang.IMapEntry -->    <g
        id="edge17"
-       class="edge"
-       transform="matrix(1.0407013,0,0,1,-23.952694,0)">
+       class="edge">
       <title
          id="title274">class clojure.lang.AMapEntry-&gt;interface clojure.lang.IMapEntry</title>
       <path
-         style="fill:none;stroke:#5a00d7;stroke-width:1.5;stroke-width:0.98025018"
-         d="M 547.05434,-915 C 555.95588,-915 568.92116,-915 578.40323,-915"
-         id="path276" />
+         style="fill:none;stroke:#5a00d7;"
+         d="M 503.82585,-1104.2735 C 531.31438,-1114.5103 554.69029,-1125.2947 586,-1138"
+         id="path276"
+         sodipodi:nodetypes="cc" />
       <polygon
-         style="fill:#5a00d7;stroke:#5a00d7;stroke-width:1.5;stroke-width:0.98025024"
-         points="578,-918.5 588,-915 578,-911.5 578,-918.5 "
+         style="fill:#5a00d7;stroke:#5a00d7;"
+         points="585.416,-1141.48 596,-1141 587.427,-1134.77 585.416,-1141.48"
          id="polygon278" />
     </g>
 <!-- class clojure.lang.APersistentVector&#45;&gt;class clojure.lang.AFn -->    <g
@@ -705,11 +725,11 @@
       <title
          id="title281">class clojure.lang.APersistentVector-&gt;class clojure.lang.AFn</title>
       <path
-         style="fill:none;stroke:#b300d7;stroke-width:1.5;"
-         d="M693,-960C705,-954 716,-946 724,-936 833,-800 695,-685 810,-554 823,-539 844,-532 862,-527"
+         style="fill:none;stroke:#b300d7;"
+         d="M688,-937C702,-929 715,-920 724,-907 821,-778 702,-674 810,-554 823,-540 844,-532 862,-527"
          id="path283" />
       <polygon
-         style="fill:#b300d7;stroke:#b300d7;stroke-width:1.5;"
+         style="fill:#b300d7;stroke:#b300d7;"
          points="862.881,-530.393 872,-525 861.508,-523.529 862.881,-530.393"
          id="polygon285" />
     </g>
@@ -719,25 +739,25 @@
       <title
          id="title288">interface clojure.lang.IPersistentVector</title>
       <polygon
-         style="fill:none;stroke:#d7009e;stroke-width:1.5;"
-         points="980.807,-1022.48 980.807,-1057.52 934.057,-1082.29 867.943,-1082.29 821.193,-1057.52 821.193,-1022.48 867.943,-997.713 934.057,-997.713 980.807,-1022.48"
+         style="fill:none;stroke:#d7009e;"
+         points="980.807,-1069.48 980.807,-1104.52 934.057,-1129.29 867.943,-1129.29 821.193,-1104.52 821.193,-1069.48 867.943,-1044.71 934.057,-1044.71 980.807,-1069.48"
          id="polygon290" />
       <text
          text-anchor="middle"
          x="901"
-         y="-1051.03"
+         y="-1098.03"
          style="font-family:Arial;font-size:14.00;"
          id="text292">IPersistentVector</text>
       <text
          text-anchor="middle"
          x="901"
-         y="-1035.28"
+         y="-1082.28"
          style="font-family:Arial;font-size:14.00;"
          id="text294">vector?</text>
       <text
          text-anchor="middle"
          x="901"
-         y="-1019.52"
+         y="-1066.53"
          style="font-family:Arial;font-size:14.00;"
          id="text296">[1R]</text>
     </g>
@@ -747,12 +767,12 @@
       <title
          id="title299">class clojure.lang.APersistentVector-&gt;interface clojure.lang.IPersistentVector</title>
       <path
-         style="fill:none;stroke:#b300d7;stroke-width:1.5;"
-         d="M700,-993C734,-1000 776,-1010 813,-1020"
+         style="fill:none;stroke:#b300d7;"
+         d="M682,-979C723,-1000 786,-1030 834,-1054"
          id="path301" />
       <polygon
-         style="fill:#b300d7;stroke:#b300d7;stroke-width:1.5;"
-         points="812.508,-1023.47 823,-1022 813.881,-1016.61 812.508,-1023.47"
+         style="fill:#b300d7;stroke:#b300d7;"
+         points="832.44,-1057.14 843,-1058 835.283,-1050.74 832.44,-1057.14"
          id="polygon303" />
     </g>
 <!-- interface java.util.List -->    <g
@@ -761,19 +781,19 @@
       <title
          id="title306">interface java.util.List</title>
       <polygon
-         style="fill:none;stroke:#00d764;stroke-width:1.5;"
-         points="901,-1167.21 863,-1128 901,-1088.79 939,-1128 901,-1167.21"
+         style="fill:none;stroke:#00d764;"
+         points="901,-1023.21 863,-984 901,-944.793 939,-984 901,-1023.21"
          id="polygon308" />
       <text
          text-anchor="middle"
          x="901"
-         y="-1131.15"
+         y="-987.15"
          style="font-family:Arial;font-size:14.00;"
          id="text310">List</text>
       <text
          text-anchor="middle"
          x="901"
-         y="-1115.4"
+         y="-971.4"
          style="font-family:Arial;font-size:14.00;"
          id="text312">[T]</text>
     </g>
@@ -783,12 +803,12 @@
       <title
          id="title315">class clojure.lang.APersistentVector-&gt;interface java.util.List</title>
       <path
-         style="fill:none;stroke:#b300d7;stroke-width:1.5;"
-         d="M674,-1002C709,-1025 762,-1058 810,-1085 828,-1094 848,-1104 865,-1112"
+         style="fill:none;stroke:#b300d7;"
+         d="M708,-964C755,-969 815,-975 856,-979"
          id="path317" />
       <polygon
-         style="fill:#b300d7;stroke:#b300d7;stroke-width:1.5;"
-         points="863.44,-1115.14 874,-1116 866.283,-1108.74 863.44,-1115.14"
+         style="fill:#b300d7;stroke:#b300d7;"
+         points="855.701,-982.488 866,-980 856.398,-975.522 855.701,-982.488"
          id="polygon319" />
     </g>
 <!-- interface java.util.RandomAccess -->    <g
@@ -797,13 +817,13 @@
       <title
          id="title322">interface java.util.RandomAccess</title>
       <polygon
-         style="fill:none;stroke:#d7009e;stroke-width:1.5;"
-         points="901,-991.75 811.105,-968 901,-944.25 990.895,-968 901,-991.75"
+         style="fill:none;stroke:#d7009e;"
+         points="901,-938.75 811.105,-915 901,-891.25 990.895,-915 901,-938.75"
          id="polygon324" />
       <text
          text-anchor="middle"
          x="901"
-         y="-963.275"
+         y="-910.275"
          style="font-family:Arial;font-size:14.00;"
          id="text326">RandomAccess</text>
     </g>
@@ -813,42 +833,42 @@
       <title
          id="title329">class clojure.lang.APersistentVector-&gt;interface java.util.RandomAccess</title>
       <path
-         style="fill:none;stroke:#b300d7;stroke-width:1.5;"
-         d="M710,-975C742,-974 778,-972 811,-971"
+         style="fill:none;stroke:#b300d7;"
+         d="M705,-946C745,-940 795,-931 835,-925"
          id="path331" />
       <polygon
-         style="fill:#b300d7;stroke:#b300d7;stroke-width:1.5;"
-         points="811,-974.5 821,-971 811,-967.5 811,-974.5"
+         style="fill:#b300d7;stroke:#b300d7;"
+         points="835.398,-928.478 845,-924 834.701,-921.512 835.398,-928.478"
          id="polygon333" />
     </g>
 <!-- interface java.util.Map$Entry -->    <g
-       id="node83"
+       id="node81"
        class="node">
       <title
          id="title336">interface java.util.Map$Entry</title>
       <polygon
-         style="fill:none;stroke:#d7009e;stroke-width:1.5;"
-         points="901,-938.75 859.926,-915 901,-891.25 942.074,-915 901,-938.75"
+         style="fill:none;stroke:#d7009e;"
+         points="901,-1264.75 859.926,-1241 901,-1217.25 942.074,-1241 901,-1264.75"
          id="polygon338" />
       <text
          text-anchor="middle"
          x="901"
-         y="-910.275"
+         y="-1236.28"
          style="font-family:Arial;font-size:14.00;"
          id="text340">Entry</text>
     </g>
 <!-- interface clojure.lang.IMapEntry&#45;&gt;interface java.util.Map$Entry -->    <g
-       id="edge83"
+       id="edge79"
        class="edge">
       <title
          id="title343">interface clojure.lang.IMapEntry-&gt;interface java.util.Map$Entry</title>
       <path
-         style="fill:none;stroke:#00d0d7;stroke-width:1.5;"
-         d="M686,-915C733,-915 803,-915 850,-915"
+         style="fill:none;stroke:#00d0d7;"
+         d="M671,-1164C706,-1177 762,-1198 810,-1214 827,-1220 847,-1226 863,-1230"
          id="path345" />
       <polygon
-         style="fill:#00d0d7;stroke:#00d0d7;stroke-width:1.5;"
-         points="850,-918.5 860,-915 850,-911.5 850,-918.5"
+         style="fill:#00d0d7;stroke:#00d0d7;"
+         points="862.416,-1233.48 873,-1233 864.427,-1226.77 862.416,-1233.48"
          id="polygon347" />
     </g>
 <!-- class clojure.lang.APersistentMap -->    <g
@@ -857,22 +877,22 @@
       <title
          id="title350">class clojure.lang.APersistentMap</title>
       <ellipse
-         style="fill:none;stroke:#b300d7;stroke-width:1.5;"
+         style="fill:none;stroke:#b300d7;"
          cx="637"
-         cy="-599"
+         cy="-788"
          rx="65.9312"
          ry="27.9307"
          id="ellipse352" />
       <text
          text-anchor="middle"
          x="637"
-         y="-602.15"
+         y="-791.15"
          style="font-family:Arial;font-size:14.00;"
          id="text354">APersistentMap</text>
       <text
          text-anchor="middle"
          x="637"
-         y="-586.4"
+         y="-775.4"
          style="font-family:Arial;font-size:14.00;"
          id="text356">[MT1]</text>
     </g>
@@ -882,12 +902,12 @@
       <title
          id="title359">class clojure.lang.APersistentMap-&gt;class clojure.lang.AFn</title>
       <path
-         style="fill:none;stroke:#b300d7;stroke-width:1.5;"
-         d="M692,-583C743,-568 818,-546 862,-533"
+         style="fill:none;stroke:#b300d7;"
+         d="M665,-763C683,-745 706,-721 724,-697 770,-639 753,-601 810,-554 825,-542 845,-535 862,-530"
          id="path361" />
       <polygon
-         style="fill:#b300d7;stroke:#b300d7;stroke-width:1.5;"
-         points="863.427,-536.226 872,-530 861.416,-529.521 863.427,-536.226"
+         style="fill:#b300d7;stroke:#b300d7;"
+         points="863.427,-533.226 872,-527 861.416,-526.521 863.427,-533.226"
          id="polygon363" />
     </g>
 <!-- interface clojure.lang.IPersistentMap -->    <g
@@ -896,25 +916,25 @@
       <title
          id="title366">interface clojure.lang.IPersistentMap</title>
       <polygon
-         style="fill:none;stroke:#d70000;stroke-width:1.5;"
-         points="973.093,-581.484 973.093,-616.516 930.862,-641.287 871.138,-641.287 828.907,-616.516 828.907,-581.484 871.138,-556.713 930.862,-556.713 973.093,-581.484"
+         style="fill:none;stroke:#d70000;"
+         points="973.093,-772.484 973.093,-807.516 930.862,-832.287 871.138,-832.287 828.907,-807.516 828.907,-772.484 871.138,-747.713 930.862,-747.713 973.093,-772.484"
          id="polygon368" />
       <text
          text-anchor="middle"
          x="901"
-         y="-610.025"
+         y="-801.025"
          style="font-family:Arial;font-size:14.00;"
          id="text370">IPersistentMap</text>
       <text
          text-anchor="middle"
          x="901"
-         y="-594.275"
+         y="-785.275"
          style="font-family:Arial;font-size:14.00;"
          id="text372">map?</text>
       <text
          text-anchor="middle"
          x="901"
-         y="-578.525"
+         y="-769.525"
          style="font-family:Arial;font-size:14.00;"
          id="text374">[T1]</text>
     </g>
@@ -924,12 +944,12 @@
       <title
          id="title377">class clojure.lang.APersistentMap-&gt;interface clojure.lang.IPersistentMap</title>
       <path
-         style="fill:none;stroke:#b300d7;stroke-width:1.5;"
-         d="M704,-599C739,-599 782,-599 818,-599"
+         style="fill:none;stroke:#b300d7;"
+         d="M704,-789C739,-789 782,-789 818,-789"
          id="path379" />
       <polygon
-         style="fill:#b300d7;stroke:#b300d7;stroke-width:1.5;"
-         points="818,-602.5 828,-599 818,-595.5 818,-602.5"
+         style="fill:#b300d7;stroke:#b300d7;"
+         points="818,-792.5 828,-789 818,-785.5 818,-792.5"
          id="polygon381" />
     </g>
 <!-- interface java.util.Map -->    <g
@@ -938,13 +958,13 @@
       <title
          id="title384">interface java.util.Map</title>
       <polygon
-         style="fill:none;stroke:#00d764;stroke-width:1.5;"
-         points="901,-694.75 864.136,-671 901,-647.25 937.864,-671 901,-694.75"
+         style="fill:none;stroke:#00d764;"
+         points="901,-885.75 864.136,-862 901,-838.25 937.864,-862 901,-885.75"
          id="polygon386" />
       <text
          text-anchor="middle"
          x="901"
-         y="-666.275"
+         y="-857.275"
          style="font-family:Arial;font-size:14.00;"
          id="text388">Map</text>
     </g>
@@ -954,12 +974,12 @@
       <title
          id="title391">class clojure.lang.APersistentMap-&gt;interface java.util.Map</title>
       <path
-         style="fill:none;stroke:#b300d7;stroke-width:1.5;"
-         d="M693,-614C745,-628 821,-649 865,-661"
+         style="fill:none;stroke:#b300d7;"
+         d="M693,-804C745,-818 821,-840 865,-852"
          id="path393" />
       <polygon
-         style="fill:#b300d7;stroke:#b300d7;stroke-width:1.5;"
-         points="864.416,-664.479 875,-664 866.427,-657.774 864.416,-664.479"
+         style="fill:#b300d7;stroke:#b300d7;"
+         points="864.416,-855.479 875,-855 866.427,-848.774 864.416,-855.479"
          id="polygon395" />
     </g>
 <!-- interface clojure.lang.Associative -->    <g
@@ -968,34 +988,34 @@
       <title
          id="title398">interface clojure.lang.Associative</title>
       <polygon
-         style="fill:none;stroke:#76d700;stroke-width:1.5;"
-         points="1208.13,-939.477 1208.13,-964.523 1172.91,-982.232 1123.09,-982.232 1087.87,-964.523 1087.87,-939.477 1123.09,-921.768 1172.91,-921.768 1208.13,-939.477"
+         style="fill:none;stroke:#76d700;"
+         points="1208.13,-1019.48 1208.13,-1044.52 1172.91,-1062.23 1123.09,-1062.23 1087.87,-1044.52 1087.87,-1019.48 1123.09,-1001.77 1172.91,-1001.77 1208.13,-1019.48"
          id="polygon400" />
       <text
          text-anchor="middle"
          x="1148"
-         y="-955.15"
+         y="-1035.15"
          style="font-family:Arial;font-size:14.00;"
          id="text402">Associative</text>
       <text
          text-anchor="middle"
          x="1148"
-         y="-939.4"
+         y="-1019.4"
          style="font-family:Arial;font-size:14.00;"
          id="text404">associative?</text>
     </g>
 <!-- interface clojure.lang.IPersistentMap&#45;&gt;interface clojure.lang.Associative -->    <g
-       id="edge89"
+       id="edge87"
        class="edge">
       <title
          id="title407">interface clojure.lang.IPersistentMap-&gt;interface clojure.lang.Associative</title>
       <path
-         style="fill:none;stroke:#d70000;stroke-width:1.5;"
-         d="M962,-623C973,-629 983,-636 992,-645 1071,-724 1117,-849 1137,-912"
+         style="fill:none;stroke:#d70000;"
+         d="M960,-815C971,-821 982,-828 992,-836 1048,-882 1097,-950 1125,-993"
          id="path409" />
       <polygon
-         style="fill:#d70000;stroke:#d70000;stroke-width:1.5;"
-         points="1133.77,-913.427 1140,-922 1140.48,-911.416 1133.77,-913.427"
+         style="fill:#d70000;stroke:#d70000;"
+         points="1122.08,-994.958 1130,-1002 1128.2,-991.559 1122.08,-994.958"
          id="polygon411" />
     </g>
 <!-- class clojure.lang.APersistentSet -->    <g
@@ -1004,22 +1024,22 @@
       <title
          id="title414">class clojure.lang.APersistentSet</title>
       <ellipse
-         style="fill:none;stroke:#5a00d7;stroke-width:1.5;"
+         style="fill:none;stroke:#5a00d7;"
          cx="637"
-         cy="-796"
+         cy="-599"
          rx="63.8057"
          ry="27.9307"
          id="ellipse416" />
       <text
          text-anchor="middle"
          x="637"
-         y="-799.15"
+         y="-602.15"
          style="font-family:Arial;font-size:14.00;"
          id="text418">APersistentSet</text>
       <text
          text-anchor="middle"
          x="637"
-         y="-783.4"
+         y="-586.4"
          style="font-family:Arial;font-size:14.00;"
          id="text420">[MT1]</text>
     </g>
@@ -1029,12 +1049,12 @@
       <title
          id="title423">class clojure.lang.APersistentSet-&gt;class clojure.lang.AFn</title>
       <path
-         style="fill:none;stroke:#5a00d7;stroke-width:1.5;"
-         d="M694,-783C705,-778 716,-772 724,-764 797,-694 737,-624 810,-554 824,-541 844,-533 862,-528"
+         style="fill:none;stroke:#5a00d7;"
+         d="M690,-583C742,-568 817,-546 863,-533"
          id="path425" />
       <polygon
-         style="fill:#5a00d7;stroke:#5a00d7;stroke-width:1.5;"
-         points="862.881,-531.393 872,-526 861.508,-524.529 862.881,-531.393"
+         style="fill:#5a00d7;stroke:#5a00d7;"
+         points="864.427,-536.226 873,-530 862.416,-529.521 864.427,-536.226"
          id="polygon427" />
     </g>
 <!-- interface clojure.lang.IPersistentSet -->    <g
@@ -1043,25 +1063,25 @@
       <title
          id="title430">interface clojure.lang.IPersistentSet</title>
       <polygon
-         style="fill:none;stroke:#d7009e;stroke-width:1.5;"
-         points="970.752,-725.484 970.752,-760.516 929.892,-785.287 872.108,-785.287 831.248,-760.516 831.248,-725.484 872.108,-700.713 929.892,-700.713 970.752,-725.484"
+         style="fill:none;stroke:#d7009e;"
+         points="970.752,-581.484 970.752,-616.516 929.892,-641.287 872.108,-641.287 831.248,-616.516 831.248,-581.484 872.108,-556.713 929.892,-556.713 970.752,-581.484"
          id="polygon432" />
       <text
          text-anchor="middle"
          x="901"
-         y="-754.025"
+         y="-610.025"
          style="font-family:Arial;font-size:14.00;"
          id="text434">IPersistentSet</text>
       <text
          text-anchor="middle"
          x="901"
-         y="-738.275"
+         y="-594.275"
          style="font-family:Arial;font-size:14.00;"
          id="text436">set?</text>
       <text
          text-anchor="middle"
          x="901"
-         y="-722.525"
+         y="-578.525"
          style="font-family:Arial;font-size:14.00;"
          id="text438">[1]</text>
     </g>
@@ -1071,12 +1091,12 @@
       <title
          id="title441">class clojure.lang.APersistentSet-&gt;interface clojure.lang.IPersistentSet</title>
       <path
-         style="fill:none;stroke:#5a00d7;stroke-width:1.5;"
-         d="M695,-784C732,-777 781,-768 821,-759"
+         style="fill:none;stroke:#5a00d7;"
+         d="M701,-599C737,-599 783,-599 821,-599"
          id="path443" />
       <polygon
-         style="fill:#5a00d7;stroke:#5a00d7;stroke-width:1.5;"
-         points="821.881,-762.393 831,-757 820.508,-755.529 821.881,-762.393"
+         style="fill:#5a00d7;stroke:#5a00d7;"
+         points="821,-602.5 831,-599 821,-595.5 821,-602.5"
          id="polygon445" />
     </g>
 <!-- interface java.util.Collection -->    <g
@@ -1085,19 +1105,19 @@
       <title
          id="title448">interface java.util.Collection</title>
       <polygon
-         style="fill:none;stroke:#00d764;stroke-width:1.5;"
-         points="1148,-1067.5 1081.07,-1028 1148,-988.5 1214.93,-1028 1148,-1067.5"
+         style="fill:none;stroke:#00d764;"
+         points="1148,-918.5 1081.07,-879 1148,-839.5 1214.93,-879 1148,-918.5"
          id="polygon450" />
       <text
          text-anchor="middle"
          x="1148"
-         y="-1031.15"
+         y="-882.15"
          style="font-family:Arial;font-size:14.00;"
          id="text452">Collection</text>
       <text
          text-anchor="middle"
          x="1148"
-         y="-1015.4"
+         y="-866.4"
          style="font-family:Arial;font-size:14.00;"
          id="text454">[T]</text>
     </g>
@@ -1107,12 +1127,12 @@
       <title
          id="title457">class clojure.lang.APersistentSet-&gt;interface java.util.Collection</title>
       <path
-         style="fill:none;stroke:#5a00d7;stroke-width:1.5;"
-         d="M701,-794C797,-791 968,-789 992,-804 1067,-853 1019,-918 1078,-985 1085,-993 1093,-999 1102,-1005"
+         style="fill:none;stroke:#5a00d7;"
+         d="M690,-615C724,-625 769,-637 810,-644 851,-651 957,-640 992,-660 1063,-700 1109,-786 1132,-838"
          id="path459" />
       <polygon
-         style="fill:#5a00d7;stroke:#5a00d7;stroke-width:1.5;"
-         points="1100.56,-1008.2 1111,-1010 1103.96,-1002.08 1100.56,-1008.2"
+         style="fill:#5a00d7;stroke:#5a00d7;"
+         points="1128.74,-839.283 1136,-847 1135.14,-836.44 1128.74,-839.283"
          id="polygon461" />
     </g>
 <!-- interface java.util.Set -->    <g
@@ -1121,19 +1141,19 @@
       <title
          id="title464">interface java.util.Set</title>
       <polygon
-         style="fill:none;stroke:#00d0d7;stroke-width:1.5;"
-         points="901,-884.987 863.25,-846 901,-807.013 938.75,-846 901,-884.987"
+         style="fill:none;stroke:#00d0d7;"
+         points="901,-740.987 863.25,-702 901,-663.013 938.75,-702 901,-740.987"
          id="polygon466" />
       <text
          text-anchor="middle"
          x="901"
-         y="-849.15"
+         y="-705.15"
          style="font-family:Arial;font-size:14.00;"
          id="text468">Set</text>
       <text
          text-anchor="middle"
          x="901"
-         y="-833.4"
+         y="-689.4"
          style="font-family:Arial;font-size:14.00;"
          id="text470">[T]</text>
     </g>
@@ -1143,12 +1163,12 @@
       <title
          id="title473">class clojure.lang.APersistentSet-&gt;interface java.util.Set</title>
       <path
-         style="fill:none;stroke:#5a00d7;stroke-width:1.5;"
-         d="M696,-807C745,-816 815,-830 859,-838"
+         style="fill:none;stroke:#5a00d7;"
+         d="M686,-617C699,-622 712,-627 724,-631 773,-650 829,-673 864,-687"
          id="path475" />
       <polygon
-         style="fill:#5a00d7;stroke:#5a00d7;stroke-width:1.5;"
-         points="858.508,-841.471 869,-840 859.881,-834.607 858.508,-841.471"
+         style="fill:#5a00d7;stroke:#5a00d7;"
+         points="863.415,-690.536 874,-691 866.015,-684.036 863.415,-690.536"
          id="polygon477" />
     </g>
 <!-- interface clojure.lang.IPersistentCollection -->    <g
@@ -1157,34 +1177,34 @@
       <title
          id="title480">interface clojure.lang.IPersistentCollection</title>
       <polygon
-         style="fill:none;stroke:#d7009e;stroke-width:1.5;"
-         points="1481.05,-1009.48 1481.05,-1034.52 1429.47,-1052.23 1356.53,-1052.23 1304.95,-1034.52 1304.95,-1009.48 1356.53,-991.768 1429.47,-991.768 1481.05,-1009.48"
+         style="fill:none;stroke:#d7009e;"
+         points="1481.05,-1039.48 1481.05,-1064.52 1429.47,-1082.23 1356.53,-1082.23 1304.95,-1064.52 1304.95,-1039.48 1356.53,-1021.77 1429.47,-1021.77 1481.05,-1039.48"
          id="polygon482" />
       <text
          text-anchor="middle"
          x="1393"
-         y="-1025.15"
+         y="-1055.15"
          style="font-family:Arial;font-size:14.00;"
          id="text484">IPersistentCollection</text>
       <text
          text-anchor="middle"
          x="1393"
-         y="-1009.4"
+         y="-1039.4"
          style="font-family:Arial;font-size:14.00;"
          id="text486">coll?</text>
     </g>
 <!-- interface clojure.lang.IPersistentSet&#45;&gt;interface clojure.lang.IPersistentCollection -->    <g
-       id="edge91"
+       id="edge89"
        class="edge">
       <title
          id="title489">interface clojure.lang.IPersistentSet-&gt;interface clojure.lang.IPersistentCollection</title>
       <path
-         style="fill:none;stroke:#d7009e;stroke-width:1.5;"
-         d="M953,-771C966,-778 979,-785 992,-792 1093,-848 1119,-862 1218,-919 1259,-942 1305,-968 1339,-989"
+         style="fill:none;stroke:#d7009e;"
+         d="M957,-625C969,-631 981,-638 992,-645 1102,-718 1126,-743 1218,-837 1275,-895 1333,-969 1365,-1014"
          id="path491" />
       <polygon
-         style="fill:#d7009e;stroke:#d7009e;stroke-width:1.5;"
-         points="1337.74,-992.365 1348,-995 1341.62,-986.541 1337.74,-992.365"
+         style="fill:#d7009e;stroke:#d7009e;"
+         points="1362.2,-1016.1 1371,-1022 1367.8,-1011.9 1362.2,-1016.1"
          id="polygon493" />
     </g>
 <!-- interface java.util.Set&#45;&gt;interface java.util.Collection -->    <g
@@ -1193,92 +1213,92 @@
       <title
          id="title496">interface java.util.Set-&gt;interface java.util.Collection</title>
       <path
-         style="fill:none;stroke:#00d0d7;stroke-width:1.5;"
-         d="M929,-856C948,-864 973,-875 992,-889 1038,-923 1035,-948 1078,-985 1086,-992 1096,-998 1104,-1004"
+         style="fill:none;stroke:#00d0d7;"
+         d="M928,-713C947,-721 972,-732 992,-745 1039,-775 1086,-818 1116,-847"
          id="path498" />
       <polygon
-         style="fill:#00d0d7;stroke:#00d0d7;stroke-width:1.5;"
-         points="1102.56,-1007.2 1113,-1009 1105.96,-1001.08 1102.56,-1007.2"
+         style="fill:#00d0d7;stroke:#00d0d7;"
+         points="1113.45,-849.404 1123,-854 1118.4,-844.454 1113.45,-849.404"
          id="polygon500" />
     </g>
 <!-- interface clojure.lang.IPersistentVector&#45;&gt;interface clojure.lang.Associative -->    <g
-       id="edge95"
+       id="edge93"
        class="edge">
       <title
          id="title503">interface clojure.lang.IPersistentVector-&gt;interface clojure.lang.Associative</title>
       <path
-         style="fill:none;stroke:#d7009e;stroke-width:1.5;"
-         d="M968,-1016C1005,-1002 1052,-986 1088,-973"
+         style="fill:none;stroke:#d7009e;"
+         d="M981,-1069C1013,-1062 1048,-1054 1079,-1047"
          id="path505" />
       <polygon
-         style="fill:#d7009e;stroke:#d7009e;stroke-width:1.5;"
-         points="1089.43,-976.226 1098,-970 1087.42,-969.521 1089.43,-976.226"
+         style="fill:#d7009e;stroke:#d7009e;"
+         points="1079.88,-1050.39 1089,-1045 1078.51,-1043.53 1079.88,-1050.39"
          id="polygon507" />
     </g>
 <!-- interface clojure.lang.Sequential -->    <g
-       id="node96"
+       id="node94"
        class="node">
       <title
          id="title510">interface clojure.lang.Sequential</title>
       <polygon
-         style="fill:none;stroke:#d78100;stroke-width:1.5;"
-         points="1204.89,-1187.48 1204.89,-1212.52 1171.56,-1230.23 1124.44,-1230.23 1091.11,-1212.52 1091.11,-1187.48 1124.44,-1169.77 1171.56,-1169.77 1204.89,-1187.48"
+         style="fill:none;stroke:#d78100;"
+         points="1204.89,-1190.48 1204.89,-1215.52 1171.56,-1233.23 1124.44,-1233.23 1091.11,-1215.52 1091.11,-1190.48 1124.44,-1172.77 1171.56,-1172.77 1204.89,-1190.48"
          id="polygon512" />
       <text
          text-anchor="middle"
          x="1148"
-         y="-1203.15"
+         y="-1206.15"
          style="font-family:Arial;font-size:14.00;"
          id="text514">Sequential</text>
       <text
          text-anchor="middle"
          x="1148"
-         y="-1187.4"
+         y="-1190.4"
          style="font-family:Arial;font-size:14.00;"
          id="text516">sequential?</text>
     </g>
 <!-- interface clojure.lang.IPersistentVector&#45;&gt;interface clojure.lang.Sequential -->    <g
-       id="edge97"
+       id="edge95"
        class="edge">
       <title
          id="title519">interface clojure.lang.IPersistentVector-&gt;interface clojure.lang.Sequential</title>
       <path
-         style="fill:none;stroke:#d7009e;stroke-width:1.5;"
-         d="M961,-1068C971,-1074 982,-1080 992,-1086 1033,-1111 1077,-1144 1108,-1168"
+         style="fill:none;stroke:#d7009e;"
+         d="M961,-1115C1002,-1134 1056,-1160 1096,-1179"
          id="path521" />
       <polygon
-         style="fill:#d7009e;stroke:#d7009e;stroke-width:1.5;"
-         points="1105.9,-1170.8 1116,-1174 1110.1,-1165.2 1105.9,-1170.8"
+         style="fill:#d7009e;stroke:#d7009e;"
+         points="1094.44,-1182.14 1105,-1183 1097.28,-1175.74 1094.44,-1182.14"
          id="polygon523" />
     </g>
 <!-- interface clojure.lang.IPersistentStack -->    <g
-       id="node98"
+       id="node96"
        class="node">
       <title
          id="title526">interface clojure.lang.IPersistentStack</title>
       <polygon
-         style="fill:none;stroke:#00d764;stroke-width:1.5;"
-         points="1218,-1084.47 1218,-1099.53 1176.99,-1110.18 1119.01,-1110.18 1078,-1099.53 1078,-1084.47 1119.01,-1073.82 1176.99,-1073.82 1218,-1084.47"
+         style="fill:none;stroke:#00d764;"
+         points="1218,-1079.47 1218,-1094.53 1176.99,-1105.18 1119.01,-1105.18 1078,-1094.53 1078,-1079.47 1119.01,-1068.82 1176.99,-1068.82 1218,-1079.47"
          id="polygon528" />
       <text
          text-anchor="middle"
          x="1148"
-         y="-1087.28"
+         y="-1082.28"
          style="font-family:Arial;font-size:14.00;"
          id="text530">IPersistentStack</text>
     </g>
 <!-- interface clojure.lang.IPersistentVector&#45;&gt;interface clojure.lang.IPersistentStack -->    <g
-       id="edge99"
+       id="edge97"
        class="edge">
       <title
          id="title533">interface clojure.lang.IPersistentVector-&gt;interface clojure.lang.IPersistentStack</title>
       <path
-         style="fill:none;stroke:#d7009e;stroke-width:1.5;"
-         d="M982,-1057C1014,-1064 1052,-1071 1083,-1078"
+         style="fill:none;stroke:#d7009e;"
+         d="M982,-1087C1010,-1087 1040,-1087 1068,-1087"
          id="path535" />
       <polygon
-         style="fill:#d7009e;stroke:#d7009e;stroke-width:1.5;"
-         points="1082.51,-1081.47 1093,-1080 1083.88,-1074.61 1082.51,-1081.47"
+         style="fill:#d7009e;stroke:#d7009e;"
+         points="1068,-1090.5 1078,-1087 1068,-1083.5 1068,-1090.5"
          id="polygon537" />
     </g>
 <!-- interface java.util.List&#45;&gt;interface java.util.Collection -->    <g
@@ -1287,12 +1307,12 @@
       <title
          id="title540">interface java.util.List-&gt;interface java.util.Collection</title>
       <path
-         style="fill:none;stroke:#00d764;stroke-width:1.5;"
-         d="M929,-1117C969,-1100 1048,-1069 1099,-1048"
+         style="fill:none;stroke:#00d764;"
+         d="M928,-972C969,-955 1048,-921 1100,-900"
          id="path542" />
       <polygon
-         style="fill:#00d764;stroke:#00d764;stroke-width:1.5;"
-         points="1100.28,-1051.26 1108,-1044 1097.44,-1044.86 1100.28,-1051.26"
+         style="fill:#00d764;stroke:#00d764;"
+         points="1101.28,-903.26 1109,-896 1098.44,-896.863 1101.28,-903.26"
          id="polygon544" />
     </g>
 <!-- class clojure.lang.ARef -->    <g
@@ -1301,22 +1321,22 @@
       <title
          id="title547">class clojure.lang.ARef</title>
       <ellipse
-         style="fill:none;stroke:#00d0d7;stroke-width:1.5;"
+         style="fill:none;stroke:#00d0d7;"
          cx="1148"
-         cy="-268"
+         cy="-262"
          rx="32.1779"
          ry="27.9307"
          id="ellipse549" />
       <text
          text-anchor="middle"
          x="1148"
-         y="-271.15"
+         y="-265.15"
          style="font-family:Arial;font-size:14.00;"
          id="text551">ARef</text>
       <text
          text-anchor="middle"
          x="1148"
-         y="-255.4"
+         y="-249.4"
          style="font-family:Arial;font-size:14.00;"
          id="text553">[M]</text>
     </g>
@@ -1326,22 +1346,22 @@
       <title
          id="title556">class clojure.lang.AReference</title>
       <ellipse
-         style="fill:none;stroke:#d70000;stroke-width:1.5;"
+         style="fill:none;stroke:#d70000;"
          cx="1393"
-         cy="-334"
+         cy="-362"
          rx="54.8057"
          ry="27.9307"
          id="ellipse558" />
       <text
          text-anchor="middle"
          x="1393"
-         y="-337.15"
+         y="-365.15"
          style="font-family:Arial;font-size:14.00;"
          id="text560">AReference</text>
       <text
          text-anchor="middle"
          x="1393"
-         y="-321.4"
+         y="-349.4"
          style="font-family:Arial;font-size:14.00;"
          id="text562">[M]</text>
     </g>
@@ -1351,12 +1371,12 @@
       <title
          id="title565">class clojure.lang.ARef-&gt;class clojure.lang.AReference</title>
       <path
-         style="fill:none;stroke:#00d0d7;stroke-width:1.5;"
-         d="M1179,-276C1218,-286 1286,-304 1334,-318"
+         style="fill:none;stroke:#00d0d7;"
+         d="M1177,-275C1208,-290 1259,-313 1304,-330 1315,-335 1326,-339 1337,-343"
          id="path567" />
       <polygon
-         style="fill:#00d0d7;stroke:#00d0d7;stroke-width:1.5;"
-         points="1333.42,-321.479 1344,-321 1335.43,-314.774 1333.42,-321.479"
+         style="fill:#00d0d7;stroke:#00d0d7;"
+         points="1336.42,-346.479 1347,-346 1338.43,-339.774 1336.42,-346.479"
          id="polygon569" />
     </g>
 <!-- interface clojure.lang.IRef -->    <g
@@ -1365,13 +1385,13 @@
       <title
          id="title572">interface clojure.lang.IRef</title>
       <polygon
-         style="fill:none;stroke:#b300d7;stroke-width:1.5;"
-         points="1422,-260.471 1422,-275.529 1405.01,-286.177 1380.99,-286.177 1364,-275.529 1364,-260.471 1380.99,-249.823 1405.01,-249.823 1422,-260.471"
+         style="fill:none;stroke:#b300d7;"
+         points="1422,-238.471 1422,-253.529 1405.01,-264.177 1380.99,-264.177 1364,-253.529 1364,-238.471 1380.99,-227.823 1405.01,-227.823 1422,-238.471"
          id="polygon574" />
       <text
          text-anchor="middle"
          x="1393"
-         y="-263.275"
+         y="-241.275"
          style="font-family:Arial;font-size:14.00;"
          id="text576">IRef</text>
     </g>
@@ -1381,102 +1401,36 @@
       <title
          id="title579">class clojure.lang.ARef-&gt;interface clojure.lang.IRef</title>
       <path
-         style="fill:none;stroke:#00d0d7;stroke-width:1.5;"
-         d="M1181,-268C1226,-268 1306,-268 1354,-268"
+         style="fill:none;stroke:#00d0d7;"
+         d="M1181,-260C1226,-257 1306,-252 1354,-249"
          id="path581" />
       <polygon
-         style="fill:#00d0d7;stroke:#00d0d7;stroke-width:1.5;"
-         points="1354,-271.5 1364,-268 1354,-264.5 1354,-271.5"
+         style="fill:#00d0d7;stroke:#00d0d7;"
+         points="1354.4,-252.478 1364,-248 1353.7,-245.512 1354.4,-252.478"
          id="polygon583" />
     </g>
-<!-- interface clojure.lang.IReference -->    <g
-       id="node51"
-       class="node">
-      <title
-         id="title586">interface clojure.lang.IReference</title>
-      <polygon
-         style="fill:none;stroke:#d78100;stroke-width:1.5;"
-         points="1680.98,-321.477 1680.98,-346.523 1648.19,-364.232 1601.81,-364.232 1569.02,-346.523 1569.02,-321.477 1601.81,-303.768 1648.19,-303.768 1680.98,-321.477"
-         id="polygon588" />
-      <text
-         text-anchor="middle"
-         x="1625"
-         y="-337.15"
-         style="font-family:Arial;font-size:14.00;"
-         id="text590">IReference</text>
-      <text
-         text-anchor="middle"
-         x="1625"
-         y="-321.4"
-         style="font-family:Arial;font-size:14.00;"
-         id="text592">[M]</text>
-    </g>
-<!-- class clojure.lang.AReference&#45;&gt;interface clojure.lang.IReference -->    <g
-       id="edge45"
-       class="edge">
-      <title
-         id="title595">class clojure.lang.AReference-&gt;interface clojure.lang.IReference</title>
-      <path
-         style="fill:none;stroke:#d70000;stroke-width:1.5;"
-         d="M1448,-334C1481,-334 1523,-334 1558,-334"
-         id="path597" />
-      <polygon
-         style="fill:#d70000;stroke:#d70000;stroke-width:1.5;"
-         points="1558,-337.5 1568,-334 1558,-330.5 1558,-337.5"
-         id="polygon599" />
-    </g>
-<!-- interface clojure.lang.IDeref -->    <g
-       id="node82"
-       class="node">
-      <title
-         id="title602">interface clojure.lang.IDeref</title>
-      <polygon
-         style="fill:none;stroke:#00d764;stroke-width:1.5;"
-         points="1660.9,-234.471 1660.9,-249.529 1639.87,-260.177 1610.13,-260.177 1589.1,-249.529 1589.1,-234.471 1610.13,-223.823 1639.87,-223.823 1660.9,-234.471"
-         id="polygon604" />
-      <text
-         text-anchor="middle"
-         x="1625"
-         y="-237.275"
-         style="font-family:Arial;font-size:14.00;"
-         id="text606">IDeref</text>
-    </g>
-<!-- interface clojure.lang.IRef&#45;&gt;interface clojure.lang.IDeref -->    <g
-       id="edge101"
-       class="edge">
-      <title
-         id="title609">interface clojure.lang.IRef-&gt;interface clojure.lang.IDeref</title>
-      <path
-         style="fill:none;stroke:#b300d7;stroke-width:1.5;"
-         d="M1422,-265C1462,-260 1532,-252 1579,-247"
-         id="path611" />
-      <polygon
-         style="fill:#b300d7;stroke:#b300d7;stroke-width:1.5;"
-         points="1579.4,-250.478 1589,-246 1578.7,-243.512 1579.4,-250.478"
-         id="polygon613" />
-    </g>
-<!-- class clojure.lang.ASeq -->    <g
+<!-- interface clojure.lang.IReference --><!-- class clojure.lang.AReference&#45;&gt;interface clojure.lang.IReference --><!-- interface clojure.lang.IDeref --><!-- interface clojure.lang.IRef&#45;&gt;interface clojure.lang.IDeref --><!-- class clojure.lang.ASeq -->    <g
        id="node52"
        class="node">
       <title
          id="title616">class clojure.lang.ASeq</title>
       <ellipse
-         style="fill:none;stroke:#00d0d7;stroke-width:1.5;"
+         style="fill:none;stroke:#00d0d7;"
          cx="637"
-         cy="-1376"
+         cy="-1316"
          rx="34.9307"
          ry="27.9307"
          id="ellipse618" />
       <text
          text-anchor="middle"
          x="637"
-         y="-1379.15"
+         y="-1319.15"
          style="font-family:Arial;font-size:14.00;"
          id="text620">ASeq</text>
       <text
          text-anchor="middle"
          x="637"
-         y="-1363.4"
+         y="-1303.4"
          style="font-family:Arial;font-size:14.00;"
          id="text622">[MTS]</text>
     </g>
@@ -1486,12 +1440,12 @@
       <title
          id="title625">class clojure.lang.ASeq-&gt;class clojure.lang.Obj</title>
       <path
-         style="fill:none;stroke:#00d0d7;stroke-width:1.5;"
-         d="M672,-1374C736,-1371 877,-1360 992,-1334 1035,-1324 1083,-1306 1114,-1294"
+         style="fill:none;stroke:#00d0d7;"
+         d="M671,-1309C706,-1301 762,-1290 810,-1283 851,-1278 956,-1286 992,-1267 1044,-1242 1032,-1204 1078,-1170 1089,-1162 1101,-1156 1113,-1151"
          id="path627" />
       <polygon
-         style="fill:#00d0d7;stroke:#00d0d7;stroke-width:1.5;"
-         points="1115.28,-1297.26 1123,-1290 1112.44,-1290.86 1115.28,-1297.26"
+         style="fill:#00d0d7;stroke:#00d0d7;"
+         points="1114.28,-1154.26 1122,-1147 1111.44,-1147.86 1114.28,-1154.26"
          id="polygon629" />
     </g>
 <!-- class clojure.lang.ASeq&#45;&gt;interface java.util.List -->    <g
@@ -1500,12 +1454,12 @@
       <title
          id="title632">class clojure.lang.ASeq-&gt;interface java.util.List</title>
       <path
-         style="fill:none;stroke:#00d0d7;stroke-width:1.5;"
-         d="M670,-1366C687,-1359 709,-1348 724,-1334 780,-1282 758,-1240 810,-1186 826,-1169 848,-1155 866,-1145"
+         style="fill:none;stroke:#00d0d7;"
+         d="M662,-1296C681,-1280 706,-1255 724,-1230 777,-1155 750,-1112 810,-1042 825,-1025 847,-1011 865,-1001"
          id="path634" />
       <polygon
-         style="fill:#00d0d7;stroke:#00d0d7;stroke-width:1.5;"
-         points="867.958,-1147.92 875,-1140 864.559,-1141.8 867.958,-1147.92"
+         style="fill:#00d0d7;stroke:#00d0d7;"
+         points="866.958,-1003.92 874,-996 863.559,-997.797 866.958,-1003.92"
          id="polygon636" />
     </g>
 <!-- interface clojure.lang.ISeq -->    <g
@@ -1514,19 +1468,19 @@
       <title
          id="title639">interface clojure.lang.ISeq</title>
       <polygon
-         style="fill:none;stroke:#b300d7;stroke-width:1.5;"
-         points="935.967,-1288.48 935.967,-1313.52 915.484,-1331.23 886.516,-1331.23 866.033,-1313.52 866.033,-1288.48 886.516,-1270.77 915.484,-1270.77 935.967,-1288.48"
+         style="fill:none;stroke:#b300d7;"
+         points="935.967,-1303.48 935.967,-1328.52 915.484,-1346.23 886.516,-1346.23 866.033,-1328.52 866.033,-1303.48 886.516,-1285.77 915.484,-1285.77 935.967,-1303.48"
          id="polygon641" />
       <text
          text-anchor="middle"
          x="901"
-         y="-1304.15"
+         y="-1319.15"
          style="font-family:Arial;font-size:14.00;"
          id="text643">ISeq</text>
       <text
          text-anchor="middle"
          x="901"
-         y="-1288.4"
+         y="-1303.4"
          style="font-family:Arial;font-size:14.00;"
          id="text645">seq?</text>
     </g>
@@ -1536,40 +1490,40 @@
       <title
          id="title648">class clojure.lang.ASeq-&gt;interface clojure.lang.ISeq</title>
       <path
-         style="fill:none;stroke:#00d0d7;stroke-width:1.5;"
-         d="M670,-1367C717,-1353 803,-1328 856,-1314"
+         style="fill:none;stroke:#00d0d7;"
+         d="M672,-1316C720,-1316 804,-1316 856,-1316"
          id="path650" />
       <polygon
-         style="fill:#00d0d7;stroke:#00d0d7;stroke-width:1.5;"
-         points="857.427,-1317.23 866,-1311 855.416,-1310.52 857.427,-1317.23"
+         style="fill:#00d0d7;stroke:#00d0d7;"
+         points="856,-1319.5 866,-1316 856,-1312.5 856,-1319.5"
          id="polygon652" />
     </g>
 <!-- interface clojure.lang.ISeq&#45;&gt;interface clojure.lang.IPersistentCollection -->    <g
-       id="edge103"
+       id="edge101"
        class="edge">
       <title
          id="title655">interface clojure.lang.ISeq-&gt;interface clojure.lang.IPersistentCollection</title>
       <path
-         style="fill:none;stroke:#b300d7;stroke-width:1.5;"
-         d="M936,-1289C972,-1277 1028,-1259 1078,-1249 1140,-1236 1163,-1262 1218,-1233 1291,-1193 1346,-1110 1373,-1061"
+         style="fill:none;stroke:#b300d7;"
+         d="M936,-1315C999,-1312 1131,-1298 1218,-1236 1275,-1196 1255,-1155 1304,-1106 1313,-1097 1323,-1090 1333,-1083"
          id="path657" />
       <polygon
-         style="fill:#b300d7;stroke:#b300d7;stroke-width:1.5;"
-         points="1376.2,-1062.44 1378,-1052 1370.08,-1059.04 1376.2,-1062.44"
+         style="fill:#b300d7;stroke:#b300d7;"
+         points="1334.96,-1085.92 1342,-1078 1331.56,-1079.8 1334.96,-1085.92"
          id="polygon659" />
     </g>
 <!-- interface clojure.lang.ISeq&#45;&gt;interface clojure.lang.Sequential -->    <g
-       id="edge105"
+       id="edge103"
        class="edge">
       <title
          id="title662">interface clojure.lang.ISeq-&gt;interface clojure.lang.Sequential</title>
       <path
-         style="fill:none;stroke:#b300d7;stroke-width:1.5;"
-         d="M935,-1287C975,-1271 1045,-1243 1093,-1223"
+         style="fill:none;stroke:#b300d7;"
+         d="M936,-1303C953,-1297 974,-1288 992,-1280 1028,-1265 1068,-1244 1098,-1229"
          id="path664" />
       <polygon
-         style="fill:#b300d7;stroke:#b300d7;stroke-width:1.5;"
-         points="1094.28,-1226.26 1102,-1219 1091.44,-1219.86 1094.28,-1226.26"
+         style="fill:#b300d7;stroke:#b300d7;"
+         points="1099.96,-1231.92 1107,-1224 1096.56,-1225.8 1099.96,-1231.92"
          id="polygon666" />
     </g>
 <!-- class clojure.lang.Agent -->    <g
@@ -1578,7 +1532,7 @@
       <title
          id="title669">class clojure.lang.Agent</title>
       <ellipse
-         style="fill:none;stroke:#00d764;stroke-width:1.5;"
+         style="fill:none;stroke:#00d764;"
          cx="901"
          cy="-296"
          rx="34.9307"
@@ -1603,12 +1557,12 @@
       <title
          id="title678">class clojure.lang.Agent-&gt;class clojure.lang.ARef</title>
       <path
-         style="fill:none;stroke:#00d764;stroke-width:1.5;"
-         d="M936,-292C981,-286 1058,-278 1106,-273"
+         style="fill:none;stroke:#00d764;"
+         d="M936,-291C981,-285 1058,-275 1106,-268"
          id="path680" />
       <polygon
-         style="fill:#00d764;stroke:#00d764;stroke-width:1.5;"
-         points="1106.4,-276.478 1116,-272 1105.7,-269.512 1106.4,-276.478"
+         style="fill:#00d764;stroke:#00d764;"
+         points="1106.88,-271.393 1116,-266 1105.51,-264.529 1106.88,-271.393"
          id="polygon682" />
     </g>
 <!-- class clojure.lang.ArraySeq -->    <g
@@ -1617,22 +1571,22 @@
       <title
          id="title685">class clojure.lang.ArraySeq</title>
       <ellipse
-         style="fill:none;stroke:#5a00d7;stroke-width:1.5;"
+         style="fill:none;stroke:#5a00d7;"
          cx="365"
-         cy="-1187"
+         cy="-1524"
          rx="45.8057"
          ry="27.9307"
          id="ellipse687" />
       <text
          text-anchor="middle"
          x="365"
-         y="-1190.15"
+         y="-1527.15"
          style="font-family:Arial;font-size:14.00;"
          id="text689">ArraySeq</text>
       <text
          text-anchor="middle"
          x="365"
-         y="-1174.4"
+         y="-1511.4"
          style="font-family:Arial;font-size:14.00;"
          id="text691">[MT1S]</text>
     </g>
@@ -1642,12 +1596,12 @@
       <title
          id="title694">class clojure.lang.ArraySeq-&gt;class clojure.lang.ASeq</title>
       <path
-         style="fill:none;stroke:#5a00d7;stroke-width:1.5;"
-         d="M409,-1195C428,-1200 448,-1207 464,-1219 516,-1256 501,-1293 550,-1334 564,-1345 581,-1354 595,-1361"
+         style="fill:none;stroke:#5a00d7;"
+         d="M409,-1515C427,-1510 447,-1502 464,-1492 526,-1453 583,-1388 613,-1348"
          id="path696" />
       <polygon
-         style="fill:#5a00d7;stroke:#5a00d7;stroke-width:1.5;"
-         points="594.415,-1364.54 605,-1365 597.015,-1358.04 594.415,-1364.54"
+         style="fill:#5a00d7;stroke:#5a00d7;"
+         points="615.8,-1350.1 619,-1340 610.2,-1345.9 615.8,-1350.1"
          id="polygon698" />
     </g>
 <!-- interface clojure.lang.IndexedSeq -->    <g
@@ -1656,19 +1610,19 @@
       <title
          id="title701">interface clojure.lang.IndexedSeq</title>
       <polygon
-         style="fill:none;stroke:#0061d7;stroke-width:1.5;"
-         points="696.225,-1288.48 696.225,-1313.52 661.532,-1331.23 612.468,-1331.23 577.775,-1313.52 577.775,-1288.48 612.468,-1270.77 661.532,-1270.77 696.225,-1288.48"
+         style="fill:none;stroke:#0061d7;"
+         points="696.225,-1511.48 696.225,-1536.52 661.532,-1554.23 612.468,-1554.23 577.775,-1536.52 577.775,-1511.48 612.468,-1493.77 661.532,-1493.77 696.225,-1511.48"
          id="polygon703" />
       <text
          text-anchor="middle"
          x="637"
-         y="-1304.15"
+         y="-1527.15"
          style="font-family:Arial;font-size:14.00;"
          id="text705">IndexedSeq</text>
       <text
          text-anchor="middle"
          x="637"
-         y="-1288.4"
+         y="-1511.4"
          style="font-family:Arial;font-size:14.00;"
          id="text707">[1]</text>
     </g>
@@ -1678,12 +1632,12 @@
       <title
          id="title710">class clojure.lang.ArraySeq-&gt;interface clojure.lang.IndexedSeq</title>
       <path
-         style="fill:none;stroke:#5a00d7;stroke-width:1.5;"
-         d="M407,-1198C425,-1204 446,-1211 464,-1219 505,-1236 511,-1248 550,-1267 559,-1271 569,-1275 579,-1279"
+         style="fill:none;stroke:#5a00d7;"
+         d="M411,-1524C454,-1524 518,-1524 567,-1524"
          id="path712" />
       <polygon
-         style="fill:#5a00d7;stroke:#5a00d7;stroke-width:1.5;"
-         points="577.44,-1282.14 588,-1283 580.283,-1275.74 577.44,-1282.14"
+         style="fill:#5a00d7;stroke:#5a00d7;"
+         points="567,-1527.5 577,-1524 567,-1520.5 567,-1527.5"
          id="polygon714" />
     </g>
 <!-- interface clojure.lang.IReduce -->    <g
@@ -1692,13 +1646,13 @@
       <title
          id="title717">interface clojure.lang.IReduce</title>
       <polygon
-         style="fill:none;stroke:#d7009e;stroke-width:1.5;"
-         points="680.112,-1238.47 680.112,-1253.53 654.858,-1264.18 619.142,-1264.18 593.888,-1253.53 593.888,-1238.47 619.142,-1227.82 654.858,-1227.82 680.112,-1238.47"
+         style="fill:none;stroke:#d7009e;"
+         points="680.112,-1201.47 680.112,-1216.53 654.858,-1227.18 619.142,-1227.18 593.888,-1216.53 593.888,-1201.47 619.142,-1190.82 654.858,-1190.82 680.112,-1201.47"
          id="polygon719" />
       <text
          text-anchor="middle"
          x="637"
-         y="-1241.28"
+         y="-1204.28"
          style="font-family:Arial;font-size:14.00;"
          id="text721">IReduce</text>
     </g>
@@ -1708,80 +1662,80 @@
       <title
          id="title724">class clojure.lang.ArraySeq-&gt;interface clojure.lang.IReduce</title>
       <path
-         style="fill:none;stroke:#5a00d7;stroke-width:1.5;"
-         d="M408,-1196C457,-1206 535,-1224 586,-1235"
+         style="fill:none;stroke:#5a00d7;"
+         d="M410,-1518C429,-1513 450,-1506 464,-1492 538,-1424 492,-1365 550,-1285 565,-1264 587,-1245 605,-1231"
          id="path726" />
       <polygon
-         style="fill:#5a00d7;stroke:#5a00d7;stroke-width:1.5;"
-         points="585.508,-1238.47 596,-1237 586.881,-1231.61 585.508,-1238.47"
+         style="fill:#5a00d7;stroke:#5a00d7;"
+         points="607.1,-1233.8 613,-1225 602.9,-1228.2 607.1,-1233.8"
          id="polygon728" />
     </g>
 <!-- interface clojure.lang.IndexedSeq&#45;&gt;interface clojure.lang.ISeq -->    <g
-       id="edge107"
+       id="edge105"
        class="edge">
       <title
          id="title731">interface clojure.lang.IndexedSeq-&gt;interface clojure.lang.ISeq</title>
       <path
-         style="fill:none;stroke:#0061d7;stroke-width:1.5;"
-         d="M697,-1301C745,-1301 812,-1301 856,-1301"
+         style="fill:none;stroke:#0061d7;"
+         d="M670,-1498C720,-1458 816,-1383 867,-1343"
          id="path733" />
       <polygon
-         style="fill:#0061d7;stroke:#0061d7;stroke-width:1.5;"
-         points="856,-1304.5 866,-1301 856,-1297.5 856,-1304.5"
+         style="fill:#0061d7;stroke:#0061d7;"
+         points="869.1,-1345.8 875,-1337 864.9,-1340.2 869.1,-1345.8"
          id="polygon735" />
     </g>
 <!-- class clojure.lang.ArrayStream -->    <g
        id="node65"
        class="node"
-       transform="translate(668.58478,392.23641)">
+       transform="translate(269.59467,1416.9895)">
       <title
          id="title738">class clojure.lang.ArrayStream</title>
       <ellipse
          style="fill:none;stroke:#d70000"
          cx="98"
-         cy="-1872"
+         cy="-1642"
          rx="51.7957"
          ry="18"
          id="ellipse740"
          sodipodi:cx="98"
-         sodipodi:cy="-1872"
+         sodipodi:cy="-1642"
          sodipodi:rx="51.7957"
          sodipodi:ry="18" />
       <text
          x="98"
-         y="-1867.28"
+         y="-1637.28"
          style="font-size:14px;text-anchor:middle;font-family:Arial"
          id="text742">ArrayStream</text>
     </g>
 <!-- interface clojure.lang.IStream -->    <g
        id="node67"
        class="node"
-       transform="translate(668.58478,392.23641)">
+       transform="translate(269.59467,1416.9895)">
       <title
          id="title745">interface clojure.lang.IStream</title>
       <polygon
          style="fill:none;stroke:#00d0d7"
-         points="406.178,-1862.47 406.178,-1877.53 382.057,-1888.18 347.943,-1888.18 323.822,-1877.53 323.822,-1862.47 347.943,-1851.82 382.057,-1851.82 406.178,-1862.47 "
+         points="406.178,-1632.47 406.178,-1647.53 382.057,-1658.18 347.943,-1658.18 323.822,-1647.53 323.822,-1632.47 347.943,-1621.82 382.057,-1621.82 406.178,-1632.47 "
          id="polygon747" />
       <text
          x="365"
-         y="-1865.28"
+         y="-1635.28"
          style="font-size:14px;text-anchor:middle;font-family:Arial"
          id="text749">IStream</text>
     </g>
 <!-- class clojure.lang.ArrayStream&#45;&gt;interface clojure.lang.IStream -->    <g
        id="edge61"
        class="edge"
-       transform="translate(668.58478,392.23641)">
+       transform="translate(269.59467,1416.9895)">
       <title
          id="title752">class clojure.lang.ArrayStream-&gt;interface clojure.lang.IStream</title>
       <path
          style="fill:none;stroke:#d70000"
-         d="M 151,-1872 C 199,-1871 267,-1871 314,-1870"
+         d="M 151,-1642 C 199,-1641 267,-1641 314,-1640"
          id="path754" />
       <polygon
          style="fill:#d70000;stroke:#d70000"
-         points="314,-1873.5 324,-1870 314,-1866.5 314,-1873.5 "
+         points="314,-1643.5 324,-1640 314,-1636.5 314,-1643.5 "
          id="polygon756" />
     </g>
 <!-- interface clojure.lang.Associative&#45;&gt;interface clojure.lang.IPersistentCollection -->    <g
@@ -1790,1813 +1744,1784 @@
       <title
          id="title759">interface clojure.lang.Associative-&gt;interface clojure.lang.IPersistentCollection</title>
       <path
-         style="fill:none;stroke:#76d700;stroke-width:1.5;"
-         d="M1202,-968C1235,-977 1278,-990 1315,-1000"
+         style="fill:none;stroke:#76d700;"
+         d="M1208,-1037C1234,-1039 1265,-1041 1294,-1044"
          id="path761" />
       <polygon
-         style="fill:#76d700;stroke:#76d700;stroke-width:1.5;"
-         points="1314.42,-1003.48 1325,-1003 1316.43,-996.774 1314.42,-1003.48"
+         style="fill:#76d700;stroke:#76d700;"
+         points="1293.7,-1047.49 1304,-1045 1294.4,-1040.52 1293.7,-1047.49"
          id="polygon763" />
     </g>
-<!-- class clojure.lang.Atom -->    <g
+<!-- interface clojure.lang.Seqable --><!-- interface clojure.lang.IPersistentCollection&#45;&gt;interface clojure.lang.Seqable --><!-- class clojure.lang.Atom -->    <g
        id="node71"
        class="node">
       <title
-         id="title766">class clojure.lang.Atom</title>
+         id="title780">class clojure.lang.Atom</title>
       <ellipse
-         style="fill:none;stroke:#b300d7;stroke-width:1.5;"
+         style="fill:none;stroke:#b300d7;"
          cx="901"
          cy="-233"
          rx="33.0557"
          ry="27.9307"
-         id="ellipse768" />
+         id="ellipse782" />
       <text
          text-anchor="middle"
          x="901"
          y="-236.15"
          style="font-family:Arial;font-size:14.00;"
-         id="text770">Atom</text>
+         id="text784">Atom</text>
       <text
          text-anchor="middle"
          x="901"
          y="-220.4"
          style="font-family:Arial;font-size:14.00;"
-         id="text772">[M]</text>
+         id="text786">[M]</text>
     </g>
 <!-- class clojure.lang.Atom&#45;&gt;class clojure.lang.ARef -->    <g
        id="edge65"
        class="edge">
       <title
-         id="title775">class clojure.lang.Atom-&gt;class clojure.lang.ARef</title>
+         id="title789">class clojure.lang.Atom-&gt;class clojure.lang.ARef</title>
       <path
-         style="fill:none;stroke:#b300d7;stroke-width:1.5;"
-         d="M934,-238C978,-244 1057,-255 1106,-262"
-         id="path777" />
+         style="fill:none;stroke:#b300d7;"
+         d="M934,-237C978,-243 1056,-252 1105,-257"
+         id="path791" />
       <polygon
-         style="fill:#b300d7;stroke:#b300d7;stroke-width:1.5;"
-         points="1105.7,-265.488 1116,-263 1106.4,-258.522 1105.7,-265.488"
-         id="polygon779" />
-    </g>
-<!-- class clojure.lang.CachedSeq -->    <g
-       id="node73"
-       class="node">
-      <title
-         id="title782">class clojure.lang.CachedSeq</title>
-      <ellipse
-         style="fill:none;stroke:#b300d7;stroke-width:1.5;"
-         cx="365"
-         cy="-1817"
-         rx="54.0557"
-         ry="27.9307"
-         id="ellipse784" />
-      <text
-         text-anchor="middle"
-         x="365"
-         y="-1820.15"
-         style="font-family:Arial;font-size:14.00;"
-         id="text786">CachedSeq</text>
-      <text
-         text-anchor="middle"
-         x="365"
-         y="-1804.4"
-         style="font-family:Arial;font-size:14.00;"
-         id="text788">[MTS]</text>
-    </g>
-<!-- class clojure.lang.CachedSeq&#45;&gt;class clojure.lang.ASeq -->    <g
-       id="edge67"
-       class="edge">
-      <title
-         id="title791">class clojure.lang.CachedSeq-&gt;class clojure.lang.ASeq</title>
-      <path
-         style="fill:none;stroke:#b300d7;stroke-width:1.5;"
-         d="M417,-1809C434,-1804 451,-1797 464,-1785 577,-1682 618,-1495 631,-1414"
-         id="path793" />
-      <polygon
-         style="fill:#b300d7;stroke:#b300d7;stroke-width:1.5;"
-         points="634.471,-1414.49 633,-1404 627.607,-1413.12 634.471,-1414.49"
-         id="polygon795" />
+         style="fill:#b300d7;stroke:#b300d7;"
+         points="1104.7,-260.488 1115,-258 1105.4,-253.522 1104.7,-260.488"
+         id="polygon793" />
     </g>
 <!-- interface java.util.concurrent.ConcurrentMap -->    <g
-       id="node76"
+       id="node74"
        class="node">
       <title
-         id="title798">interface java.util.concurrent.ConcurrentMap</title>
+         id="title796">interface java.util.concurrent.ConcurrentMap</title>
       <polygon
-         style="fill:none;stroke:#0061d7;stroke-width:1.5;"
-         points="637,-694.75 550.819,-671 637,-647.25 723.181,-671 637,-694.75"
-         id="polygon800" />
+         style="fill:none;stroke:#0061d7;"
+         points="637,-904.75 550.819,-881 637,-857.25 723.181,-881 637,-904.75"
+         id="polygon798" />
       <text
          text-anchor="middle"
          x="637"
-         y="-666.275"
+         y="-876.275"
          style="font-family:Arial;font-size:14.00;"
-         id="text802">ConcurrentMap</text>
+         id="text800">ConcurrentMap</text>
     </g>
 <!-- interface java.util.concurrent.ConcurrentMap&#45;&gt;interface java.util.Map -->    <g
+       id="edge67"
+       class="edge">
+      <title
+         id="title803">interface java.util.concurrent.ConcurrentMap-&gt;interface java.util.Map</title>
+      <path
+         style="fill:none;stroke:#0061d7;"
+         d="M706,-876C754,-872 816,-868 857,-865"
+         id="path805" />
+      <polygon
+         style="fill:#0061d7;stroke:#0061d7;"
+         points="857.398,-868.478 867,-864 856.701,-861.512 857.398,-868.478"
+         id="polygon807" />
+    </g>
+<!-- class clojure.lang.Cons -->    <g
+       id="node76"
+       class="node">
+      <title
+         id="title810">class clojure.lang.Cons</title>
+      <ellipse
+         style="fill:none;stroke:#76d700;"
+         cx="365"
+         cy="-1335"
+         rx="34.9307"
+         ry="27.9307"
+         id="ellipse812" />
+      <text
+         text-anchor="middle"
+         x="365"
+         y="-1338.15"
+         style="font-family:Arial;font-size:14.00;"
+         id="text814">Cons</text>
+      <text
+         text-anchor="middle"
+         x="365"
+         y="-1322.4"
+         style="font-family:Arial;font-size:14.00;"
+         id="text816">[MTS]</text>
+    </g>
+<!-- class clojure.lang.Cons&#45;&gt;class clojure.lang.ASeq -->    <g
        id="edge69"
        class="edge">
       <title
-         id="title805">interface java.util.concurrent.ConcurrentMap-&gt;interface java.util.Map</title>
+         id="title819">class clojure.lang.Cons-&gt;class clojure.lang.ASeq</title>
       <path
-         style="fill:none;stroke:#0061d7;stroke-width:1.5;"
-         d="M724,-671C767,-671 817,-671 854,-671"
-         id="path807" />
+         style="fill:none;stroke:#76d700;"
+         d="M400,-1333C449,-1329 538,-1323 592,-1319"
+         id="path821" />
       <polygon
-         style="fill:#0061d7;stroke:#0061d7;stroke-width:1.5;"
-         points="854,-674.5 864,-671 854,-667.5 854,-674.5"
-         id="polygon809" />
+         style="fill:#76d700;stroke:#76d700;"
+         points="592.398,-1322.48 602,-1318 591.701,-1315.51 592.398,-1322.48"
+         id="polygon823" />
     </g>
-<!-- class clojure.lang.Cons -->    <g
+<!-- class clojure.lang.Delay -->    <g
        id="node78"
        class="node">
       <title
-         id="title812">class clojure.lang.Cons</title>
+         id="title826">class clojure.lang.Delay</title>
       <ellipse
-         style="fill:none;stroke:#76d700;stroke-width:1.5;"
-         cx="365"
-         cy="-1754"
-         rx="34.9307"
-         ry="27.9307"
-         id="ellipse814" />
-      <text
-         text-anchor="middle"
-         x="365"
-         y="-1757.15"
-         style="font-family:Arial;font-size:14.00;"
-         id="text816">Cons</text>
-      <text
-         text-anchor="middle"
-         x="365"
-         y="-1741.4"
-         style="font-family:Arial;font-size:14.00;"
-         id="text818">[MTS]</text>
-    </g>
-<!-- class clojure.lang.Cons&#45;&gt;class clojure.lang.ASeq -->    <g
-       id="edge71"
-       class="edge">
-      <title
-         id="title821">class clojure.lang.Cons-&gt;class clojure.lang.ASeq</title>
-      <path
-         style="fill:none;stroke:#76d700;stroke-width:1.5;"
-         d="M400,-1750C421,-1745 446,-1737 464,-1722 562,-1637 610,-1484 629,-1414"
-         id="path823" />
-      <polygon
-         style="fill:#76d700;stroke:#76d700;stroke-width:1.5;"
-         points="632.471,-1414.49 631,-1404 625.607,-1413.12 632.471,-1414.49"
-         id="polygon825" />
-    </g>
-<!-- class clojure.lang.Delay -->    <g
-       id="node80"
-       class="node">
-      <title
-         id="title828">class clojure.lang.Delay</title>
-      <ellipse
-         style="fill:none;stroke:#5a00d7;stroke-width:1.5;"
+         style="fill:none;stroke:#5a00d7;"
          cx="1393"
-         cy="-215"
+         cy="-299"
          rx="37.1807"
          ry="27.9307"
-         id="ellipse830" />
+         id="ellipse828" />
       <text
          text-anchor="middle"
          x="1393"
-         y="-218.15"
+         y="-302.15"
          style="font-family:Arial;font-size:14.00;"
-         id="text832">Delay</text>
+         id="text830">Delay</text>
       <text
          text-anchor="middle"
          x="1393"
-         y="-202.4"
+         y="-286.4"
          style="font-family:Arial;font-size:14.00;"
-         id="text834">delay?</text>
+         id="text832">delay?</text>
     </g>
-<!-- class clojure.lang.Delay&#45;&gt;interface clojure.lang.IDeref -->    <g
+<!-- class clojure.lang.Delay&#45;&gt;interface clojure.lang.IDeref --><!-- interface java.util.Enumeration -->    <g
+       id="node82"
+       class="node"
+       transform="translate(269.59467,1416.9895)">
+      <title
+         id="title842">interface java.util.Enumeration</title>
+      <polygon
+         style="fill:none;stroke:#5a00d7"
+         points="365,-1711.75 291.015,-1688 365,-1664.25 438.985,-1688 365,-1711.75 "
+         id="polygon844" />
+      <text
+         x="365"
+         y="-1683.28"
+         style="font-size:14px;text-anchor:middle;font-family:Arial"
+         id="text846">Enumeration</text>
+    </g>
+<!-- class clojure.lang.EnumerationSeq -->    <g
+       id="node83"
+       class="node">
+      <title
+         id="title849">class clojure.lang.EnumerationSeq</title>
+      <ellipse
+         style="fill:none;stroke:#00d0d7;"
+         cx="365"
+         cy="-1272"
+         rx="69.0557"
+         ry="27.9307"
+         id="ellipse851" />
+      <text
+         text-anchor="middle"
+         x="365"
+         y="-1275.15"
+         style="font-family:Arial;font-size:14.00;"
+         id="text853">EnumerationSeq</text>
+      <text
+         text-anchor="middle"
+         x="365"
+         y="-1259.4"
+         style="font-family:Arial;font-size:14.00;"
+         id="text855">[MTS]</text>
+    </g>
+<!-- class clojure.lang.EnumerationSeq&#45;&gt;class clojure.lang.ASeq -->    <g
        id="edge73"
        class="edge">
       <title
-         id="title837">class clojure.lang.Delay-&gt;interface clojure.lang.IDeref</title>
+         id="title858">class clojure.lang.EnumerationSeq-&gt;class clojure.lang.ASeq</title>
       <path
-         style="fill:none;stroke:#5a00d7;stroke-width:1.5;"
-         d="M1430,-219C1470,-224 1535,-232 1579,-237"
-         id="path839" />
+         style="fill:none;stroke:#00d0d7;"
+         d="M429,-1282C480,-1290 548,-1301 592,-1308"
+         id="path860" />
       <polygon
-         style="fill:#5a00d7;stroke:#5a00d7;stroke-width:1.5;"
-         points="1578.7,-240.488 1589,-238 1579.4,-233.522 1578.7,-240.488"
-         id="polygon841" />
-    </g>
-<!-- interface java.util.Enumeration -->    <g
-       id="node84"
-       class="node"
-       transform="translate(668.58478,392.23641)">
-      <title
-         id="title844">interface java.util.Enumeration</title>
-      <polygon
-         style="fill:none;stroke:#5a00d7"
-         points="365,-1941.75 291.015,-1918 365,-1894.25 438.985,-1918 365,-1941.75 "
-         id="polygon846" />
-      <text
-         x="365"
-         y="-1913.28"
-         style="font-size:14px;text-anchor:middle;font-family:Arial"
-         id="text848">Enumeration</text>
-    </g>
-<!-- class clojure.lang.EnumerationSeq -->    <g
-       id="node85"
-       class="node">
-      <title
-         id="title851">class clojure.lang.EnumerationSeq</title>
-      <ellipse
-         style="fill:none;stroke:#00d0d7;stroke-width:1.5;"
-         cx="365"
-         cy="-1691"
-         rx="69.0557"
-         ry="27.9307"
-         id="ellipse853" />
-      <text
-         text-anchor="middle"
-         x="365"
-         y="-1694.15"
-         style="font-family:Arial;font-size:14.00;"
-         id="text855">EnumerationSeq</text>
-      <text
-         text-anchor="middle"
-         x="365"
-         y="-1678.4"
-         style="font-family:Arial;font-size:14.00;"
-         id="text857">[MTS]</text>
-    </g>
-<!-- class clojure.lang.EnumerationSeq&#45;&gt;class clojure.lang.ASeq -->    <g
-       id="edge75"
-       class="edge">
-      <title
-         id="title860">class clojure.lang.EnumerationSeq-&gt;class clojure.lang.ASeq</title>
-      <path
-         style="fill:none;stroke:#00d0d7;stroke-width:1.5;"
-         d="M427,-1678C440,-1674 453,-1667 464,-1659 548,-1592 601,-1472 624,-1412"
-         id="path862" />
-      <polygon
-         style="fill:#00d0d7;stroke:#00d0d7;stroke-width:1.5;"
-         points="627.137,-1413.56 628,-1403 620.74,-1410.72 627.137,-1413.56"
-         id="polygon864" />
-    </g>
-<!-- class clojure.lang.FnSeq -->    <g
-       id="node87"
-       class="node">
-      <title
-         id="title867">class clojure.lang.FnSeq</title>
-      <ellipse
-         style="fill:none;stroke:#d70000;stroke-width:1.5;"
-         cx="365"
-         cy="-1628"
-         rx="37.055"
-         ry="27.9307"
-         id="ellipse869" />
-      <text
-         text-anchor="middle"
-         x="365"
-         y="-1631.15"
-         style="font-family:Arial;font-size:14.00;"
-         id="text871">FnSeq</text>
-      <text
-         text-anchor="middle"
-         x="365"
-         y="-1615.4"
-         style="font-family:Arial;font-size:14.00;"
-         id="text873">[MTS]</text>
-    </g>
-<!-- class clojure.lang.FnSeq&#45;&gt;class clojure.lang.ASeq -->    <g
-       id="edge77"
-       class="edge">
-      <title
-         id="title876">class clojure.lang.FnSeq-&gt;class clojure.lang.ASeq</title>
-      <path
-         style="fill:none;stroke:#d70000;stroke-width:1.5;"
-         d="M402,-1622C422,-1617 446,-1609 464,-1596 535,-1546 591,-1459 618,-1411"
-         id="path878" />
-      <polygon
-         style="fill:#d70000;stroke:#d70000;stroke-width:1.5;"
-         points="621.203,-1412.44 623,-1402 615.084,-1409.04 621.203,-1412.44"
-         id="polygon880" />
+         style="fill:#00d0d7;stroke:#00d0d7;"
+         points="591.508,-1311.47 602,-1310 592.881,-1304.61 591.508,-1311.47"
+         id="polygon862" />
     </g>
 <!-- interface clojure.lang.IPersistentList -->    <g
-       id="node94"
+       id="node92"
        class="node">
       <title
-         id="title883">interface clojure.lang.IPersistentList</title>
+         id="title865">interface clojure.lang.IPersistentList</title>
       <polygon
-         style="fill:none;stroke:#5a00d7;stroke-width:1.5;"
-         points="967.126,-1206.48 967.126,-1231.52 928.39,-1249.23 873.61,-1249.23 834.874,-1231.52 834.874,-1206.48 873.61,-1188.77 928.39,-1188.77 967.126,-1206.48"
-         id="polygon885" />
+         style="fill:none;stroke:#5a00d7;"
+         points="967.126,-1168.48 967.126,-1193.52 928.39,-1211.23 873.61,-1211.23 834.874,-1193.52 834.874,-1168.48 873.61,-1150.77 928.39,-1150.77 967.126,-1168.48"
+         id="polygon867" />
       <text
          text-anchor="middle"
          x="901"
-         y="-1222.15"
+         y="-1184.15"
          style="font-family:Arial;font-size:14.00;"
-         id="text887">IPersistentList</text>
+         id="text869">IPersistentList</text>
       <text
          text-anchor="middle"
          x="901"
-         y="-1206.4"
+         y="-1168.4"
          style="font-family:Arial;font-size:14.00;"
-         id="text889">list?</text>
+         id="text871">list?</text>
     </g>
 <!-- interface clojure.lang.IPersistentList&#45;&gt;interface clojure.lang.Sequential -->    <g
+       id="edge83"
+       class="edge">
+      <title
+         id="title874">interface clojure.lang.IPersistentList-&gt;interface clojure.lang.Sequential</title>
+      <path
+         style="fill:none;stroke:#5a00d7;"
+         d="M968,-1187C1003,-1190 1045,-1193 1081,-1197"
+         id="path876" />
+      <polygon
+         style="fill:#5a00d7;stroke:#5a00d7;"
+         points="1080.7,-1200.49 1091,-1198 1081.4,-1193.52 1080.7,-1200.49"
+         id="polygon878" />
+    </g>
+<!-- interface clojure.lang.IPersistentList&#45;&gt;interface clojure.lang.IPersistentStack -->    <g
        id="edge85"
        class="edge">
       <title
-         id="title892">interface clojure.lang.IPersistentList-&gt;interface clojure.lang.Sequential</title>
+         id="title881">interface clojure.lang.IPersistentList-&gt;interface clojure.lang.IPersistentStack</title>
       <path
-         style="fill:none;stroke:#5a00d7;stroke-width:1.5;"
-         d="M968,-1214C1003,-1211 1045,-1208 1081,-1205"
-         id="path894" />
+         style="fill:none;stroke:#5a00d7;"
+         d="M950,-1160C985,-1145 1034,-1125 1078,-1109 1083,-1107 1087,-1105 1092,-1104"
+         id="path883" />
       <polygon
-         style="fill:#5a00d7;stroke:#5a00d7;stroke-width:1.5;"
-         points="1081.4,-1208.48 1091,-1204 1080.7,-1201.51 1081.4,-1208.48"
-         id="polygon896" />
-    </g>
-<!-- interface clojure.lang.IPersistentList&#45;&gt;interface clojure.lang.IPersistentStack -->    <g
-       id="edge87"
-       class="edge">
-      <title
-         id="title899">interface clojure.lang.IPersistentList-&gt;interface clojure.lang.IPersistentStack</title>
-      <path
-         style="fill:none;stroke:#5a00d7;stroke-width:1.5;"
-         d="M954,-1200C966,-1195 980,-1189 992,-1183 1035,-1162 1080,-1135 1111,-1115"
-         id="path901" />
-      <polygon
-         style="fill:#5a00d7;stroke:#5a00d7;stroke-width:1.5;"
-         points="1112.96,-1117.92 1120,-1110 1109.56,-1111.8 1112.96,-1117.92"
-         id="polygon903" />
+         style="fill:#5a00d7;stroke:#5a00d7;"
+         points="1093.43,-1107.23 1102,-1101 1091.42,-1100.52 1093.43,-1107.23"
+         id="polygon885" />
     </g>
 <!-- interface clojure.lang.IPersistentStack&#45;&gt;interface clojure.lang.IPersistentCollection -->    <g
-       id="edge93"
+       id="edge91"
        class="edge">
       <title
-         id="title906">interface clojure.lang.IPersistentStack-&gt;interface clojure.lang.IPersistentCollection</title>
+         id="title888">interface clojure.lang.IPersistentStack-&gt;interface clojure.lang.IPersistentCollection</title>
       <path
-         style="fill:none;stroke:#00d764;stroke-width:1.5;"
-         d="M1195,-1079C1229,-1069 1275,-1055 1314,-1045"
-         id="path908" />
+         style="fill:none;stroke:#00d764;"
+         d="M1212,-1078C1237,-1074 1267,-1070 1294,-1066"
+         id="path890" />
       <polygon
-         style="fill:#00d764;stroke:#00d764;stroke-width:1.5;"
-         points="1315.43,-1048.23 1324,-1042 1313.42,-1041.52 1315.43,-1048.23"
-         id="polygon910" />
+         style="fill:#00d764;stroke:#00d764;"
+         points="1294.4,-1069.48 1304,-1065 1293.7,-1062.51 1294.4,-1069.48"
+         id="polygon892" />
     </g>
 <!-- interface java.lang.reflect.InvocationHandler -->    <g
-       id="node109"
+       id="node107"
        class="node"
-       transform="translate(668.58478,392.23641)">
+       transform="translate(269.59467,1416.9895)">
       <title
-         id="title913">interface java.lang.reflect.InvocationHandler</title>
+         id="title895">interface java.lang.reflect.InvocationHandler</title>
       <polygon
          style="fill:none;stroke:#b300d7"
-         points="365,-1994.75 267.149,-1971 365,-1947.25 462.851,-1971 365,-1994.75 "
-         id="polygon915" />
+         points="365,-1764.75 267.149,-1741 365,-1717.25 462.851,-1741 365,-1764.75 "
+         id="polygon897" />
       <text
          x="365"
-         y="-1966.28"
+         y="-1736.28"
          style="font-size:14px;text-anchor:middle;font-family:Arial"
-         id="text917">InvocationHandler</text>
+         id="text899">InvocationHandler</text>
     </g>
 <!-- interface java.util.Iterator -->    <g
-       id="node110"
+       id="node108"
        class="node"
-       transform="translate(668.58478,392.23641)">
+       transform="translate(269.59467,1416.9895)">
       <title
-         id="title920">interface java.util.Iterator</title>
+         id="title902">interface java.util.Iterator</title>
       <polygon
          style="fill:none;stroke:#5a00d7"
-         points="365,-2047.75 314.91,-2024 365,-2000.25 415.09,-2024 365,-2047.75 "
-         id="polygon922" />
+         points="365,-1817.75 314.91,-1794 365,-1770.25 415.09,-1794 365,-1817.75 "
+         id="polygon904" />
       <text
          x="365"
-         y="-2019.28"
+         y="-1789.28"
          style="font-size:14px;text-anchor:middle;font-family:Arial"
-         id="text924">Iterator</text>
+         id="text906">Iterator</text>
     </g>
 <!-- class clojure.lang.IteratorSeq -->    <g
-       id="node111"
+       id="node109"
        class="node">
       <title
-         id="title927">class clojure.lang.IteratorSeq</title>
+         id="title909">class clojure.lang.IteratorSeq</title>
       <ellipse
-         style="fill:none;stroke:#0061d7;stroke-width:1.5;"
+         style="fill:none;stroke:#0061d7;"
          cx="365"
-         cy="-1565"
+         cy="-1461"
          rx="51.8057"
          ry="27.9307"
-         id="ellipse929" />
+         id="ellipse911" />
       <text
          text-anchor="middle"
          x="365"
-         y="-1568.15"
+         y="-1464.15"
          style="font-family:Arial;font-size:14.00;"
-         id="text931">IteratorSeq</text>
+         id="text913">IteratorSeq</text>
       <text
          text-anchor="middle"
          x="365"
-         y="-1552.4"
+         y="-1448.4"
          style="font-family:Arial;font-size:14.00;"
-         id="text933">[MTS]</text>
+         id="text915">[MTS]</text>
     </g>
 <!-- class clojure.lang.IteratorSeq&#45;&gt;class clojure.lang.ASeq -->    <g
-       id="edge109"
+       id="edge107"
        class="edge">
       <title
-         id="title936">class clojure.lang.IteratorSeq-&gt;class clojure.lang.ASeq</title>
+         id="title918">class clojure.lang.IteratorSeq-&gt;class clojure.lang.ASeq</title>
       <path
-         style="fill:none;stroke:#0061d7;stroke-width:1.5;"
-         d="M413,-1554C430,-1549 448,-1542 464,-1533 523,-1499 579,-1442 610,-1407"
-         id="path938" />
+         style="fill:none;stroke:#0061d7;"
+         d="M412,-1448C429,-1443 448,-1437 464,-1429 516,-1404 570,-1366 604,-1342"
+         id="path920" />
       <polygon
-         style="fill:#0061d7;stroke:#0061d7;stroke-width:1.5;"
-         points="613.049,-1408.83 617,-1399 607.781,-1404.22 613.049,-1408.83"
-         id="polygon940" />
+         style="fill:#0061d7;stroke:#0061d7;"
+         points="606.1,-1344.8 612,-1336 601.9,-1339.2 606.1,-1344.8"
+         id="polygon922" />
     </g>
 <!-- class clojure.lang.IteratorStream -->    <g
-       id="node113"
+       id="node111"
        class="node"
-       transform="translate(668.58478,392.23641)">
+       transform="translate(269.59467,1416.9895)">
       <title
-         id="title943">class clojure.lang.IteratorStream</title>
+         id="title925">class clojure.lang.IteratorStream</title>
       <ellipse
          style="fill:none;stroke:#00d0d7"
          cx="98"
-         cy="-1829"
+         cy="-1599"
          rx="57.795502"
          ry="18"
-         id="ellipse945"
+         id="ellipse927"
          sodipodi:cx="98"
-         sodipodi:cy="-1829"
+         sodipodi:cy="-1599"
          sodipodi:rx="57.795502"
          sodipodi:ry="18" />
       <text
          x="98"
-         y="-1824.28"
+         y="-1594.28"
          style="font-size:14px;text-anchor:middle;font-family:Arial"
-         id="text947">IteratorStream</text>
+         id="text929">IteratorStream</text>
     </g>
 <!-- class clojure.lang.IteratorStream&#45;&gt;interface clojure.lang.IStream -->    <g
-       id="edge111"
+       id="edge109"
        class="edge"
-       transform="translate(668.58478,392.23641)">
+       transform="translate(269.59467,1416.9895)">
       <title
-         id="title950">class clojure.lang.IteratorStream-&gt;interface clojure.lang.IStream</title>
+         id="title932">class clojure.lang.IteratorStream-&gt;interface clojure.lang.IStream</title>
       <path
          style="fill:none;stroke:#00d0d7"
-         d="M 150,-1837 C 198,-1844 267,-1855 314,-1862"
-         id="path952" />
+         d="M 150,-1607 C 198,-1614 267,-1625 314,-1632"
+         id="path934" />
       <polygon
          style="fill:#00d0d7;stroke:#00d0d7"
-         points="313.508,-1865.47 324,-1864 314.881,-1858.61 313.508,-1865.47 "
-         id="polygon954" />
+         points="313.508,-1635.47 324,-1634 314.881,-1628.61 313.508,-1635.47 "
+         id="polygon936" />
     </g>
 <!-- class clojure.lang.Keyword -->    <g
-       id="node115"
+       id="node113"
        class="node">
       <title
-         id="title957">class clojure.lang.Keyword</title>
+         id="title939">class clojure.lang.Keyword</title>
       <ellipse
-         style="fill:none;stroke:#76d700;stroke-width:1.5;"
+         style="fill:none;stroke:#76d700;"
          cx="901"
          cy="-433"
          rx="49.8176"
          ry="39.0676"
-         id="ellipse959" />
+         id="ellipse941" />
       <text
          text-anchor="middle"
          x="901"
          y="-444.025"
          style="font-family:Arial;font-size:14.00;"
-         id="text961">Keyword</text>
+         id="text943">Keyword</text>
       <text
          text-anchor="middle"
          x="901"
          y="-428.275"
          style="font-family:Arial;font-size:14.00;"
-         id="text963">keyword?</text>
+         id="text945">keyword?</text>
       <text
          text-anchor="middle"
          x="901"
          y="-412.525"
          style="font-family:Arial;font-size:14.00;"
-         id="text965">[N=]</text>
+         id="text947">[N=]</text>
     </g>
 <!-- class clojure.lang.Keyword&#45;&gt;interface clojure.lang.IFn -->    <g
+       id="edge111"
+       class="edge">
+      <title
+         id="title950">class clojure.lang.Keyword-&gt;interface clojure.lang.IFn</title>
+      <path
+         style="fill:none;stroke:#76d700;"
+         d="M951,-433C997,-432 1065,-432 1108,-431"
+         id="path952" />
+      <polygon
+         style="fill:#76d700;stroke:#76d700;"
+         points="1108,-434.5 1118,-431 1108,-427.5 1108,-434.5"
+         id="polygon954" />
+    </g>
+<!-- class clojure.lang.LazilyPersistentVector -->    <g
+       id="node115"
+       class="node">
+      <title
+         id="title957">class clojure.lang.LazilyPersistentVector</title>
+      <ellipse
+         style="fill:none;stroke:#d70000;"
+         cx="365"
+         cy="-1020"
+         rx="85.8068"
+         ry="27.9307"
+         id="ellipse959" />
+      <text
+         text-anchor="middle"
+         x="365"
+         y="-1023.15"
+         style="font-family:Arial;font-size:14.00;"
+         id="text961">LazilyPersistentVector</text>
+      <text
+         text-anchor="middle"
+         x="365"
+         y="-1007.4"
+         style="font-family:Arial;font-size:14.00;"
+         id="text963">[MT1SR=]</text>
+    </g>
+<!-- class clojure.lang.LazilyPersistentVector&#45;&gt;class clojure.lang.APersistentVector -->    <g
        id="edge113"
        class="edge">
       <title
-         id="title968">class clojure.lang.Keyword-&gt;interface clojure.lang.IFn</title>
+         id="title966">class clojure.lang.LazilyPersistentVector-&gt;class clojure.lang.APersistentVector</title>
       <path
-         style="fill:none;stroke:#76d700;stroke-width:1.5;"
-         d="M951,-432C997,-431 1065,-428 1108,-427"
-         id="path970" />
+         style="fill:none;stroke:#d70000;"
+         d="M435,-1004C475,-995 524,-983 564,-974"
+         id="path968" />
       <polygon
-         style="fill:#76d700;stroke:#76d700;stroke-width:1.5;"
-         points="1108,-430.5 1118,-427 1108,-423.5 1108,-430.5"
-         id="polygon972" />
+         style="fill:#d70000;stroke:#d70000;"
+         points="564.881,-977.393 574,-972 563.508,-970.529 564.881,-977.393"
+         id="polygon970" />
     </g>
-<!-- class clojure.lang.LazilyPersistentVector -->    <g
+<!-- class clojure.lang.LazySeq -->    <g
        id="node117"
        class="node">
       <title
-         id="title975">class clojure.lang.LazilyPersistentVector</title>
+         id="title973">class clojure.lang.LazySeq</title>
       <ellipse
-         style="fill:none;stroke:#d70000;stroke-width:1.5;"
-         cx="365"
-         cy="-978"
-         rx="85.8068"
+         style="fill:none;stroke:#d78100;"
+         cx="637"
+         cy="-1035"
+         rx="43.9307"
          ry="27.9307"
-         id="ellipse977" />
+         id="ellipse975" />
       <text
          text-anchor="middle"
-         x="365"
-         y="-981.15"
+         x="637"
+         y="-1038.15"
          style="font-family:Arial;font-size:14.00;"
-         id="text979">LazilyPersistentVector</text>
+         id="text977">LazySeq</text>
       <text
          text-anchor="middle"
-         x="365"
-         y="-965.4"
+         x="637"
+         y="-1022.4"
          style="font-family:Arial;font-size:14.00;"
-         id="text981">[MT1SR=]</text>
+         id="text979">[MT]</text>
     </g>
-<!-- class clojure.lang.LazilyPersistentVector&#45;&gt;class clojure.lang.APersistentVector -->    <g
+<!-- class clojure.lang.LazySeq&#45;&gt;class clojure.lang.AFn -->    <g
        id="edge115"
        class="edge">
       <title
-         id="title984">class clojure.lang.LazilyPersistentVector-&gt;class clojure.lang.APersistentVector</title>
+         id="title982">class clojure.lang.LazySeq-&gt;class clojure.lang.AFn</title>
       <path
-         style="fill:none;stroke:#d70000;stroke-width:1.5;"
-         d="M452,-978C484,-978 521,-978 553,-978"
-         id="path986" />
+         style="fill:none;stroke:#d78100;"
+         d="M677,-1022C694,-1015 712,-1004 724,-988 841,-830 682,-703 810,-554 823,-539 844,-532 862,-527"
+         id="path984" />
       <polygon
-         style="fill:#d70000;stroke:#d70000;stroke-width:1.5;"
-         points="553,-981.5 563,-978 553,-974.5 553,-981.5"
-         id="polygon988" />
+         style="fill:#d78100;stroke:#d78100;"
+         points="862.881,-530.393 872,-525 861.508,-523.529 862.881,-530.393"
+         id="polygon986" />
     </g>
-<!-- class clojure.lang.LazyCons -->    <g
-       id="node119"
-       class="node">
-      <title
-         id="title991">class clojure.lang.LazyCons</title>
-      <ellipse
-         style="fill:none;stroke:#0061d7;stroke-width:1.5;"
-         cx="365"
-         cy="-1502"
-         rx="47.1788"
-         ry="27.9307"
-         id="ellipse993" />
-      <text
-         text-anchor="middle"
-         x="365"
-         y="-1505.15"
-         style="font-family:Arial;font-size:14.00;"
-         id="text995">LazyCons</text>
-      <text
-         text-anchor="middle"
-         x="365"
-         y="-1489.4"
-         style="font-family:Arial;font-size:14.00;"
-         id="text997">[MTS]</text>
-    </g>
-<!-- class clojure.lang.LazyCons&#45;&gt;class clojure.lang.ASeq -->    <g
-       id="edge117"
-       class="edge">
-      <title
-         id="title1000">class clojure.lang.LazyCons-&gt;class clojure.lang.ASeq</title>
-      <path
-         style="fill:none;stroke:#0061d7;stroke-width:1.5;"
-         d="M408,-1490C426,-1484 446,-1478 464,-1470 513,-1449 566,-1419 600,-1398"
-         id="path1002" />
-      <polygon
-         style="fill:#0061d7;stroke:#0061d7;stroke-width:1.5;"
-         points="601.958,-1400.92 609,-1393 598.559,-1394.8 601.958,-1400.92"
-         id="polygon1004" />
-    </g>
-<!-- class clojure.lang.LazySeq -->    <g
-       id="node121"
-       class="node">
-      <title
-         id="title1007">class clojure.lang.LazySeq</title>
-      <ellipse
-         style="fill:none;stroke:#d7009e;stroke-width:1.5;"
-         cx="365"
-         cy="-1439"
-         rx="43.9307"
-         ry="27.9307"
-         id="ellipse1009" />
-      <text
-         text-anchor="middle"
-         x="365"
-         y="-1442.15"
-         style="font-family:Arial;font-size:14.00;"
-         id="text1011">LazySeq</text>
-      <text
-         text-anchor="middle"
-         x="365"
-         y="-1426.4"
-         style="font-family:Arial;font-size:14.00;"
-         id="text1013">[MTS]</text>
-    </g>
-<!-- class clojure.lang.LazySeq&#45;&gt;class clojure.lang.ASeq -->    <g
+<!-- class clojure.lang.LazySeq&#45;&gt;interface java.util.List -->    <g
        id="edge119"
        class="edge">
       <title
-         id="title1016">class clojure.lang.LazySeq-&gt;class clojure.lang.ASeq</title>
+         id="title989">class clojure.lang.LazySeq-&gt;interface java.util.List</title>
       <path
-         style="fill:none;stroke:#d7009e;stroke-width:1.5;"
-         d="M407,-1429C458,-1418 542,-1398 593,-1386"
-         id="path1018" />
+         style="fill:none;stroke:#d78100;"
+         d="M679,-1027C728,-1017 809,-1001 858,-992"
+         id="path991" />
       <polygon
-         style="fill:#d7009e;stroke:#d7009e;stroke-width:1.5;"
-         points="593.881,-1389.39 603,-1384 592.508,-1382.53 593.881,-1389.39"
-         id="polygon1020" />
+         style="fill:#d78100;stroke:#d78100;"
+         points="858.881,-995.393 868,-990 857.508,-988.529 858.881,-995.393"
+         id="polygon993" />
+    </g>
+<!-- class clojure.lang.LazySeq&#45;&gt;interface clojure.lang.ISeq -->    <g
+       id="edge117"
+       class="edge">
+      <title
+         id="title996">class clojure.lang.LazySeq-&gt;interface clojure.lang.ISeq</title>
+      <path
+         style="fill:none;stroke:#d78100;"
+         d="M679,-1043C695,-1048 712,-1055 724,-1067 795,-1134 745,-1196 810,-1267 823,-1280 841,-1291 857,-1299"
+         id="path998" />
+      <polygon
+         style="fill:#d78100;stroke:#d78100;"
+         points="855.44,-1302.14 866,-1303 858.283,-1295.74 855.44,-1302.14"
+         id="polygon1000" />
     </g>
 <!-- class clojure.lang.MapEntry -->    <g
-       id="node124"
+       id="node122"
        class="node"
-       transform="translate(240.62025,0)">
+       transform="translate(229.72755,0)">
       <title
-         id="title1023">class clojure.lang.MapEntry</title>
+         id="title1003">class clojure.lang.MapEntry</title>
       <ellipse
          style="fill:none;stroke:#0061d7"
          cx="98"
-         cy="-915"
+         cy="-1083"
          rx="47.9314"
          ry="27.9307"
-         id="ellipse1025"
+         id="ellipse1005"
          sodipodi:cx="98"
-         sodipodi:cy="-915"
+         sodipodi:cy="-1083"
          sodipodi:rx="47.9314"
          sodipodi:ry="27.9307" />
       <text
          x="98"
-         y="-918.15002"
+         y="-1086.15"
          style="font-size:14px;text-anchor:middle;font-family:Arial"
-         id="text1027">MapEntry</text>
+         id="text1007">MapEntry</text>
       <text
          x="98"
-         y="-902.40002"
+         y="-1070.4"
          style="font-size:14px;text-anchor:middle;font-family:Arial"
-         id="text1029">[MT1SR=]</text>
+         id="text1009">[MT1SR=]</text>
     </g>
 <!-- class clojure.lang.MapEntry&#45;&gt;class clojure.lang.AMapEntry -->    <g
        id="edge123"
        class="edge"
-       transform="translate(129.91664,0)">
+       transform="translate(106.91878,0)">
       <title
-         id="title1032">class clojure.lang.MapEntry-&gt;class clojure.lang.AMapEntry</title>
+         id="title1012">class clojure.lang.MapEntry-&gt;class clojure.lang.AMapEntry</title>
       <path
-         style="fill:none;stroke:#0061d7;stroke-width:1.5;stroke-width:1.00000012"
-         d="M 257.19406,-915 C 270.40969,-915 289.93278,-915 304.34983,-915"
-         id="path1034" />
+         style="fill:none;stroke:#0061d7;stroke-width:0.99999994"
+         d="M 268.31963,-1083 C 278.42716,-1083 293.35874,-1083 304.38514,-1083"
+         id="path1014" />
       <polygon
          style="fill:#0061d7;stroke:#0061d7"
-         points="304,-918.5 314,-915 304,-911.5 304,-918.5 "
-         id="polygon1036" />
+         points="304,-1086.5 314,-1083 304,-1079.5 304,-1086.5 "
+         id="polygon1016" />
     </g>
 <!-- class clojure.lang.MultiFn -->    <g
-       id="node126"
+       id="node124"
        class="node">
       <title
-         id="title1039">class clojure.lang.MultiFn</title>
+         id="title1019">class clojure.lang.MultiFn</title>
       <ellipse
-         style="fill:none;stroke:#76d700;stroke-width:1.5;"
+         style="fill:none;stroke:#76d700;"
          cx="637"
          cy="-536"
          rx="38.1784"
          ry="27.9307"
-         id="ellipse1041" />
+         id="ellipse1021" />
       <text
          text-anchor="middle"
          x="637"
          y="-539.15"
          style="font-family:Arial;font-size:14.00;"
-         id="text1043">MultiFn</text>
+         id="text1023">MultiFn</text>
       <text
          text-anchor="middle"
          x="637"
          y="-523.4"
          style="font-family:Arial;font-size:14.00;"
-         id="text1045">[M]</text>
+         id="text1025">[M]</text>
     </g>
 <!-- class clojure.lang.MultiFn&#45;&gt;class clojure.lang.AFn -->    <g
        id="edge125"
        class="edge">
       <title
-         id="title1048">class clojure.lang.MultiFn-&gt;class clojure.lang.AFn</title>
+         id="title1028">class clojure.lang.MultiFn-&gt;class clojure.lang.AFn</title>
       <path
-         style="fill:none;stroke:#76d700;stroke-width:1.5;"
+         style="fill:none;stroke:#76d700;"
          d="M676,-534C725,-531 811,-527 861,-524"
-         id="path1050" />
+         id="path1030" />
       <polygon
-         style="fill:#76d700;stroke:#76d700;stroke-width:1.5;"
+         style="fill:#76d700;stroke:#76d700;"
          points="861,-527.5 871,-524 861,-520.5 861,-527.5"
-         id="polygon1052" />
+         id="polygon1032" />
     </g>
 <!-- class clojure.lang.Namespace -->    <g
-       id="node128"
+       id="node126"
        class="node">
       <title
-         id="title1055">class clojure.lang.Namespace</title>
+         id="title1035">class clojure.lang.Namespace</title>
       <ellipse
-         style="fill:none;stroke:#76d700;stroke-width:1.5;"
+         style="fill:none;stroke:#76d700;"
          cx="1148"
-         cy="-346"
+         cy="-362"
          rx="53.9314"
          ry="27.9307"
-         id="ellipse1057" />
+         id="ellipse1037" />
       <text
          text-anchor="middle"
          x="1148"
-         y="-349.15"
+         y="-365.15"
          style="font-family:Arial;font-size:14.00;"
-         id="text1059">Namespace</text>
+         id="text1039">Namespace</text>
       <text
          text-anchor="middle"
          x="1148"
-         y="-333.4"
+         y="-349.4"
          style="font-family:Arial;font-size:14.00;"
-         id="text1061">[M]</text>
+         id="text1041">[M]</text>
     </g>
 <!-- class clojure.lang.Namespace&#45;&gt;class clojure.lang.AReference -->    <g
        id="edge127"
        class="edge">
       <title
-         id="title1064">class clojure.lang.Namespace-&gt;class clojure.lang.AReference</title>
+         id="title1044">class clojure.lang.Namespace-&gt;class clojure.lang.AReference</title>
       <path
-         style="fill:none;stroke:#76d700;stroke-width:1.5;"
-         d="M1202,-343C1240,-341 1289,-339 1328,-337"
-         id="path1066" />
+         style="fill:none;stroke:#76d700;"
+         d="M1203,-362C1240,-362 1288,-362 1328,-362"
+         id="path1046" />
       <polygon
-         style="fill:#76d700;stroke:#76d700;stroke-width:1.5;"
-         points="1328,-340.5 1338,-337 1328,-333.5 1328,-340.5"
-         id="polygon1068" />
+         style="fill:#76d700;stroke:#76d700;"
+         points="1328,-365.5 1338,-362 1328,-358.5 1328,-365.5"
+         id="polygon1048" />
     </g>
 <!-- class clojure.lang.PersistentArrayMap -->    <g
-       id="node131"
+       id="node129"
        class="node">
       <title
-         id="title1071">class clojure.lang.PersistentArrayMap</title>
+         id="title1051">class clojure.lang.PersistentArrayMap</title>
       <ellipse
-         style="fill:none;stroke:#5a00d7;stroke-width:1.5;"
+         style="fill:none;stroke:#5a00d7;"
          cx="365"
-         cy="-473"
+         cy="-788"
          rx="78.0557"
          ry="27.9307"
-         id="ellipse1073" />
+         id="ellipse1053" />
       <text
          text-anchor="middle"
          x="365"
-         y="-476.15"
+         y="-791.15"
          style="font-family:Arial;font-size:14.00;"
-         id="text1075">PersistentArrayMap</text>
+         id="text1055">PersistentArrayMap</text>
       <text
          text-anchor="middle"
          x="365"
-         y="-460.4"
+         y="-775.4"
          style="font-family:Arial;font-size:14.00;"
-         id="text1077">[MT1]</text>
+         id="text1057">[MT1]</text>
     </g>
 <!-- class clojure.lang.PersistentArrayMap&#45;&gt;class clojure.lang.APersistentMap -->    <g
        id="edge131"
        class="edge">
       <title
-         id="title1080">class clojure.lang.PersistentArrayMap-&gt;class clojure.lang.APersistentMap</title>
+         id="title1060">class clojure.lang.PersistentArrayMap-&gt;class clojure.lang.APersistentMap</title>
       <path
-         style="fill:none;stroke:#5a00d7;stroke-width:1.5;"
-         d="M427,-490C440,-494 452,-499 464,-505 507,-527 509,-545 550,-567 558,-571 566,-575 573,-578"
-         id="path1082" />
+         style="fill:none;stroke:#5a00d7;"
+         d="M443,-788C480,-788 524,-788 560,-788"
+         id="path1062" />
       <polygon
-         style="fill:#5a00d7;stroke:#5a00d7;stroke-width:1.5;"
-         points="572.415,-581.536 583,-582 575.015,-575.036 572.415,-581.536"
-         id="polygon1084" />
+         style="fill:#5a00d7;stroke:#5a00d7;"
+         points="560,-791.5 570,-788 560,-784.5 560,-791.5"
+         id="polygon1064" />
     </g>
 <!-- class clojure.lang.PersistentHashMap -->    <g
-       id="node133"
+       id="node131"
        class="node">
       <title
-         id="title1087">class clojure.lang.PersistentHashMap</title>
+         id="title1067">class clojure.lang.PersistentHashMap</title>
       <ellipse
-         style="fill:none;stroke:#0061d7;stroke-width:1.5;"
+         style="fill:none;stroke:#0061d7;"
          cx="365"
-         cy="-599"
+         cy="-725"
          rx="77.1796"
          ry="27.9307"
-         id="ellipse1089" />
+         id="ellipse1069" />
       <text
          text-anchor="middle"
          x="365"
-         y="-602.15"
+         y="-728.15"
          style="font-family:Arial;font-size:14.00;"
-         id="text1091">PersistentHashMap</text>
+         id="text1071">PersistentHashMap</text>
       <text
          text-anchor="middle"
          x="365"
-         y="-586.4"
+         y="-712.4"
          style="font-family:Arial;font-size:14.00;"
-         id="text1093">[MT1]</text>
+         id="text1073">[MT1]</text>
     </g>
 <!-- class clojure.lang.PersistentHashMap&#45;&gt;class clojure.lang.APersistentMap -->    <g
        id="edge133"
        class="edge">
       <title
-         id="title1096">class clojure.lang.PersistentHashMap-&gt;class clojure.lang.APersistentMap</title>
+         id="title1076">class clojure.lang.PersistentHashMap-&gt;class clojure.lang.APersistentMap</title>
       <path
-         style="fill:none;stroke:#0061d7;stroke-width:1.5;"
-         d="M443,-599C480,-599 524,-599 560,-599"
-         id="path1098" />
+         style="fill:none;stroke:#0061d7;"
+         d="M430,-740C472,-750 526,-762 569,-773"
+         id="path1078" />
       <polygon
-         style="fill:#0061d7;stroke:#0061d7;stroke-width:1.5;"
-         points="560,-602.5 570,-599 560,-595.5 560,-602.5"
-         id="polygon1100" />
+         style="fill:#0061d7;stroke:#0061d7;"
+         points="568.508,-776.471 579,-775 569.881,-769.607 568.508,-776.471"
+         id="polygon1080" />
     </g>
 <!-- class clojure.lang.PersistentHashSet -->    <g
-       id="node135"
+       id="node133"
        class="node">
       <title
-         id="title1103">class clojure.lang.PersistentHashSet</title>
+         id="title1083">class clojure.lang.PersistentHashSet</title>
       <ellipse
-         style="fill:none;stroke:#5a00d7;stroke-width:1.5;"
-         cx="365"
-         cy="-831"
-         rx="75.0557"
-         ry="27.9307"
-         id="ellipse1105" />
-      <text
-         text-anchor="middle"
-         x="365"
-         y="-834.15"
-         style="font-family:Arial;font-size:14.00;"
-         id="text1107">PersistentHashSet</text>
-      <text
-         text-anchor="middle"
-         x="365"
-         y="-818.4"
-         style="font-family:Arial;font-size:14.00;"
-         id="text1109">[MT1]</text>
-    </g>
-<!-- class clojure.lang.PersistentHashSet&#45;&gt;class clojure.lang.APersistentSet -->    <g
-       id="edge135"
-       class="edge">
-      <title
-         id="title1112">class clojure.lang.PersistentHashSet-&gt;class clojure.lang.APersistentSet</title>
-      <path
-         style="fill:none;stroke:#5a00d7;stroke-width:1.5;"
-         d="M436,-822C476,-816 525,-810 565,-805"
-         id="path1114" />
-      <polygon
-         style="fill:#5a00d7;stroke:#5a00d7;stroke-width:1.5;"
-         points="565.398,-808.478 575,-804 564.701,-801.512 565.398,-808.478"
-         id="polygon1116" />
-    </g>
-<!-- class clojure.lang.PersistentList -->    <g
-       id="node137"
-       class="node">
-      <title
-         id="title1119">class clojure.lang.PersistentList</title>
-      <ellipse
-         style="fill:none;stroke:#76d700;stroke-width:1.5;"
-         cx="365"
-         cy="-1124"
-         rx="58.8074"
-         ry="27.9307"
-         id="ellipse1121" />
-      <text
-         text-anchor="middle"
-         x="365"
-         y="-1127.15"
-         style="font-family:Arial;font-size:14.00;"
-         id="text1123">PersistentList</text>
-      <text
-         text-anchor="middle"
-         x="365"
-         y="-1111.4"
-         style="font-family:Arial;font-size:14.00;"
-         id="text1125">[MT1S]</text>
-    </g>
-<!-- class clojure.lang.PersistentList&#45;&gt;interface java.util.List -->    <g
-       id="edge143"
-       class="edge">
-      <title
-         id="title1128">class clojure.lang.PersistentList-&gt;interface java.util.List</title>
-      <path
-         style="fill:none;stroke:#76d700;stroke-width:1.5;"
-         d="M425,-1124C531,-1125 755,-1127 853,-1128"
-         id="path1130" />
-      <polygon
-         style="fill:#76d700;stroke:#76d700;stroke-width:1.5;"
-         points="853,-1131.5 863,-1128 853,-1124.5 853,-1131.5"
-         id="polygon1132" />
-    </g>
-<!-- class clojure.lang.PersistentList&#45;&gt;class clojure.lang.ASeq -->    <g
-       id="edge137"
-       class="edge">
-      <title
-         id="title1135">class clojure.lang.PersistentList-&gt;class clojure.lang.ASeq</title>
-      <path
-         style="fill:none;stroke:#76d700;stroke-width:1.5;"
-         d="M421,-1133C437,-1138 452,-1145 464,-1156 531,-1213 488,-1271 550,-1334 562,-1346 579,-1355 594,-1362"
-         id="path1137" />
-      <polygon
-         style="fill:#76d700;stroke:#76d700;stroke-width:1.5;"
-         points="593.415,-1365.54 604,-1366 596.015,-1359.04 593.415,-1365.54"
-         id="polygon1139" />
-    </g>
-<!-- class clojure.lang.PersistentList&#45;&gt;interface clojure.lang.IReduce -->    <g
-       id="edge141"
-       class="edge">
-      <title
-         id="title1142">class clojure.lang.PersistentList-&gt;interface clojure.lang.IReduce</title>
-      <path
-         style="fill:none;stroke:#76d700;stroke-width:1.5;"
-         d="M418,-1137C433,-1142 450,-1148 464,-1156 507,-1178 507,-1200 550,-1222 561,-1227 573,-1232 585,-1235"
-         id="path1144" />
-      <polygon
-         style="fill:#76d700;stroke:#76d700;stroke-width:1.5;"
-         points="584.416,-1238.48 595,-1238 586.427,-1231.77 584.416,-1238.48"
-         id="polygon1146" />
-    </g>
-<!-- class clojure.lang.PersistentList&#45;&gt;interface clojure.lang.IPersistentList -->    <g
-       id="edge139"
-       class="edge">
-      <title
-         id="title1149">class clojure.lang.PersistentList-&gt;interface clojure.lang.IPersistentList</title>
-      <path
-         style="fill:none;stroke:#76d700;stroke-width:1.5;"
-         d="M417,-1138C433,-1143 449,-1149 464,-1156 505,-1174 507,-1196 550,-1209 599,-1223 737,-1223 824,-1221"
-         id="path1151" />
-      <polygon
-         style="fill:#76d700;stroke:#76d700;stroke-width:1.5;"
-         points="824,-1224.5 834,-1221 824,-1217.5 824,-1224.5"
-         id="polygon1153" />
-    </g>
-<!-- class clojure.lang.PersistentQueue -->    <g
-       id="node142"
-       class="node">
-      <title
-         id="title1156">class clojure.lang.PersistentQueue</title>
-      <ellipse
-         style="fill:none;stroke:#d7009e;stroke-width:1.5;"
-         cx="637"
-         cy="-1178"
-         rx="68.9312"
-         ry="27.9307"
-         id="ellipse1158" />
-      <text
-         text-anchor="middle"
-         x="637"
-         y="-1181.15"
-         style="font-family:Arial;font-size:14.00;"
-         id="text1160">PersistentQueue</text>
-      <text
-         text-anchor="middle"
-         x="637"
-         y="-1165.4"
-         style="font-family:Arial;font-size:14.00;"
-         id="text1162">[MT]</text>
-    </g>
-<!-- class clojure.lang.PersistentQueue&#45;&gt;class clojure.lang.Obj -->    <g
-       id="edge145"
-       class="edge">
-      <title
-         id="title1165">class clojure.lang.PersistentQueue-&gt;class clojure.lang.Obj</title>
-      <path
-         style="fill:none;stroke:#d7009e;stroke-width:1.5;"
-         d="M679,-1200C714,-1217 764,-1240 810,-1252 825,-1255 1026,-1270 1111,-1276"
-         id="path1167" />
-      <polygon
-         style="fill:#d7009e;stroke:#d7009e;stroke-width:1.5;"
-         points="1110.7,-1279.49 1121,-1277 1111.4,-1272.52 1110.7,-1279.49"
-         id="polygon1169" />
-    </g>
-<!-- class clojure.lang.PersistentQueue&#45;&gt;interface java.util.Collection -->    <g
-       id="edge149"
-       class="edge">
-      <title
-         id="title1172">class clojure.lang.PersistentQueue-&gt;interface java.util.Collection</title>
-      <path
-         style="fill:none;stroke:#d7009e;stroke-width:1.5;"
-         d="M707,-1179C803,-1181 967,-1181 992,-1170 1045,-1145 1034,-1108 1078,-1071 1085,-1064 1095,-1058 1103,-1052"
-         id="path1174" />
-      <polygon
-         style="fill:#d7009e;stroke:#d7009e;stroke-width:1.5;"
-         points="1104.96,-1054.92 1112,-1047 1101.56,-1048.8 1104.96,-1054.92"
-         id="polygon1176" />
-    </g>
-<!-- class clojure.lang.PersistentQueue&#45;&gt;interface clojure.lang.IPersistentList -->    <g
-       id="edge147"
-       class="edge">
-      <title
-         id="title1179">class clojure.lang.PersistentQueue-&gt;interface clojure.lang.IPersistentList</title>
-      <path
-         style="fill:none;stroke:#d7009e;stroke-width:1.5;"
-         d="M702,-1188C739,-1194 786,-1201 824,-1207"
-         id="path1181" />
-      <polygon
-         style="fill:#d7009e;stroke:#d7009e;stroke-width:1.5;"
-         points="823.508,-1210.47 834,-1209 824.881,-1203.61 823.508,-1210.47"
-         id="polygon1183" />
-    </g>
-<!-- class clojure.lang.PersistentStructMap -->    <g
-       id="node146"
-       class="node">
-      <title
-         id="title1186">class clojure.lang.PersistentStructMap</title>
-      <ellipse
-         style="fill:none;stroke:#00d0d7;stroke-width:1.5;"
+         style="fill:none;stroke:#5a00d7;"
          cx="365"
          cy="-536"
-         rx="79.9307"
+         rx="75.0557"
          ry="27.9307"
-         id="ellipse1188" />
+         id="ellipse1085" />
       <text
          text-anchor="middle"
          x="365"
          y="-539.15"
          style="font-family:Arial;font-size:14.00;"
-         id="text1190">PersistentStructMap</text>
+         id="text1087">PersistentHashSet</text>
       <text
          text-anchor="middle"
          x="365"
          y="-523.4"
          style="font-family:Arial;font-size:14.00;"
-         id="text1192">[MT1]</text>
+         id="text1089">[MT1]</text>
+    </g>
+<!-- class clojure.lang.PersistentHashSet&#45;&gt;class clojure.lang.APersistentSet -->    <g
+       id="edge135"
+       class="edge">
+      <title
+         id="title1092">class clojure.lang.PersistentHashSet-&gt;class clojure.lang.APersistentSet</title>
+      <path
+         style="fill:none;stroke:#5a00d7;"
+         d="M429,-551C472,-560 527,-574 571,-584"
+         id="path1094" />
+      <polygon
+         style="fill:#5a00d7;stroke:#5a00d7;"
+         points="570.508,-587.471 581,-586 571.881,-580.607 570.508,-587.471"
+         id="polygon1096" />
+    </g>
+<!-- class clojure.lang.PersistentList -->    <g
+       id="node135"
+       class="node">
+      <title
+         id="title1099">class clojure.lang.PersistentList</title>
+      <ellipse
+         style="fill:none;stroke:#76d700;"
+         cx="365"
+         cy="-1146"
+         rx="58.8074"
+         ry="27.9307"
+         id="ellipse1101" />
+      <text
+         text-anchor="middle"
+         x="365"
+         y="-1149.15"
+         style="font-family:Arial;font-size:14.00;"
+         id="text1103">PersistentList</text>
+      <text
+         text-anchor="middle"
+         x="365"
+         y="-1133.4"
+         style="font-family:Arial;font-size:14.00;"
+         id="text1105">[MT1S]</text>
+    </g>
+<!-- class clojure.lang.PersistentList&#45;&gt;interface java.util.List -->    <g
+       id="edge143"
+       class="edge">
+      <title
+         id="title1108">class clojure.lang.PersistentList-&gt;interface java.util.List</title>
+      <path
+         style="fill:none;stroke:#76d700;"
+         d="M 420,-1135 C 435,-1130 502.43003,-1133.256 534.43003,-1111.256 C 566.43003,-1089.256 572.29521,-1019.256 605.79521,-1001.256 C 639.29521,-983.25597 761,-989 854,-985"
+         id="path1110"
+         sodipodi:nodetypes="czzc" />
+      <polygon
+         style="fill:#76d700;stroke:#76d700;"
+         points="854,-988.5 864,-985 854,-981.5 854,-988.5"
+         id="polygon1112" />
+    </g>
+<!-- class clojure.lang.PersistentList&#45;&gt;class clojure.lang.ASeq -->    <g
+       id="edge137"
+       class="edge">
+      <title
+         id="title1115">class clojure.lang.PersistentList-&gt;class clojure.lang.ASeq</title>
+      <path
+         style="fill:none;stroke:#76d700;"
+         d="M417,-1159C433,-1164 450,-1170 464,-1178 520,-1208 575,-1256 608,-1287"
+         id="path1117" />
+      <polygon
+         style="fill:#76d700;stroke:#76d700;"
+         points="605.454,-1289.4 615,-1294 610.404,-1284.45 605.454,-1289.4"
+         id="polygon1119" />
+    </g>
+<!-- class clojure.lang.PersistentList&#45;&gt;interface clojure.lang.IReduce -->    <g
+       id="edge141"
+       class="edge">
+      <title
+         id="title1122">class clojure.lang.PersistentList-&gt;interface clojure.lang.IReduce</title>
+      <path
+         style="fill:none;stroke:#76d700;"
+         d="M418,-1158C467,-1170 540,-1187 587,-1198"
+         id="path1124" />
+      <polygon
+         style="fill:#76d700;stroke:#76d700;"
+         points="586.508,-1201.47 597,-1200 587.881,-1194.61 586.508,-1201.47"
+         id="polygon1126" />
+    </g>
+<!-- class clojure.lang.PersistentList&#45;&gt;interface clojure.lang.IPersistentList -->    <g
+       id="edge139"
+       class="edge">
+      <title
+         id="title1129">class clojure.lang.PersistentList-&gt;interface clojure.lang.IPersistentList</title>
+      <path
+         style="fill:none;stroke:#76d700;"
+         d="M421,-1156C458,-1162 507,-1169 550,-1172 644,-1180 753,-1182 824,-1182"
+         id="path1131" />
+      <polygon
+         style="fill:#76d700;stroke:#76d700;"
+         points="824,-1185.5 834,-1182 824,-1178.5 824,-1185.5"
+         id="polygon1133" />
+    </g>
+<!-- class clojure.lang.PersistentQueue -->    <g
+       id="node140"
+       class="node">
+      <title
+         id="title1136">class clojure.lang.PersistentQueue</title>
+      <ellipse
+         style="fill:none;stroke:#0061d7;"
+         cx="637"
+         cy="-1098"
+         rx="68.9312"
+         ry="27.9307"
+         id="ellipse1138" />
+      <text
+         text-anchor="middle"
+         x="637"
+         y="-1101.15"
+         style="font-family:Arial;font-size:14.00;"
+         id="text1140">PersistentQueue</text>
+      <text
+         text-anchor="middle"
+         x="637"
+         y="-1085.4"
+         style="font-family:Arial;font-size:14.00;"
+         id="text1142">[MT]</text>
+    </g>
+<!-- class clojure.lang.PersistentQueue&#45;&gt;class clojure.lang.Obj -->    <g
+       id="edge145"
+       class="edge">
+      <title
+         id="title1145">class clojure.lang.PersistentQueue-&gt;class clojure.lang.Obj</title>
+      <path
+         style="fill:none;stroke:#0061d7;"
+         d="M697,-1112C730,-1120 772,-1128 810,-1132 919,-1144 1048,-1142 1111,-1140"
+         id="path1147" />
+      <polygon
+         style="fill:#0061d7;stroke:#0061d7;"
+         points="1111,-1143.5 1121,-1140 1111,-1136.5 1111,-1143.5"
+         id="polygon1149" />
+    </g>
+<!-- class clojure.lang.PersistentQueue&#45;&gt;interface java.util.Collection -->    <g
+       id="edge149"
+       class="edge">
+      <title
+         id="title1152">class clojure.lang.PersistentQueue-&gt;interface java.util.Collection</title>
+      <path
+         style="fill:none;stroke:#0061d7;"
+         d="M690,-1080C732,-1065 787,-1047 810,-1042 890,-1026 918,-1060 992,-1026 1047,-1002 1094,-950 1122,-915"
+         id="path1154" />
+      <polygon
+         style="fill:#0061d7;stroke:#0061d7;"
+         points="1124.8,-917.1 1128,-907 1119.2,-912.9 1124.8,-917.1"
+         id="polygon1156" />
+    </g>
+<!-- class clojure.lang.PersistentQueue&#45;&gt;interface clojure.lang.IPersistentList -->    <g
+       id="edge147"
+       class="edge">
+      <title
+         id="title1159">class clojure.lang.PersistentQueue-&gt;interface clojure.lang.IPersistentList</title>
+      <path
+         style="fill:none;stroke:#0061d7;"
+         d="M692,-1115C734,-1129 791,-1146 835,-1161"
+         id="path1161" />
+      <polygon
+         style="fill:#0061d7;stroke:#0061d7;"
+         points="834.416,-1164.48 845,-1164 836.427,-1157.77 834.416,-1164.48"
+         id="polygon1163" />
+    </g>
+<!-- class clojure.lang.PersistentStructMap -->    <g
+       id="node144"
+       class="node">
+      <title
+         id="title1166">class clojure.lang.PersistentStructMap</title>
+      <ellipse
+         style="fill:none;stroke:#00d0d7;"
+         cx="365"
+         cy="-851"
+         rx="79.9307"
+         ry="27.9307"
+         id="ellipse1168" />
+      <text
+         text-anchor="middle"
+         x="365"
+         y="-854.15"
+         style="font-family:Arial;font-size:14.00;"
+         id="text1170">PersistentStructMap</text>
+      <text
+         text-anchor="middle"
+         x="365"
+         y="-838.4"
+         style="font-family:Arial;font-size:14.00;"
+         id="text1172">[MT1]</text>
     </g>
 <!-- class clojure.lang.PersistentStructMap&#45;&gt;class clojure.lang.APersistentMap -->    <g
        id="edge151"
        class="edge">
       <title
-         id="title1195">class clojure.lang.PersistentStructMap-&gt;class clojure.lang.APersistentMap</title>
+         id="title1175">class clojure.lang.PersistentStructMap-&gt;class clojure.lang.APersistentMap</title>
       <path
-         style="fill:none;stroke:#00d0d7;stroke-width:1.5;"
-         d="M432,-551C474,-561 526,-573 569,-583"
-         id="path1197" />
+         style="fill:none;stroke:#00d0d7;"
+         d="M432,-836C474,-826 526,-814 569,-804"
+         id="path1177" />
       <polygon
-         style="fill:#00d0d7;stroke:#00d0d7;stroke-width:1.5;"
-         points="568.508,-586.471 579,-585 569.881,-579.607 568.508,-586.471"
-         id="polygon1199" />
+         style="fill:#00d0d7;stroke:#00d0d7;"
+         points="569.881,-807.393 579,-802 568.508,-800.529 569.881,-807.393"
+         id="polygon1179" />
     </g>
 <!-- class clojure.lang.PersistentTreeMap -->    <g
-       id="node148"
+       id="node146"
        class="node">
       <title
-         id="title1202">class clojure.lang.PersistentTreeMap</title>
+         id="title1182">class clojure.lang.PersistentTreeMap</title>
       <ellipse
-         style="fill:none;stroke:#d78100;stroke-width:1.5;"
+         style="fill:none;stroke:#d78100;"
          cx="365"
          cy="-662"
          rx="76.1807"
          ry="27.9307"
-         id="ellipse1204" />
+         id="ellipse1184" />
       <text
          text-anchor="middle"
          x="365"
          y="-665.15"
          style="font-family:Arial;font-size:14.00;"
-         id="text1206">PersistentTreeMap</text>
+         id="text1186">PersistentTreeMap</text>
       <text
          text-anchor="middle"
          x="365"
          y="-649.4"
          style="font-family:Arial;font-size:14.00;"
-         id="text1208">[MT1R]</text>
+         id="text1188">[MT1R]</text>
     </g>
 <!-- class clojure.lang.PersistentTreeMap&#45;&gt;class clojure.lang.APersistentMap -->    <g
        id="edge153"
        class="edge">
       <title
-         id="title1211">class clojure.lang.PersistentTreeMap-&gt;class clojure.lang.APersistentMap</title>
+         id="title1191">class clojure.lang.PersistentTreeMap-&gt;class clojure.lang.APersistentMap</title>
       <path
-         style="fill:none;stroke:#d78100;stroke-width:1.5;"
-         d="M429,-647C472,-637 526,-624 569,-614"
-         id="path1213" />
+         style="fill:none;stroke:#d78100;"
+         d="M425,-679C438,-684 452,-689 464,-694 508,-713 556,-739 590,-760"
+         id="path1193" />
       <polygon
-         style="fill:#d78100;stroke:#d78100;stroke-width:1.5;"
-         points="569.881,-617.393 579,-612 568.508,-610.529 569.881,-617.393"
-         id="polygon1215" />
+         style="fill:#d78100;stroke:#d78100;"
+         points="588.559,-763.203 599,-765 591.958,-757.084 588.559,-763.203"
+         id="polygon1195" />
     </g>
 <!-- interface clojure.lang.Sorted -->    <g
-       id="node151"
+       id="node149"
        class="node">
       <title
-         id="title1218">interface clojure.lang.Sorted</title>
+         id="title1198">interface clojure.lang.Sorted</title>
       <polygon
-         style="fill:none;stroke:#5a00d7;stroke-width:1.5;"
-         points="680.897,-718.477 680.897,-743.523 655.183,-761.232 618.817,-761.232 593.103,-743.523 593.103,-718.477 618.817,-700.768 655.183,-700.768 680.897,-718.477"
-         id="polygon1220" />
+         style="fill:none;stroke:#5a00d7;"
+         points="680.897,-651.477 680.897,-676.523 655.183,-694.232 618.817,-694.232 593.103,-676.523 593.103,-651.477 618.817,-633.768 655.183,-633.768 680.897,-651.477"
+         id="polygon1200" />
       <text
          text-anchor="middle"
          x="637"
-         y="-734.15"
+         y="-667.15"
          style="font-family:Arial;font-size:14.00;"
-         id="text1222">Sorted</text>
+         id="text1202">Sorted</text>
       <text
          text-anchor="middle"
          x="637"
-         y="-718.4"
+         y="-651.4"
          style="font-family:Arial;font-size:14.00;"
-         id="text1224">sorted?</text>
+         id="text1204">sorted?</text>
     </g>
 <!-- class clojure.lang.PersistentTreeMap&#45;&gt;interface clojure.lang.Sorted -->    <g
        id="edge155"
        class="edge">
       <title
-         id="title1227">class clojure.lang.PersistentTreeMap-&gt;interface clojure.lang.Sorted</title>
+         id="title1207">class clojure.lang.PersistentTreeMap-&gt;interface clojure.lang.Sorted</title>
       <path
-         style="fill:none;stroke:#d78100;stroke-width:1.5;"
-         d="M428,-678C474,-690 538,-706 583,-717"
-         id="path1229" />
+         style="fill:none;stroke:#d78100;"
+         d="M441,-663C486,-663 542,-663 583,-664"
+         id="path1209" />
       <polygon
-         style="fill:#d78100;stroke:#d78100;stroke-width:1.5;"
-         points="582.416,-720.479 593,-720 584.427,-713.774 582.416,-720.479"
-         id="polygon1231" />
+         style="fill:#d78100;stroke:#d78100;"
+         points="583,-667.5 593,-664 583,-660.5 583,-667.5"
+         id="polygon1211" />
     </g>
 <!-- class clojure.lang.PersistentTreeSet -->    <g
-       id="node152"
+       id="node150"
        class="node">
       <title
-         id="title1234">class clojure.lang.PersistentTreeSet</title>
+         id="title1214">class clojure.lang.PersistentTreeSet</title>
       <ellipse
-         style="fill:none;stroke:#d70000;stroke-width:1.5;"
+         style="fill:none;stroke:#d70000;"
          cx="365"
-         cy="-768"
+         cy="-599"
          rx="73.0553"
          ry="27.9307"
-         id="ellipse1236" />
+         id="ellipse1216" />
       <text
          text-anchor="middle"
          x="365"
-         y="-771.15"
+         y="-602.15"
          style="font-family:Arial;font-size:14.00;"
-         id="text1238">PersistentTreeSet</text>
+         id="text1218">PersistentTreeSet</text>
       <text
          text-anchor="middle"
          x="365"
-         y="-755.4"
+         y="-586.4"
          style="font-family:Arial;font-size:14.00;"
-         id="text1240">[MT1R]</text>
+         id="text1220">[MT1R]</text>
     </g>
 <!-- class clojure.lang.PersistentTreeSet&#45;&gt;class clojure.lang.APersistentSet -->    <g
        id="edge157"
        class="edge">
       <title
-         id="title1243">class clojure.lang.PersistentTreeSet-&gt;class clojure.lang.APersistentSet</title>
+         id="title1223">class clojure.lang.PersistentTreeSet-&gt;class clojure.lang.APersistentSet</title>
       <path
-         style="fill:none;stroke:#d70000;stroke-width:1.5;"
-         d="M436,-775C476,-780 524,-784 564,-789"
-         id="path1245" />
+         style="fill:none;stroke:#d70000;"
+         d="M439,-599C478,-599 524,-599 563,-599"
+         id="path1225" />
       <polygon
-         style="fill:#d70000;stroke:#d70000;stroke-width:1.5;"
-         points="563.701,-792.488 574,-790 564.398,-785.522 563.701,-792.488"
-         id="polygon1247" />
+         style="fill:#d70000;stroke:#d70000;"
+         points="563,-602.5 573,-599 563,-595.5 563,-602.5"
+         id="polygon1227" />
     </g>
 <!-- class clojure.lang.PersistentTreeSet&#45;&gt;interface clojure.lang.Sorted -->    <g
        id="edge159"
        class="edge">
       <title
-         id="title1250">class clojure.lang.PersistentTreeSet-&gt;interface clojure.lang.Sorted</title>
+         id="title1230">class clojure.lang.PersistentTreeSet-&gt;interface clojure.lang.Sorted</title>
       <path
-         style="fill:none;stroke:#d70000;stroke-width:1.5;"
-         d="M434,-759C480,-753 540,-744 583,-738"
-         id="path1252" />
+         style="fill:none;stroke:#d70000;"
+         d="M427,-614C474,-625 538,-641 583,-651"
+         id="path1232" />
       <polygon
-         style="fill:#d70000;stroke:#d70000;stroke-width:1.5;"
-         points="583.398,-741.478 593,-737 582.701,-734.512 583.398,-741.478"
-         id="polygon1254" />
+         style="fill:#d70000;stroke:#d70000;"
+         points="582.508,-654.471 593,-653 583.881,-647.607 582.508,-654.471"
+         id="polygon1234" />
     </g>
 <!-- class clojure.lang.PersistentVector -->    <g
-       id="node155"
+       id="node153"
        class="node">
       <title
-         id="title1257">class clojure.lang.PersistentVector</title>
+         id="title1237">class clojure.lang.PersistentVector</title>
       <ellipse
-         style="fill:none;stroke:#d78100;stroke-width:1.5;"
+         style="fill:none;stroke:#d78100;"
          cx="365"
-         cy="-1041"
+         cy="-957"
          rx="68.1794"
          ry="27.9307"
-         id="ellipse1259" />
+         id="ellipse1239" />
       <text
          text-anchor="middle"
          x="365"
-         y="-1044.15"
+         y="-960.15"
          style="font-family:Arial;font-size:14.00;"
-         id="text1261">PersistentVector</text>
+         id="text1241">PersistentVector</text>
       <text
          text-anchor="middle"
          x="365"
-         y="-1028.4"
+         y="-944.4"
          style="font-family:Arial;font-size:14.00;"
-         id="text1263">[MT1SR=]</text>
+         id="text1243">[MT1SR=]</text>
     </g>
 <!-- class clojure.lang.PersistentVector&#45;&gt;class clojure.lang.APersistentVector -->    <g
        id="edge161"
        class="edge">
       <title
-         id="title1266">class clojure.lang.PersistentVector-&gt;class clojure.lang.APersistentVector</title>
+         id="title1246">class clojure.lang.PersistentVector-&gt;class clojure.lang.APersistentVector</title>
       <path
-         style="fill:none;stroke:#d78100;stroke-width:1.5;"
-         d="M425,-1027C466,-1018 520,-1005 564,-995"
-         id="path1268" />
+         style="fill:none;stroke:#d78100;"
+         d="M434,-957C470,-957 515,-957 553,-957"
+         id="path1248" />
       <polygon
-         style="fill:#d78100;stroke:#d78100;stroke-width:1.5;"
-         points="564.881,-998.393 574,-993 563.508,-991.529 564.881,-998.393"
-         id="polygon1270" />
+         style="fill:#d78100;stroke:#d78100;"
+         points="553,-960.5 563,-957 553,-953.5 553,-960.5"
+         id="polygon1250" />
     </g>
 <!-- class clojure.lang.ProxyHandler -->    <g
-       id="node157"
+       id="node155"
        class="node"
-       transform="translate(668.58478,392.23641)">
+       transform="translate(269.59467,1416.9895)">
       <title
-         id="title1273">class clojure.lang.ProxyHandler</title>
+         id="title1253">class clojure.lang.ProxyHandler</title>
       <ellipse
          style="fill:none;stroke:#0061d7"
          cx="98"
-         cy="-1971"
+         cy="-1741"
          rx="54.795601"
          ry="18"
-         id="ellipse1275"
+         id="ellipse1255"
          sodipodi:cx="98"
-         sodipodi:cy="-1971"
+         sodipodi:cy="-1741"
          sodipodi:rx="54.795601"
          sodipodi:ry="18" />
       <text
          x="98"
-         y="-1966.28"
+         y="-1736.28"
          style="font-size:14px;text-anchor:middle;font-family:Arial"
-         id="text1277">ProxyHandler</text>
+         id="text1257">ProxyHandler</text>
     </g>
 <!-- class clojure.lang.ProxyHandler&#45;&gt;interface java.lang.reflect.InvocationHandler -->    <g
        id="edge163"
        class="edge"
-       transform="translate(668.58478,392.23641)">
+       transform="translate(269.59467,1416.9895)">
       <title
-         id="title1280">class clojure.lang.ProxyHandler-&gt;interface java.lang.reflect.InvocationHandler</title>
+         id="title1260">class clojure.lang.ProxyHandler-&gt;interface java.lang.reflect.InvocationHandler</title>
       <path
          style="fill:none;stroke:#0061d7"
-         d="M 154,-1971 C 184,-1971 222,-1971 257,-1971"
-         id="path1282" />
+         d="M 154,-1741 C 184,-1741 222,-1741 257,-1741"
+         id="path1262" />
       <polygon
          style="fill:#0061d7;stroke:#0061d7"
-         points="257,-1974.5 267,-1971 257,-1967.5 257,-1974.5 "
-         id="polygon1284" />
+         points="257,-1744.5 267,-1741 257,-1737.5 257,-1744.5 "
+         id="polygon1264" />
     </g>
 <!-- class clojure.lang.Range -->    <g
-       id="node159"
+       id="node157"
        class="node">
       <title
-         id="title1287">class clojure.lang.Range</title>
+         id="title1267">class clojure.lang.Range</title>
       <ellipse
-         style="fill:none;stroke:#00d0d7;stroke-width:1.5;"
+         style="fill:none;stroke:#00d0d7;"
          cx="365"
-         cy="-1250"
+         cy="-1209"
          rx="39.0557"
          ry="27.9307"
-         id="ellipse1289" />
+         id="ellipse1269" />
       <text
          text-anchor="middle"
          x="365"
-         y="-1253.15"
+         y="-1212.15"
          style="font-family:Arial;font-size:14.00;"
-         id="text1291">Range</text>
+         id="text1271">Range</text>
       <text
          text-anchor="middle"
          x="365"
-         y="-1237.4"
+         y="-1196.4"
          style="font-family:Arial;font-size:14.00;"
-         id="text1293">[MT1S]</text>
+         id="text1273">[MT1S]</text>
     </g>
 <!-- class clojure.lang.Range&#45;&gt;class clojure.lang.ASeq -->    <g
        id="edge165"
        class="edge">
       <title
-         id="title1296">class clojure.lang.Range-&gt;class clojure.lang.ASeq</title>
+         id="title1276">class clojure.lang.Range-&gt;class clojure.lang.ASeq</title>
       <path
-         style="fill:none;stroke:#00d0d7;stroke-width:1.5;"
-         d="M402,-1259C421,-1265 444,-1273 464,-1282 505,-1300 511,-1312 550,-1334 566,-1342 583,-1351 598,-1358"
-         id="path1298" />
+         style="fill:none;stroke:#00d0d7;"
+         d="M401,-1220C420,-1226 444,-1233 464,-1241 511,-1258 562,-1282 598,-1298"
+         id="path1278" />
       <polygon
-         style="fill:#00d0d7;stroke:#00d0d7;stroke-width:1.5;"
-         points="596.44,-1361.14 607,-1362 599.283,-1354.74 596.44,-1361.14"
-         id="polygon1300" />
+         style="fill:#00d0d7;stroke:#00d0d7;"
+         points="596.44,-1301.14 607,-1302 599.283,-1294.74 596.44,-1301.14"
+         id="polygon1280" />
     </g>
 <!-- class clojure.lang.Range&#45;&gt;interface clojure.lang.IReduce -->    <g
        id="edge167"
        class="edge">
       <title
-         id="title1303">class clojure.lang.Range-&gt;interface clojure.lang.IReduce</title>
+         id="title1283">class clojure.lang.Range-&gt;interface clojure.lang.IReduce</title>
       <path
-         style="fill:none;stroke:#00d0d7;stroke-width:1.5;"
-         d="M404,-1249C452,-1248 530,-1247 583,-1247"
-         id="path1305" />
+         style="fill:none;stroke:#00d0d7;"
+         d="M404,-1209C452,-1209 530,-1209 583,-1209"
+         id="path1285" />
       <polygon
-         style="fill:#00d0d7;stroke:#00d0d7;stroke-width:1.5;"
-         points="583,-1250.5 593,-1247 583,-1243.5 583,-1250.5"
-         id="polygon1307" />
+         style="fill:#00d0d7;stroke:#00d0d7;"
+         points="583,-1212.5 593,-1209 583,-1205.5 583,-1212.5"
+         id="polygon1287" />
     </g>
 <!-- class clojure.lang.Ratio -->    <g
-       id="node162"
+       id="node160"
        class="node"
-       transform="translate(668.58478,392.23641)">
+       transform="translate(269.59467,1416.9895)">
       <title
-         id="title1310">class clojure.lang.Ratio</title>
+         id="title1290">class clojure.lang.Ratio</title>
       <ellipse
          style="fill:none;stroke:#d78100"
          cx="98"
-         cy="-2087"
+         cy="-1857"
          rx="36.239201"
          ry="38.239201"
-         id="ellipse1312"
+         id="ellipse1292"
          sodipodi:cx="98"
-         sodipodi:cy="-2087"
+         sodipodi:cy="-1857"
          sodipodi:rx="36.239201"
          sodipodi:ry="38.239201" />
       <text
          x="98"
-         y="-2098.03"
+         y="-1868.03"
          style="font-size:14px;text-anchor:middle;font-family:Arial"
-         id="text1314">Ratio</text>
+         id="text1294">Ratio</text>
       <text
          x="98"
-         y="-2082.28"
+         y="-1852.28"
          style="font-size:14px;text-anchor:middle;font-family:Arial"
-         id="text1316">ratio?</text>
+         id="text1296">ratio?</text>
       <text
          x="98"
-         y="-2066.53"
+         y="-1836.53"
          style="font-size:14px;text-anchor:middle;font-family:Arial"
-         id="text1318">[=]</text>
+         id="text1298">[=]</text>
     </g>
 <!-- class clojure.lang.Ref -->    <g
-       id="node163"
+       id="node161"
        class="node">
       <title
-         id="title1321">class clojure.lang.Ref</title>
+         id="title1301">class clojure.lang.Ref</title>
       <ellipse
-         style="fill:none;stroke:#d78100;stroke-width:1.5;"
+         style="fill:none;stroke:#d78100;"
          cx="901"
          cy="-359"
          rx="29.1777"
          ry="27.9307"
-         id="ellipse1323" />
+         id="ellipse1303" />
       <text
          text-anchor="middle"
          x="901"
          y="-362.15"
          style="font-family:Arial;font-size:14.00;"
-         id="text1325">Ref</text>
+         id="text1305">Ref</text>
       <text
          text-anchor="middle"
          x="901"
          y="-346.4"
          style="font-family:Arial;font-size:14.00;"
-         id="text1327">[M=]</text>
+         id="text1307">[M=]</text>
     </g>
 <!-- class clojure.lang.Ref&#45;&gt;interface clojure.lang.IFn -->    <g
        id="edge171"
        class="edge">
       <title
-         id="title1330">class clojure.lang.Ref-&gt;interface clojure.lang.IFn</title>
+         id="title1310">class clojure.lang.Ref-&gt;interface clojure.lang.IFn</title>
       <path
-         style="fill:none;stroke:#d78100;stroke-width:1.5;"
-         d="M930,-367C974,-378 1058,-402 1108,-415"
-         id="path1332" />
+         style="fill:none;stroke:#d78100;"
+         d="M929,-367C973,-380 1058,-405 1108,-419"
+         id="path1312" />
       <polygon
-         style="fill:#d78100;stroke:#d78100;stroke-width:1.5;"
-         points="1107.42,-418.479 1118,-418 1109.43,-411.774 1107.42,-418.479"
-         id="polygon1334" />
+         style="fill:#d78100;stroke:#d78100;"
+         points="1107.42,-422.479 1118,-422 1109.43,-415.774 1107.42,-422.479"
+         id="polygon1314" />
     </g>
 <!-- class clojure.lang.Ref&#45;&gt;class clojure.lang.ARef -->    <g
        id="edge169"
        class="edge">
       <title
-         id="title1337">class clojure.lang.Ref-&gt;class clojure.lang.ARef</title>
+         id="title1317">class clojure.lang.Ref-&gt;class clojure.lang.ARef</title>
       <path
-         style="fill:none;stroke:#d78100;stroke-width:1.5;"
-         d="M929,-349C947,-343 971,-335 992,-327 1032,-313 1077,-296 1108,-284"
-         id="path1339" />
+         style="fill:none;stroke:#d78100;"
+         d="M929,-350C947,-344 971,-335 992,-327 1033,-312 1078,-293 1110,-279"
+         id="path1319" />
       <polygon
-         style="fill:#d78100;stroke:#d78100;stroke-width:1.5;"
-         points="1110.02,-286.964 1118,-280 1107.42,-280.464 1110.02,-286.964"
-         id="polygon1341" />
+         style="fill:#d78100;stroke:#d78100;"
+         points="1111.28,-282.26 1119,-275 1108.44,-275.863 1111.28,-282.26"
+         id="polygon1321" />
     </g>
 <!-- class clojure.lang.Ref&#45;&gt;interface clojure.lang.IRef -->    <g
        id="edge173"
        class="edge">
       <title
-         id="title1344">class clojure.lang.Ref-&gt;interface clojure.lang.IRef</title>
+         id="title1324">class clojure.lang.Ref-&gt;interface clojure.lang.IRef</title>
       <path
-         style="fill:none;stroke:#d78100;stroke-width:1.5;"
-         d="M929,-351C964,-341 1025,-325 1078,-315 1140,-304 1157,-309 1218,-299 1265,-293 1318,-283 1354,-276"
-         id="path1346" />
+         style="fill:none;stroke:#d78100;"
+         d="M930,-354C986,-343 1113,-319 1218,-293 1257,-284 1266,-279 1304,-268 1320,-264 1338,-259 1354,-255"
+         id="path1326" />
       <polygon
-         style="fill:#d78100;stroke:#d78100;stroke-width:1.5;"
-         points="1354.88,-279.393 1364,-274 1353.51,-272.529 1354.88,-279.393"
-         id="polygon1348" />
+         style="fill:#d78100;stroke:#d78100;"
+         points="1354.88,-258.393 1364,-253 1353.51,-251.529 1354.88,-258.393"
+         id="polygon1328" />
     </g>
 <!-- class clojure.lang.RestFn -->    <g
-       id="node167"
+       id="node165"
        class="node">
       <title
-         id="title1351">class clojure.lang.RestFn</title>
+         id="title1331">class clojure.lang.RestFn</title>
       <ellipse
-         style="fill:none;stroke:#0061d7;stroke-width:1.5;"
+         style="fill:none;stroke:#0061d7;"
          cx="365"
-         cy="-96"
+         cy="-90"
          rx="38.9316"
          ry="27.9307"
-         id="ellipse1353" />
+         id="ellipse1333" />
       <text
          text-anchor="middle"
          x="365"
-         y="-99.15"
+         y="-93.15"
          style="font-family:Arial;font-size:14.00;"
-         id="text1355">RestFn</text>
+         id="text1335">RestFn</text>
       <text
          text-anchor="middle"
          x="365"
-         y="-83.4"
+         y="-77.4"
          style="font-family:Arial;font-size:14.00;"
-         id="text1357">[M]</text>
+         id="text1337">[M]</text>
     </g>
 <!-- class clojure.lang.RestFn&#45;&gt;class clojure.lang.AFunction -->    <g
        id="edge175"
        class="edge">
       <title
-         id="title1360">class clojure.lang.RestFn-&gt;class clojure.lang.AFunction</title>
+         id="title1340">class clojure.lang.RestFn-&gt;class clojure.lang.AFunction</title>
       <path
-         style="fill:none;stroke:#0061d7;stroke-width:1.5;"
-         d="M405,-96C450,-96 526,-96 579,-96"
-         id="path1362" />
+         style="fill:none;stroke:#0061d7;"
+         d="M405,-90C450,-90 526,-90 579,-90"
+         id="path1342" />
       <polygon
-         style="fill:#0061d7;stroke:#0061d7;stroke-width:1.5;"
-         points="579,-99.5001 589,-96 579,-92.5001 579,-99.5001"
-         id="polygon1364" />
+         style="fill:#0061d7;stroke:#0061d7;"
+         points="579,-93.5001 589,-90 579,-86.5001 579,-93.5001"
+         id="polygon1344" />
     </g>
 <!-- class clojure.lang.SeqEnumeration -->    <g
-       id="node169"
+       id="node167"
        class="node"
-       transform="translate(668.58478,392.23641)">
+       transform="translate(269.59467,1416.9895)">
       <title
-         id="title1367">class clojure.lang.SeqEnumeration</title>
+         id="title1347">class clojure.lang.SeqEnumeration</title>
       <ellipse
          style="fill:none;stroke:#0061d7"
          cx="98"
-         cy="-1918"
+         cy="-1688"
          rx="65.7938"
          ry="18"
-         id="ellipse1369"
+         id="ellipse1349"
          sodipodi:cx="98"
-         sodipodi:cy="-1918"
+         sodipodi:cy="-1688"
          sodipodi:rx="65.7938"
          sodipodi:ry="18" />
       <text
          x="98"
-         y="-1913.28"
+         y="-1683.28"
          style="font-size:14px;text-anchor:middle;font-family:Arial"
-         id="text1371">SeqEnumeration</text>
+         id="text1351">SeqEnumeration</text>
     </g>
 <!-- class clojure.lang.SeqEnumeration&#45;&gt;interface java.util.Enumeration -->    <g
        id="edge177"
        class="edge"
-       transform="translate(668.58478,392.23641)">
+       transform="translate(269.59467,1416.9895)">
       <title
-         id="title1374">class clojure.lang.SeqEnumeration-&gt;interface java.util.Enumeration</title>
+         id="title1354">class clojure.lang.SeqEnumeration-&gt;interface java.util.Enumeration</title>
       <path
          style="fill:none;stroke:#0061d7"
-         d="M 164,-1918 C 199,-1918 243,-1918 280,-1918"
-         id="path1376" />
+         d="M 164,-1688 C 199,-1688 243,-1688 280,-1688"
+         id="path1356" />
       <polygon
          style="fill:#0061d7;stroke:#0061d7"
-         points="280,-1921.5 290,-1918 280,-1914.5 280,-1921.5 "
-         id="polygon1378" />
+         points="280,-1691.5 290,-1688 280,-1684.5 280,-1691.5 "
+         id="polygon1358" />
     </g>
 <!-- class clojure.lang.SeqIterator -->    <g
-       id="node171"
+       id="node169"
        class="node"
-       transform="translate(668.58478,392.23641)">
+       transform="translate(269.59467,1416.9895)">
       <title
-         id="title1381">class clojure.lang.SeqIterator</title>
+         id="title1361">class clojure.lang.SeqIterator</title>
       <ellipse
          style="fill:none;stroke:#76d700"
          cx="98"
-         cy="-2024"
+         cy="-1794"
          rx="48.043301"
          ry="18"
-         id="ellipse1383"
+         id="ellipse1363"
          sodipodi:cx="98"
-         sodipodi:cy="-2024"
+         sodipodi:cy="-1794"
          sodipodi:rx="48.043301"
          sodipodi:ry="18" />
       <text
          x="98"
-         y="-2019.28"
+         y="-1789.28"
          style="font-size:14px;text-anchor:middle;font-family:Arial"
-         id="text1385">SeqIterator</text>
+         id="text1365">SeqIterator</text>
     </g>
 <!-- class clojure.lang.SeqIterator&#45;&gt;interface java.util.Iterator -->    <g
        id="edge179"
        class="edge"
-       transform="translate(668.58478,392.23641)">
+       transform="translate(269.59467,1416.9895)">
       <title
-         id="title1388">class clojure.lang.SeqIterator-&gt;interface java.util.Iterator</title>
+         id="title1368">class clojure.lang.SeqIterator-&gt;interface java.util.Iterator</title>
       <path
          style="fill:none;stroke:#76d700"
-         d="M 147,-2024 C 192,-2024 257,-2024 305,-2024"
-         id="path1390" />
+         d="M 147,-1794 C 192,-1794 257,-1794 305,-1794"
+         id="path1370" />
       <polygon
          style="fill:#76d700;stroke:#76d700"
-         points="305,-2027.5 315,-2024 305,-2020.5 305,-2027.5 "
-         id="polygon1392" />
+         points="305,-1797.5 315,-1794 305,-1790.5 305,-1797.5 "
+         id="polygon1372" />
     </g>
 <!-- interface clojure.lang.Settable -->    <g
-       id="node174"
+       id="node172"
        class="node">
       <title
-         id="title1395">interface clojure.lang.Settable</title>
+         id="title1375">interface clojure.lang.Settable</title>
       <polygon
-         style="fill:none;stroke:#0061d7;stroke-width:1.5;"
+         style="fill:none;stroke:#0061d7;"
          points="1189.9,-154.471 1189.9,-169.529 1165.35,-180.177 1130.65,-180.177 1106.1,-169.529 1106.1,-154.471 1130.65,-143.823 1165.35,-143.823 1189.9,-154.471"
-         id="polygon1397" />
+         id="polygon1377" />
       <text
          text-anchor="middle"
          x="1148"
          y="-157.275"
          style="font-family:Arial;font-size:14.00;"
-         id="text1399">Settable</text>
+         id="text1379">Settable</text>
     </g>
 <!-- class clojure.lang.StreamSeq -->    <g
-       id="node175"
+       id="node173"
        class="node">
       <title
-         id="title1402">class clojure.lang.StreamSeq</title>
+         id="title1382">class clojure.lang.StreamSeq</title>
       <ellipse
-         style="fill:none;stroke:#5a00d7;stroke-width:1.5;"
+         style="fill:none;stroke:#5a00d7;"
          cx="365"
-         cy="-1376"
+         cy="-1398"
          rx="52.1807"
          ry="27.9307"
-         id="ellipse1404" />
+         id="ellipse1384" />
       <text
          text-anchor="middle"
          x="365"
-         y="-1379.15"
+         y="-1401.15"
          style="font-family:Arial;font-size:14.00;"
-         id="text1406">StreamSeq</text>
+         id="text1386">StreamSeq</text>
       <text
          text-anchor="middle"
          x="365"
-         y="-1363.4"
+         y="-1385.4"
          style="font-family:Arial;font-size:14.00;"
-         id="text1408">[MTS]</text>
+         id="text1388">[MTS]</text>
     </g>
 <!-- class clojure.lang.StreamSeq&#45;&gt;class clojure.lang.ASeq -->    <g
        id="edge183"
        class="edge">
       <title
-         id="title1411">class clojure.lang.StreamSeq-&gt;class clojure.lang.ASeq</title>
+         id="title1391">class clojure.lang.StreamSeq-&gt;class clojure.lang.ASeq</title>
       <path
-         style="fill:none;stroke:#5a00d7;stroke-width:1.5;"
-         d="M417,-1376C467,-1376 544,-1376 592,-1376"
-         id="path1413" />
+         style="fill:none;stroke:#5a00d7;"
+         d="M411,-1384C462,-1369 544,-1344 594,-1329"
+         id="path1393" />
       <polygon
-         style="fill:#5a00d7;stroke:#5a00d7;stroke-width:1.5;"
-         points="592,-1379.5 602,-1376 592,-1372.5 592,-1379.5"
-         id="polygon1415" />
+         style="fill:#5a00d7;stroke:#5a00d7;"
+         points="595.427,-1332.23 604,-1326 593.416,-1325.52 595.427,-1332.23"
+         id="polygon1395" />
     </g>
 <!-- class clojure.lang.StringSeq -->    <g
-       id="node177"
+       id="node175"
        class="node">
       <title
-         id="title1418">class clojure.lang.StringSeq</title>
+         id="title1398">class clojure.lang.StringSeq</title>
       <ellipse
-         style="fill:none;stroke:#d7009e;stroke-width:1.5;"
+         style="fill:none;stroke:#d7009e;"
          cx="365"
-         cy="-1313"
+         cy="-1587"
          rx="47.1788"
          ry="27.9307"
-         id="ellipse1420" />
+         id="ellipse1400" />
       <text
          text-anchor="middle"
          x="365"
-         y="-1316.15"
+         y="-1590.15"
          style="font-family:Arial;font-size:14.00;"
-         id="text1422">StringSeq</text>
+         id="text1402">StringSeq</text>
       <text
          text-anchor="middle"
          x="365"
-         y="-1300.4"
+         y="-1574.4"
          style="font-family:Arial;font-size:14.00;"
-         id="text1424">[MT1S]</text>
+         id="text1404">[MT1S]</text>
     </g>
 <!-- class clojure.lang.StringSeq&#45;&gt;class clojure.lang.ASeq -->    <g
        id="edge185"
        class="edge">
       <title
-         id="title1427">class clojure.lang.StringSeq-&gt;class clojure.lang.ASeq</title>
+         id="title1407">class clojure.lang.StringSeq-&gt;class clojure.lang.ASeq</title>
       <path
-         style="fill:none;stroke:#d7009e;stroke-width:1.5;"
-         d="M409,-1323C460,-1335 542,-1354 593,-1366"
-         id="path1429" />
+         style="fill:none;stroke:#d7009e;"
+         d="M411,-1579C429,-1574 448,-1566 464,-1555 539,-1500 594,-1403 620,-1351"
+         id="path1409" />
       <polygon
-         style="fill:#d7009e;stroke:#d7009e;stroke-width:1.5;"
-         points="592.508,-1369.47 603,-1368 593.881,-1362.61 592.508,-1369.47"
-         id="polygon1431" />
+         style="fill:#d7009e;stroke:#d7009e;"
+         points="623.203,-1352.44 625,-1342 617.084,-1349.04 623.203,-1352.44"
+         id="polygon1411" />
     </g>
 <!-- class clojure.lang.StringSeq&#45;&gt;interface clojure.lang.IndexedSeq -->    <g
        id="edge187"
        class="edge">
       <title
-         id="title1434">class clojure.lang.StringSeq-&gt;interface clojure.lang.IndexedSeq</title>
+         id="title1414">class clojure.lang.StringSeq-&gt;interface clojure.lang.IndexedSeq</title>
       <path
-         style="fill:none;stroke:#d7009e;stroke-width:1.5;"
-         d="M412,-1311C455,-1309 519,-1306 567,-1304"
-         id="path1436" />
+         style="fill:none;stroke:#d7009e;"
+         d="M409,-1577C452,-1567 519,-1551 569,-1539"
+         id="path1416" />
       <polygon
-         style="fill:#d7009e;stroke:#d7009e;stroke-width:1.5;"
-         points="567.398,-1307.48 577,-1303 566.701,-1300.51 567.398,-1307.48"
-         id="polygon1438" />
+         style="fill:#d7009e;stroke:#d7009e;"
+         points="569.881,-1542.39 579,-1537 568.508,-1535.53 569.881,-1542.39"
+         id="polygon1418" />
     </g>
 <!-- class clojure.lang.Symbol -->    <g
-       id="node180"
+       id="node178"
        class="node">
       <title
-         id="title1441">class clojure.lang.Symbol</title>
+         id="title1421">class clojure.lang.Symbol</title>
       <ellipse
-         style="fill:none;stroke:#0061d7;stroke-width:1.5;"
+         style="fill:none;stroke:#0061d7;"
          cx="637"
          cy="-462"
          rx="45.9433"
          ry="39.0676"
-         id="ellipse1443" />
+         id="ellipse1423" />
       <text
          text-anchor="middle"
          x="637"
          y="-473.025"
          style="font-family:Arial;font-size:14.00;"
-         id="text1445">Symbol</text>
+         id="text1425">Symbol</text>
       <text
          text-anchor="middle"
          x="637"
          y="-457.275"
          style="font-family:Arial;font-size:14.00;"
-         id="text1447">symbol?</text>
+         id="text1427">symbol?</text>
       <text
          text-anchor="middle"
          x="637"
          y="-441.525"
          style="font-family:Arial;font-size:14.00;"
-         id="text1449">[MN=]</text>
+         id="text1429">[MN=]</text>
     </g>
 <!-- class clojure.lang.Symbol&#45;&gt;class clojure.lang.AFn -->    <g
        id="edge189"
        class="edge">
       <title
-         id="title1452">class clojure.lang.Symbol-&gt;class clojure.lang.AFn</title>
+         id="title1432">class clojure.lang.Symbol-&gt;class clojure.lang.AFn</title>
       <path
-         style="fill:none;stroke:#0061d7;stroke-width:1.5;"
+         style="fill:none;stroke:#0061d7;"
          d="M682,-472C732,-483 814,-502 862,-513"
-         id="path1454" />
+         id="path1434" />
       <polygon
-         style="fill:#0061d7;stroke:#0061d7;stroke-width:1.5;"
+         style="fill:#0061d7;stroke:#0061d7;"
          points="861.508,-516.471 872,-515 862.881,-509.607 861.508,-516.471"
-         id="polygon1456" />
+         id="polygon1436" />
     </g>
 <!-- class clojure.lang.Symbol&#45;&gt;interface java.io.Serializable -->    <g
        id="edge191"
        class="edge">
       <title
-         id="title1459">class clojure.lang.Symbol-&gt;interface java.io.Serializable</title>
+         id="title1439">class clojure.lang.Symbol-&gt;interface java.io.Serializable</title>
       <path
-         style="fill:none;stroke:#0061d7;stroke-width:1.5;"
-         d="M683,-466C751,-471 882,-482 992,-491 1021,-494 1054,-496 1082,-498"
-         id="path1461" />
+         style="fill:none;stroke:#0061d7;"
+         d="M683,-466C751,-471 882,-481 992,-491 1022,-494 1057,-497 1085,-500"
+         id="path1441" />
       <polygon
-         style="fill:#0061d7;stroke:#0061d7;stroke-width:1.5;"
-         points="1081.7,-501.488 1092,-499 1082.4,-494.522 1081.7,-501.488"
-         id="polygon1463" />
+         style="fill:#0061d7;stroke:#0061d7;"
+         points="1084.7,-503.488 1095,-501 1085.4,-496.522 1084.7,-503.488"
+         id="polygon1443" />
     </g>
 <!-- class clojure.lang.TransactionalHashMap -->    <g
-       id="node183"
+       id="node181"
        class="node">
       <title
-         id="title1466">class clojure.lang.TransactionalHashMap</title>
+         id="title1446">class clojure.lang.TransactionalHashMap</title>
       <ellipse
-         style="fill:none;stroke:#d7009e;stroke-width:1.5;"
+         style="fill:none;stroke:#d7009e;"
          cx="365"
-         cy="-715"
+         cy="-904"
          rx="84.1688"
          ry="18"
-         id="ellipse1468" />
+         id="ellipse1448" />
       <text
          text-anchor="middle"
          x="365"
-         y="-710.275"
+         y="-899.275"
          style="font-family:Arial;font-size:14.00;"
-         id="text1470">TransactionalHashMap</text>
+         id="text1450">TransactionalHashMap</text>
     </g>
 <!-- class clojure.lang.TransactionalHashMap&#45;&gt;interface java.util.concurrent.ConcurrentMap -->    <g
        id="edge193"
        class="edge">
       <title
-         id="title1473">class clojure.lang.TransactionalHashMap-&gt;interface java.util.concurrent.ConcurrentMap</title>
+         id="title1453">class clojure.lang.TransactionalHashMap-&gt;interface java.util.concurrent.ConcurrentMap</title>
       <path
-         style="fill:none;stroke:#d7009e;stroke-width:1.5;"
-         d="M432,-704C475,-698 530,-689 572,-682"
-         id="path1475" />
+         style="fill:none;stroke:#d7009e;"
+         d="M443,-897C480,-894 525,-891 561,-888"
+         id="path1455" />
       <polygon
-         style="fill:#d7009e;stroke:#d7009e;stroke-width:1.5;"
-         points="572.881,-685.393 582,-680 571.508,-678.529 572.881,-685.393"
-         id="polygon1477" />
+         style="fill:#d7009e;stroke:#d7009e;"
+         points="561.398,-891.478 571,-887 560.701,-884.512 561.398,-891.478"
+         id="polygon1457" />
     </g>
 <!-- class clojure.lang.Var -->    <g
-       id="node185"
+       id="node183"
        class="node">
       <title
-         id="title1480">class clojure.lang.Var</title>
+         id="title1460">class clojure.lang.Var</title>
       <ellipse
-         style="fill:none;stroke:#00d0d7;stroke-width:1.5;"
+         style="fill:none;stroke:#00d0d7;"
          cx="901"
          cy="-162"
          rx="29.9071"
          ry="36.5306"
-         id="ellipse1482" />
+         id="ellipse1462" />
       <text
          text-anchor="middle"
          x="901"
          y="-173.025"
          style="font-family:Arial;font-size:14.00;"
-         id="text1484">Var</text>
+         id="text1464">Var</text>
       <text
          text-anchor="middle"
          x="901"
          y="-157.275"
          style="font-family:Arial;font-size:14.00;"
-         id="text1486">var?</text>
+         id="text1466">var?</text>
       <text
          text-anchor="middle"
          x="901"
          y="-141.525"
          style="font-family:Arial;font-size:14.00;"
-         id="text1488">[M]</text>
+         id="text1468">[M]</text>
     </g>
 <!-- class clojure.lang.Var&#45;&gt;interface clojure.lang.IFn -->    <g
        id="edge197"
        class="edge">
       <title
-         id="title1491">class clojure.lang.Var-&gt;interface clojure.lang.IFn</title>
+         id="title1471">class clojure.lang.Var-&gt;interface clojure.lang.IFn</title>
       <path
-         style="fill:none;stroke:#00d0d7;stroke-width:1.5;"
-         d="M931,-169C951,-176 975,-186 992,-202 1055,-262 1022,-312 1078,-377 1088,-388 1100,-398 1112,-405"
-         id="path1493" />
+         style="fill:none;stroke:#00d0d7;"
+         d="M931,-169C951,-175 975,-185 992,-202 1059,-268 1015,-325 1078,-393 1087,-402 1098,-410 1109,-416"
+         id="path1473" />
       <polygon
-         style="fill:#00d0d7;stroke:#00d0d7;stroke-width:1.5;"
-         points="1109.9,-407.8 1120,-411 1114.1,-402.2 1109.9,-407.8"
-         id="polygon1495" />
+         style="fill:#00d0d7;stroke:#00d0d7;"
+         points="1107.44,-419.137 1118,-420 1110.28,-412.74 1107.44,-419.137"
+         id="polygon1475" />
     </g>
 <!-- class clojure.lang.Var&#45;&gt;class clojure.lang.ARef -->    <g
        id="edge195"
        class="edge">
       <title
-         id="title1498">class clojure.lang.Var-&gt;class clojure.lang.ARef</title>
+         id="title1478">class clojure.lang.Var-&gt;class clojure.lang.ARef</title>
       <path
-         style="fill:none;stroke:#00d0d7;stroke-width:1.5;"
-         d="M930,-174C974,-193 1059,-230 1109,-251"
-         id="path1500" />
+         style="fill:none;stroke:#00d0d7;"
+         d="M930,-174C975,-192 1060,-226 1109,-246"
+         id="path1480" />
       <polygon
-         style="fill:#00d0d7;stroke:#00d0d7;stroke-width:1.5;"
-         points="1108.42,-254.536 1119,-255 1111.02,-248.036 1108.42,-254.536"
-         id="polygon1502" />
+         style="fill:#00d0d7;stroke:#00d0d7;"
+         points="1107.44,-249.137 1118,-250 1110.28,-242.74 1107.44,-249.137"
+         id="polygon1482" />
     </g>
 <!-- class clojure.lang.Var&#45;&gt;interface clojure.lang.IRef -->    <g
        id="edge199"
        class="edge">
       <title
-         id="title1505">class clojure.lang.Var-&gt;interface clojure.lang.IRef</title>
+         id="title1485">class clojure.lang.Var-&gt;interface clojure.lang.IRef</title>
       <path
-         style="fill:none;stroke:#00d0d7;stroke-width:1.5;"
-         d="M931,-168C1016,-186 1259,-239 1354,-260"
-         id="path1507" />
+         style="fill:none;stroke:#00d0d7;"
+         d="M931,-167C1017,-182 1259,-223 1354,-239"
+         id="path1487" />
       <polygon
-         style="fill:#00d0d7;stroke:#00d0d7;stroke-width:1.5;"
-         points="1353.51,-263.471 1364,-262 1354.88,-256.607 1353.51,-263.471"
-         id="polygon1509" />
+         style="fill:#00d0d7;stroke:#00d0d7;"
+         points="1353.51,-242.471 1364,-241 1354.88,-235.607 1353.51,-242.471"
+         id="polygon1489" />
     </g>
 <!-- class clojure.lang.Var&#45;&gt;interface clojure.lang.Settable -->    <g
        id="edge201"
        class="edge">
       <title
-         id="title1512">class clojure.lang.Var-&gt;interface clojure.lang.Settable</title>
+         id="title1492">class clojure.lang.Var-&gt;interface clojure.lang.Settable</title>
       <path
-         style="fill:none;stroke:#00d0d7;stroke-width:1.5;"
+         style="fill:none;stroke:#00d0d7;"
          d="M932,-162C973,-162 1046,-162 1095,-162"
-         id="path1514" />
+         id="path1494" />
       <polygon
-         style="fill:#00d0d7;stroke:#00d0d7;stroke-width:1.5;"
+         style="fill:#00d0d7;stroke:#00d0d7;"
          points="1095,-165.5 1105,-162 1095,-158.5 1095,-165.5"
-         id="polygon1516" />
+         id="polygon1496" />
     </g>
+    <polygon
+       id="polygon588"
+       points="1680.98,-349.477 1680.98,-374.523 1648.19,-392.232 1601.81,-392.232 1569.02,-374.523 1569.02,-349.477 1601.81,-331.768 1648.19,-331.768 1680.98,-349.477 "
+       style="fill:none;stroke:#d78100"
+       transform="translate(-62.846157,0)" />
+    <text
+       id="text590"
+       style="font-size:14px;text-anchor:middle;font-family:Arial"
+       y="-365.14999"
+       x="1562.1539">IReference</text>
+    <text
+       id="text592"
+       style="font-size:14px;text-anchor:middle;font-family:Arial"
+       y="-349.39999"
+       x="1562.1539">[M]</text>
+    <path
+       id="path597"
+       d="M 1447.673,-362 C 1462.4641,-362 1481.2892,-362 1496.9767,-362"
+       style="fill:none;stroke:#d70000;stroke-width:1" />
+    <polygon
+       id="polygon599"
+       points="1558,-365.5 1568,-362 1558,-358.5 1558,-365.5 "
+       style="fill:#d70000;stroke:#d70000"
+       transform="translate(-62.846157,0)" />
+    <polygon
+       id="polygon604"
+       points="1660.9,-265.471 1660.9,-280.529 1639.87,-291.177 1610.13,-291.177 1589.1,-280.529 1589.1,-265.471 1610.13,-254.823 1639.87,-254.823 1660.9,-265.471 "
+       style="fill:none;stroke:#00d764"
+       transform="translate(-62.846157,0)" />
+    <text
+       id="text606"
+       style="font-size:14px;text-anchor:middle;font-family:Arial"
+       y="-268.27499"
+       x="1562.1539">IDeref</text>
+    <path
+       id="path611"
+       d="M 1422,-249 C 1462,-254 1478.6609,-266.73819 1522.4551,-268.24086"
+       style="fill:none;stroke:#b300d7"
+       sodipodi:nodetypes="cc" />
+    <polygon
+       id="polygon613"
+       points="1578.7,-271.488 1589,-269 1579.4,-264.522 1578.7,-271.488 "
+       style="fill:#b300d7;stroke:#b300d7"
+       transform="translate(-62.846157,0)" />
+    <polygon
+       id="polygon768"
+       points="1667.8,-1044.47 1667.8,-1059.53 1642.73,-1070.18 1607.27,-1070.18 1582.2,-1059.53 1582.2,-1044.47 1607.27,-1033.82 1642.73,-1033.82 1667.8,-1044.47 "
+       style="fill:none;stroke:#d78100"
+       transform="translate(-45.665923,0)" />
+    <text
+       id="text770"
+       style="font-size:14px;text-anchor:middle;font-family:Arial"
+       y="-1047.28"
+       x="1579.3341">Seqable</text>
+    <path
+       id="path775"
+       d="M 1481.7519,-1052 C 1496.8594,-1052 1513.4777,-1052 1527.0745,-1052"
+       style="fill:none;stroke:#d7009e;stroke-width:1.00000012" />
+    <polygon
+       id="polygon777"
+       points="1572,-1055.5 1582,-1052 1572,-1048.5 1572,-1055.5 "
+       style="fill:#d7009e;stroke:#d7009e"
+       transform="translate(-45.665923,0)" />
+    <path
+       id="path837"
+       d="M 1430,-295 C 1470,-290 1477.1617,-280.18672 1521.4531,-277.51827"
+       style="fill:none;stroke:#5a00d7"
+       sodipodi:nodetypes="cc" />
+    <polygon
+       id="polygon839"
+       points="1579.4,-281.478 1589,-277 1578.7,-274.512 1579.4,-281.478 "
+       style="fill:#5a00d7;stroke:#5a00d7"
+       transform="translate(-62.846157,0)" />
   </g>
 </svg>

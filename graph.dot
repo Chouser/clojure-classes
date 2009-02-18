@@ -67,8 +67,6 @@ digraph {
   "interface clojure.lang.Associative" -> "interface clojure.lang.IPersistentCollection" [ color="#76d700" ];
   "class clojure.lang.Atom" [ label="Atom\n[M]" color="#b300d7" shape="oval"];
   "class clojure.lang.Atom" -> "class clojure.lang.ARef" [ color="#b300d7" ];
-  "class clojure.lang.CachedSeq" [ label="CachedSeq\n[MTS]" color="#b300d7" shape="oval"];
-  "class clojure.lang.CachedSeq" -> "class clojure.lang.ASeq" [ color="#b300d7" ];
   "interface java.util.concurrent.Callable" [ label="Callable" color="#00d764" shape="diamond"];
   "interface java.util.Collection" [ label="Collection\n[T]" color="#00d764" shape="diamond"];
   "interface java.util.Comparator" [ label="Comparator" color="#00d0d7" shape="diamond"];
@@ -83,8 +81,6 @@ digraph {
   "class clojure.lang.EnumerationSeq" [ label="EnumerationSeq\n[MTS]" color="#00d0d7" shape="oval"];
   "class clojure.lang.EnumerationSeq" -> "class clojure.lang.ASeq" [ color="#00d0d7" ];
   "interface clojure.lang.Fn" [ label="Fn\nfn?" color="#0061d7" shape="octagon"];
-  "class clojure.lang.FnSeq" [ label="FnSeq\n[MTS]" color="#d70000" shape="oval"];
-  "class clojure.lang.FnSeq" -> "class clojure.lang.ASeq" [ color="#d70000" ];
   "interface clojure.lang.IDeref" [ label="IDeref" color="#00d764" shape="octagon"];
   "interface clojure.lang.IFn" [ label="IFn\nifn?" color="#0061d7" shape="octagon"];
   "interface clojure.lang.IFn" -> "interface java.util.concurrent.Callable" [ color="#0061d7" ];
@@ -93,6 +89,7 @@ digraph {
   "interface clojure.lang.IMapEntry" -> "interface java.util.Map$Entry" [ color="#00d0d7" ];
   "interface clojure.lang.IObj" [ label="IObj\n[M]" color="#0061d7" shape="octagon"];
   "interface clojure.lang.IPersistentCollection" [ label="IPersistentCollection\ncoll?" color="#d7009e" shape="octagon"];
+  "interface clojure.lang.IPersistentCollection" -> "interface clojure.lang.Seqable" [ color="#d7009e" ];
   "interface clojure.lang.IPersistentList" [ label="IPersistentList\nlist?" color="#5a00d7" shape="octagon"];
   "interface clojure.lang.IPersistentList" -> "interface clojure.lang.Sequential" [ color="#5a00d7" ];
   "interface clojure.lang.IPersistentList" -> "interface clojure.lang.IPersistentStack" [ color="#5a00d7" ];
@@ -126,10 +123,10 @@ digraph {
   "class clojure.lang.Keyword" -> "interface clojure.lang.IFn" [ color="#76d700" ];
   "class clojure.lang.LazilyPersistentVector" [ label="LazilyPersistentVector\n[MT1SR=]" color="#d70000" shape="oval"];
   "class clojure.lang.LazilyPersistentVector" -> "class clojure.lang.APersistentVector" [ color="#d70000" ];
-  "class clojure.lang.LazyCons" [ label="LazyCons\n[MTS]" color="#0061d7" shape="oval"];
-  "class clojure.lang.LazyCons" -> "class clojure.lang.ASeq" [ color="#0061d7" ];
-  "class clojure.lang.LazySeq" [ label="LazySeq\n[MTS]" color="#d7009e" shape="oval"];
-  "class clojure.lang.LazySeq" -> "class clojure.lang.ASeq" [ color="#d7009e" ];
+  "class clojure.lang.LazySeq" [ label="LazySeq\n[MT]" color="#d78100" shape="oval"];
+  "class clojure.lang.LazySeq" -> "class clojure.lang.AFn" [ color="#d78100" ];
+  "class clojure.lang.LazySeq" -> "interface clojure.lang.ISeq" [ color="#d78100" ];
+  "class clojure.lang.LazySeq" -> "interface java.util.List" [ color="#d78100" ];
   "interface java.util.List" [ label="List\n[T]" color="#00d764" shape="diamond"];
   "interface java.util.List" -> "interface java.util.Collection" [ color="#00d764" ];
   "interface java.util.Map" [ label="Map" color="#00d764" shape="diamond"];
@@ -152,10 +149,10 @@ digraph {
   "class clojure.lang.PersistentList" -> "interface clojure.lang.IPersistentList" [ color="#76d700" ];
   "class clojure.lang.PersistentList" -> "interface clojure.lang.IReduce" [ color="#76d700" ];
   "class clojure.lang.PersistentList" -> "interface java.util.List" [ color="#76d700" ];
-  "class clojure.lang.PersistentQueue" [ label="PersistentQueue\n[MT]" color="#d7009e" shape="oval"];
-  "class clojure.lang.PersistentQueue" -> "class clojure.lang.Obj" [ color="#d7009e" ];
-  "class clojure.lang.PersistentQueue" -> "interface clojure.lang.IPersistentList" [ color="#d7009e" ];
-  "class clojure.lang.PersistentQueue" -> "interface java.util.Collection" [ color="#d7009e" ];
+  "class clojure.lang.PersistentQueue" [ label="PersistentQueue\n[MT]" color="#0061d7" shape="oval"];
+  "class clojure.lang.PersistentQueue" -> "class clojure.lang.Obj" [ color="#0061d7" ];
+  "class clojure.lang.PersistentQueue" -> "interface clojure.lang.IPersistentList" [ color="#0061d7" ];
+  "class clojure.lang.PersistentQueue" -> "interface java.util.Collection" [ color="#0061d7" ];
   "class clojure.lang.PersistentStructMap" [ label="PersistentStructMap\n[MT1]" color="#00d0d7" shape="oval"];
   "class clojure.lang.PersistentStructMap" -> "class clojure.lang.APersistentMap" [ color="#00d0d7" ];
   "class clojure.lang.PersistentTreeMap" [ label="PersistentTreeMap\n[MT1R]" color="#d78100" shape="oval"];
@@ -184,6 +181,7 @@ digraph {
   "class clojure.lang.SeqEnumeration" -> "interface java.util.Enumeration" [ color="#0061d7" ];
   "class clojure.lang.SeqIterator" [ label="SeqIterator" color="#76d700" shape="oval"];
   "class clojure.lang.SeqIterator" -> "interface java.util.Iterator" [ color="#76d700" ];
+  "interface clojure.lang.Seqable" [ label="Seqable" color="#d78100" shape="octagon"];
   "interface clojure.lang.Sequential" [ label="Sequential\nsequential?" color="#d78100" shape="octagon"];
   "interface java.io.Serializable" [ label="Serializable" color="#5a00d7" shape="diamond"];
   "interface java.util.Set" [ label="Set\n[T]" color="#00d0d7" shape="diamond"];
