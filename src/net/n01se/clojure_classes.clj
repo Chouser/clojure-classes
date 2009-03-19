@@ -57,12 +57,7 @@
 
 (def aliases '{Object$Future$IDeref "(future)"})
 
-(def extra-seed-classes [])
-
-(try
-  (alter-var-root extra-seed-classes conj
-                  (resolve 'clojure.proxy.java.lang.Object$Future$IDeref))
-  (catch Exception e))
+(def extra-seed-classes [clojure.proxy.java.lang.Object$Future$IDeref])
 
 (defn class-filter [cls]
   (let [package (-> cls .getPackage .getName)]
