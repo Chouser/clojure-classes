@@ -8,14 +8,11 @@
 ;   You must not remove this notice, or any other, from this software.
 
 (ns net.n01se.clojure-classes
-  (:use [clojure.contrib.shell-out :only (sh)])
-  (:import (java.lang Runtime)
-           (java.io OutputStreamWriter InputStreamReader
-                    ByteArrayOutputStream)
-           (javax.swing JFrame JLabel JScrollPane ImageIcon)
+  (:use [clojure.java.shell :only (sh)])
+  (:import (javax.swing JFrame JLabel JScrollPane ImageIcon)
            (clojure.lang PersistentQueue)))
 
-(def srcpath "/home/chouser/build/clj/trunk/src/jvm/clojure/lang/")
+(def srcpath "/home/chouser/proj/clojure/src/jvm/clojure/lang/")
 
 (defmacro str-for [& for-stuff]
   `(apply str (for ~@for-stuff)))
@@ -49,15 +46,15 @@
 (def clusters '#{})
 
 (def badges
-  '{IMeta M Iterable T Counted 1 Streamable S
+  '{IMeta M Iterable T Counted 1 Streamable S Serializable Z
     Reversible R Named N Comparable =})
 
 (def color-override '{PersistentList "#76d700" PersistentQueue "#0061d7"
                       LazySeq "#d78100"})
 
-(def aliases '{Object$Future$IDeref "(future)"})
+(def aliases '{core$future_call$reify__5390 "(future)"})
 
-(def extra-seed-classes [clojure.proxy.java.lang.Object$Future$IDeref])
+(def extra-seed-classes [clojure.core$future_call$reify__5390])
 
 (defn class-filter [cls]
   (let [package (-> cls .getPackage .getName)]
@@ -163,7 +160,8 @@
 (print dotstr)
 
 (doto (JFrame. "Clojure Classes")
-  (.add (-> (sh "dot" "-Tpng" :in dotstr :out :bytes) ImageIcon.
+  (.add (-> (sh "dot" "-Tpng" :in dotstr :out-enc :bytes) :out ImageIcon.
           JLabel. JScrollPane.))
+  (.setSize 600 400)
   (.setDefaultCloseOperation javax.swing.WindowConstants/DISPOSE_ON_CLOSE)
   (.setVisible true))
