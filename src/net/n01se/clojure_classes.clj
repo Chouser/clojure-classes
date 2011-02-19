@@ -127,6 +127,9 @@
     \"Clojure Interface\" [ shape=octagon fillcolor=\"#ffffff\" style=filled ];
     \"Java Interface\" [ shape=diamond fillcolor=\"#ffffff\" style=filled ];
     \"Clojure class\" [ shape=oval fillcolor=\"#ffffff\" style=filled ];
+    "
+    (when (seq badges)
+      (str "
     badges [
       shape=record
       style=filled
@@ -136,7 +139,8 @@
       "}|{"
        (apply str (interpose "|" (keys badges)))
       "}}\"
-    ]
+    ]"))
+    "
   }
 "
     (str-for [cls classes]
@@ -161,4 +165,5 @@
 (doto (JFrame. "Clojure Classes")
   (.add (-> (sh "dot" "-Tpng" :in dotstr :out :bytes) ImageIcon.
           JLabel. JScrollPane.))
+  (.setDefaultCloseOperation javax.swing.WindowConstants/DISPOSE_ON_CLOSE)
   (.setVisible true))
