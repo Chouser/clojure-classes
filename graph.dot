@@ -244,8 +244,8 @@ digraph {
   "class clojure.lang.Var" -> "interface clojure.lang.IFn" [ color="#00d0d7" ];
   "class clojure.lang.Var" -> "interface clojure.lang.IRef" [ color="#00d0d7" ];
   "class clojure.lang.Var" -> "interface clojure.lang.Settable" [ color="#00d0d7" ];
-  "class clojure.core$future_call$reify__5390" [ label="(future)\n[M]" color="#76d700" shape="oval"];
-  "class clojure.core$future_call$reify__5390" -> "interface java.util.concurrent.Future" [ color="#76d700" ];
-  "class clojure.core$future_call$reify__5390" -> "interface clojure.lang.IDeref" [ color="#76d700" ];
-  "class clojure.core$future_call$reify__5390" -> "interface clojure.lang.IObj" [ color="#76d700" ];
+  "class clojure.core$future_call$reify__5389" [ label="(future)\n[M]" color="#b300d7" shape="oval"];
+  "class clojure.core$future_call$reify__5389" -> "interface java.util.concurrent.Future" [ color="#b300d7" ];
+  "class clojure.core$future_call$reify__5389" -> "interface clojure.lang.IDeref" [ color="#b300d7" ];
+  "class clojure.core$future_call$reify__5389" -> "interface clojure.lang.IObj" [ color="#b300d7" ];
 }

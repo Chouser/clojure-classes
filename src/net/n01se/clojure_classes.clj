@@ -52,9 +52,9 @@
 (def color-override '{PersistentList "#76d700" PersistentQueue "#0061d7"
                       LazySeq "#d78100"})
 
-(def aliases '{core$future_call$reify__5390 "(future)"})
+(def aliases '{core$future_call$reify__5389 "(future)"})
 
-(def extra-seed-classes [clojure.core$future_call$reify__5390])
+(def extra-seed-classes [clojure.core$future_call$reify__5389])
 
 (defn class-filter [cls]
   (let [package (-> cls .getPackage .getName)]
@@ -157,7 +157,7 @@
                        " [ color=\"" color "\" ];\n")))))))
     "}\n"))
 
-(print dotstr)
+(spit "graph.dot" dotstr)
 
 (doto (JFrame. "Clojure Classes")
   (.add (-> (sh "dot" "-Tpng" :in dotstr :out-enc :bytes) :out ImageIcon.
