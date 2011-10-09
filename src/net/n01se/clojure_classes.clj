@@ -52,9 +52,9 @@
 (def color-override '{PersistentList "#76d700" PersistentQueue "#0061d7"
                       LazySeq "#d78100"})
 
-(def aliases '{core$future_call$reify__5389 "(future)"})
+(def aliases '{core$future_call$reify__5684 "(future)"})
 
-(def extra-seed-classes [clojure.core$future_call$reify__5389])
+(def extra-seed-classes [clojure.core$future_call$reify__5684])
 
 (defn class-filter [cls]
   (let [package (-> cls .getPackage .getName)]

@@ -55,6 +55,7 @@ digraph {
   "class clojure.lang.ASeq" [ label="ASeq\n[MTZ]" color="#00d0d7" shape="oval"];
   "class clojure.lang.ASeq" -> "class clojure.lang.Obj" [ color="#00d0d7" ];
   "class clojure.lang.ASeq" -> "interface clojure.lang.ISeq" [ color="#00d0d7" ];
+  "class clojure.lang.ASeq" -> "interface clojure.lang.Sequential" [ color="#00d0d7" ];
   "class clojure.lang.ASeq" -> "interface java.util.List" [ color="#00d0d7" ];
   "class clojure.lang.ATransientMap" [ label="ATransientMap\n[1]" color="#d78100" shape="oval"];
   "class clojure.lang.ATransientMap" -> "class clojure.lang.AFn" [ color="#d78100" ];
@@ -88,16 +89,21 @@ digraph {
   "class clojure.lang.Cons" -> "class clojure.lang.ASeq" [ color="#76d700" ];
   "class clojure.lang.Delay" [ label="Delay\ndelay?" color="#5a00d7" shape="oval"];
   "class clojure.lang.Delay" -> "interface clojure.lang.IDeref" [ color="#5a00d7" ];
+  "class clojure.lang.Delay" -> "interface clojure.lang.IPending" [ color="#5a00d7" ];
   "interface java.util.Map$Entry" [ label="Entry" color="#d7009e" shape="diamond"];
   "interface java.util.Enumeration" [ label="Enumeration" color="#5a00d7" shape="diamond"];
   "class clojure.lang.EnumerationSeq" [ label="EnumerationSeq\n[MTZ]" color="#00d0d7" shape="oval"];
   "class clojure.lang.EnumerationSeq" -> "class clojure.lang.ASeq" [ color="#00d0d7" ];
   "interface clojure.lang.Fn" [ label="Fn\nfn?" color="#0061d7" shape="octagon"];
+  "class clojure.lang.FnLoaderThunk" [ label="FnLoaderThunk\n[MZ]" color="#76d700" shape="oval"];
+  "class clojure.lang.FnLoaderThunk" -> "class clojure.lang.RestFn" [ color="#76d700" ];
   "interface java.util.concurrent.Future" [ label="Future" color="#5a00d7" shape="diamond"];
+  "interface clojure.lang.IBlockingDeref" [ label="IBlockingDeref" color="#5a00d7" shape="octagon"];
   "interface clojure.lang.IChunk" [ label="IChunk\n[1]" color="#0061d7" shape="octagon"];
   "interface clojure.lang.IChunk" -> "interface clojure.lang.Indexed" [ color="#0061d7" ];
   "interface clojure.lang.IChunkedSeq" [ label="IChunkedSeq" color="#d70000" shape="octagon"];
   "interface clojure.lang.IChunkedSeq" -> "interface clojure.lang.ISeq" [ color="#d70000" ];
+  "interface clojure.lang.IChunkedSeq" -> "interface clojure.lang.Sequential" [ color="#d70000" ];
   "interface clojure.lang.IDeref" [ label="IDeref" color="#00d764" shape="octagon"];
   "interface clojure.lang.IEditableCollection" [ label="IEditableCollection" color="#76d700" shape="octagon"];
   "interface clojure.lang.IFn" [ label="IFn\nifn?" color="#0061d7" shape="octagon"];
@@ -109,6 +115,7 @@ digraph {
   "interface clojure.lang.IMapEntry" [ label="IMapEntry" color="#00d0d7" shape="octagon"];
   "interface clojure.lang.IMapEntry" -> "interface java.util.Map$Entry" [ color="#00d0d7" ];
   "interface clojure.lang.IObj" [ label="IObj\n[M]" color="#0061d7" shape="octagon"];
+  "interface clojure.lang.IPending" [ label="IPending" color="#d70000" shape="octagon"];
   "interface clojure.lang.IPersistentCollection" [ label="IPersistentCollection\ncoll?" color="#d7009e" shape="octagon"];
   "interface clojure.lang.IPersistentCollection" -> "interface clojure.lang.Seqable" [ color="#d7009e" ];
   "interface clojure.lang.IPersistentList" [ label="IPersistentList\nlist?" color="#5a00d7" shape="octagon"];
@@ -131,7 +138,6 @@ digraph {
   "interface clojure.lang.IReference" [ label="IReference\n[M]" color="#d78100" shape="octagon"];
   "interface clojure.lang.ISeq" [ label="ISeq\nseq?" color="#b300d7" shape="octagon"];
   "interface clojure.lang.ISeq" -> "interface clojure.lang.IPersistentCollection" [ color="#b300d7" ];
-  "interface clojure.lang.ISeq" -> "interface clojure.lang.Sequential" [ color="#b300d7" ];
   "interface clojure.lang.ITransientAssociative" [ label="ITransientAssociative" color="#b300d7" shape="octagon"];
   "interface clojure.lang.ITransientAssociative" -> "interface clojure.lang.ITransientCollection" [ color="#b300d7" ];
   "interface clojure.lang.ITransientAssociative" -> "interface clojure.lang.ILookup" [ color="#b300d7" ];
@@ -146,6 +152,7 @@ digraph {
   "interface clojure.lang.Indexed" [ label="Indexed\n[1]" color="#00d0d7" shape="octagon"];
   "interface clojure.lang.IndexedSeq" [ label="IndexedSeq\n[1]" color="#0061d7" shape="octagon"];
   "interface clojure.lang.IndexedSeq" -> "interface clojure.lang.ISeq" [ color="#0061d7" ];
+  "interface clojure.lang.IndexedSeq" -> "interface clojure.lang.Sequential" [ color="#0061d7" ];
   "interface java.lang.reflect.InvocationHandler" [ label="InvocationHandler" color="#b300d7" shape="diamond"];
   "interface java.util.Iterator" [ label="Iterator" color="#5a00d7" shape="diamond"];
   "class clojure.lang.IteratorSeq" [ label="IteratorSeq\n[MTZ]" color="#0061d7" shape="oval"];
@@ -158,7 +165,9 @@ digraph {
   "class clojure.lang.LazySeq" [ label="LazySeq\n[MTZ]" color="#d78100" shape="oval"];
   "class clojure.lang.LazySeq" -> "class clojure.lang.Obj" [ color="#d78100" ];
   "class clojure.lang.LazySeq" -> "interface clojure.lang.ISeq" [ color="#d78100" ];
+  "class clojure.lang.LazySeq" -> "interface clojure.lang.Sequential" [ color="#d78100" ];
   "class clojure.lang.LazySeq" -> "interface java.util.List" [ color="#d78100" ];
+  "class clojure.lang.LazySeq" -> "interface clojure.lang.IPending" [ color="#d78100" ];
   "interface java.util.List" [ label="List\n[T]" color="#00d764" shape="diamond"];
   "interface java.util.List" -> "interface java.util.Collection" [ color="#00d764" ];
   "interface java.util.Map" [ label="Map" color="#00d764" shape="diamond"];
@@ -244,8 +253,10 @@ digraph {
   "class clojure.lang.Var" -> "interface clojure.lang.IFn" [ color="#00d0d7" ];
   "class clojure.lang.Var" -> "interface clojure.lang.IRef" [ color="#00d0d7" ];
   "class clojure.lang.Var" -> "interface clojure.lang.Settable" [ color="#00d0d7" ];
-  "class clojure.core$future_call$reify__5389" [ label="(future)\n[M]" color="#b300d7" shape="oval"];
-  "class clojure.core$future_call$reify__5389" -> "interface java.util.concurrent.Future" [ color="#b300d7" ];
-  "class clojure.core$future_call$reify__5389" -> "interface clojure.lang.IDeref" [ color="#b300d7" ];
-  "class clojure.core$future_call$reify__5389" -> "interface clojure.lang.IObj" [ color="#b300d7" ];
+  "class clojure.core$future_call$reify__5684" [ label="(future)\n[M]" color="#0061d7" shape="oval"];
+  "class clojure.core$future_call$reify__5684" -> "interface java.util.concurrent.Future" [ color="#0061d7" ];
+  "class clojure.core$future_call$reify__5684" -> "interface clojure.lang.IBlockingDeref" [ color="#0061d7" ];
+  "class clojure.core$future_call$reify__5684" -> "interface clojure.lang.IPending" [ color="#0061d7" ];
+  "class clojure.core$future_call$reify__5684" -> "interface clojure.lang.IDeref" [ color="#0061d7" ];
+  "class clojure.core$future_call$reify__5684" -> "interface clojure.lang.IObj" [ color="#0061d7" ];
 }
